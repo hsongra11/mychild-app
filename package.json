@@ -1,0 +1,14 @@
+{
+  "name": "mychild",
+  "private": true,
+  "workspaces": ["packages/*", "apps/*"],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "test": "npm run test --workspaces",
+    "dev": "npm run dev --workspace=apps/demo",
+    "lint": "npm run lint --workspaces"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,8 @@
+QID,Milestone,Domains,Age_Range_Months,Hypothesis_Source,Observability_Prompt,Precaution_Month,Warning_Month,Flag_Month,Corrected_Age_Adjustment_Rule,Min_Independent_Signals_For_Domain_Escalation,Clinical_Rationale,Caregiver_Copy_Precaution,Caregiver_Copy_Warning,Caregiver_Copy_Flag,Validation_Status,Phase_B_Simulation_Result,Phase_C_Pilot_Result,Clinical_Reviewer,Reviewer_Date,Product_Owner,Notes
+Q12,Responds to own name,N,6-12,TBD (guideline-mapped),"When you call your child by name in a calm environment, do they usually turn or look toward you?",TBD,TBD,TBD,TBD,2,TBD,TBD,TBD,TBD,DRAFT,,,,,,
+Q13,Pincer grasp emerges,P,8-14,TBD (guideline-mapped),"Can your child pick up a small item using thumb and index finger (not full-hand grasp)?",TBD,TBD,TBD,TBD,2,TBD,TBD,TBD,TBD,DRAFT,,,,,,
+Q14,Points to show interest,"N,S",10-16,TBD (guideline-mapped),"Does your child point to objects to share interest (not only to request)?",TBD,TBD,TBD,TBD,2,TBD,TBD,TBD,TBD,DRAFT,,,,,,
+Q15,First meaningful words,S,10-18,TBD (guideline-mapped),"Has your child started using at least one meaningful word consistently (besides babbling)?",TBD,TBD,TBD,TBD,2,TBD,TBD,TBD,TBD,DRAFT,,,,,,
+Q16,Follows simple instructions,"N,S",12-20,TBD (guideline-mapped),"Without gestures, can your child follow a simple instruction in familiar context?",TBD,TBD,TBD,TBD,2,TBD,TBD,TBD,TBD,DRAFT,,,,,,
+Q17,Pretend play emerges,N,16-24,TBD (guideline-mapped),"Does your child do simple pretend play (for example feeding a toy or pretending to talk on a phone)?",TBD,TBD,TBD,TBD,2,TBD,TBD,TBD,TBD,DRAFT,,,,,,
+Q18,Two-word combinations,S,18-24,TBD (guideline-mapped),"Is your child combining two meaningful words together (for example 'more milk')?",TBD,TBD,TBD,TBD,2,TBD,TBD,TBD,TBD,DRAFT,,,,,,
