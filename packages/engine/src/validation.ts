@@ -32,6 +32,7 @@ import type {
   ConfusionMatrix,
   MetricsWithCI,
   DomainMetrics,
+  Disagreement,
   ValidationReport,
 } from './statistics.js';
 import {
@@ -287,8 +288,11 @@ export function runValidation(profiles: ValidationProfile[]): {
   const globalMatrix: ConfusionMatrix = { tp: 0, fp: 0, tn: 0, fn: 0 };
   let abstentionCount = 0;
   let abstentionCorrect = 0;
+  const disagreements: Disagreement[] = [];
 
-  for (const result of profileResults) {
+  for (let i = 0; i < profileResults.length; i++) {
+    const result = profileResults[i];
+    const profile = profiles[i];
     for (const dr of result.domainResults) {
       if (!domainMatrices[dr.domain]) {
         domainMatrices[dr.domain] = { tp: 0, fp: 0, tn: 0, fn: 0 };
@@ -300,6 +304,19 @@ export function runValidation(profiles: ValidationProfile[]): {
         abstentionCount++;
         if (dr.groundTruth === 'no_concern') abstentionCorrect++;
         // Still count in confusion matrix but flag it
+      }
+
+      // Track disagreements
+      if (!dr.correct) {
+        disagreements.push({
+          profileId: result.profileId,
+          profileName: result.profileName,
+          domain: dr.domain,
+          engineClassification: dr.engineClassification,
+          expectedClassification: dr.groundTruth,
+          engineStatus: dr.engineStatus,
+          description: profile.description,
+        });
       }
 
       if (dr.groundTruth === 'concern' && dr.engineClassification === 'concern') {
@@ -352,10 +369,11 @@ export function runValidation(profiles: ValidationProfile[]): {
       correctlyNegative: abstentionCorrect,
       incorrectlyNegative: abstentionCount - abstentionCorrect,
     },
+    disagreements,
     disclaimer:
-      'Synthetic Scenario Verification — this study measures whether the engine ' +
-      'produces expected outputs for known developmental trajectories. It does NOT ' +
-      'measure sensitivity/specificity against a clinical gold standard.',
+      'Internal Consistency Verification — this study measures whether the engine ' +
+      'produces expected outputs for hand-labeled synthetic developmental profiles. ' +
+      'It does NOT measure clinical sensitivity/specificity against a gold standard.',
   };
 
   return { profileResults, report };

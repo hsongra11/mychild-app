@@ -100,14 +100,12 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "no_concern",
+      "VH": "no_concern",
+      "SE": "no_concern",
       "RL": "no_concern",
       "EL": "no_concern",
-      "SE": "no_concern",
       "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "GM": "no_concern"
     }
   },
   {
@@ -191,14 +189,14 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
       "SE": "no_concern",
-      "CP": "no_concern",
+      "EL": "no_concern",
+      "VH": "no_concern",
+      "RL": "no_concern",
       "SH": "no_concern",
-      "VH": "no_concern"
+      "CP": "no_concern",
+      "FM": "no_concern",
+      "GM": "no_concern"
     }
   },
   {
@@ -302,14 +300,12 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
       "SE": "no_concern",
       "CP": "no_concern",
+      "EL": "no_concern",
       "SH": "no_concern",
-      "VH": "no_concern"
+      "FM": "no_concern",
+      "GM": "no_concern"
     }
   },
   {
@@ -393,14 +389,13 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
       "SE": "no_concern",
+      "RL": "no_concern",
+      "VH": "no_concern",
+      "EL": "no_concern",
       "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "FM": "no_concern",
+      "GM": "no_concern"
     }
   },
   {
@@ -459,14 +454,12 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
       "SE": "no_concern",
+      "EL": "no_concern",
+      "RL": "no_concern",
+      "FM": "no_concern",
       "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "GM": "no_concern"
     }
   },
   {
@@ -555,14 +548,13 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
       "SE": "no_concern",
+      "EL": "no_concern",
       "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "RL": "no_concern",
+      "FM": "no_concern",
+      "GM": "no_concern",
+      "SH": "no_concern"
     }
   },
   {
@@ -661,14 +653,13 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
       "SE": "no_concern",
-      "CP": "no_concern",
+      "EL": "no_concern",
       "SH": "no_concern",
-      "VH": "no_concern"
+      "RL": "no_concern",
+      "CP": "no_concern",
+      "GM": "no_concern",
+      "FM": "no_concern"
     }
   },
   {
@@ -757,14 +748,13 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "no_concern",
+      "SE": "no_concern",
       "RL": "no_concern",
       "EL": "no_concern",
-      "SE": "no_concern",
+      "FM": "no_concern",
       "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "GM": "no_concern",
+      "SH": "no_concern"
     }
   },
   {
@@ -848,14 +838,13 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
       "EL": "no_concern",
+      "RL": "no_concern",
       "SE": "no_concern",
       "CP": "no_concern",
+      "FM": "no_concern",
       "SH": "no_concern",
-      "VH": "no_concern"
+      "GM": "no_concern"
     }
   },
   {
@@ -954,14 +943,12 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
       "EL": "no_concern",
-      "SE": "no_concern",
+      "RL": "no_concern",
       "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "SE": "no_concern",
+      "FM": "no_concern",
+      "SH": "no_concern"
     }
   },
   {
@@ -1126,14 +1113,10 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
       "SE": "no_concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "EL": "no_concern",
+      "GM": "no_concern",
+      "FM": "no_concern"
     }
   },
   {
@@ -1298,14 +1281,10 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
       "SE": "no_concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "EL": "no_concern",
+      "GM": "no_concern",
+      "FM": "no_concern"
     }
   },
   {
@@ -1470,14 +1449,10 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
       "SE": "no_concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "EL": "no_concern",
+      "GM": "no_concern",
+      "FM": "no_concern"
     }
   },
   {
@@ -1511,14 +1486,8 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
-      "SE": "no_concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "VH": "no_concern",
+      "SE": "no_concern"
     }
   },
   {
@@ -1552,14 +1521,8 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
       "SE": "no_concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "CP": "no_concern"
     }
   },
   {
@@ -1593,14 +1556,8 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
       "SE": "no_concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "EL": "no_concern"
     }
   },
   {
@@ -1634,14 +1591,9 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
       "SE": "no_concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "EL": "no_concern",
+      "SH": "no_concern"
     }
   },
   {
@@ -1675,14 +1627,7 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
-      "SE": "no_concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "EL": "no_concern"
     }
   },
   {
@@ -1751,14 +1696,8 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
       "EL": "concern",
-      "SE": "concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "GM": "no_concern"
     }
   },
   {
@@ -1827,14 +1766,8 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
       "EL": "concern",
-      "SE": "concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "GM": "no_concern"
     }
   },
   {
@@ -1903,14 +1836,8 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
       "EL": "concern",
-      "SE": "concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "GM": "no_concern"
     }
   },
   {
@@ -1979,14 +1906,8 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
       "EL": "concern",
-      "SE": "concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "GM": "no_concern"
     }
   },
   {
@@ -2055,14 +1976,8 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
       "EL": "concern",
-      "SE": "concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "GM": "no_concern"
     }
   },
   {
@@ -2131,14 +2046,8 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
       "EL": "concern",
-      "SE": "concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "GM": "no_concern"
     }
   },
   {
@@ -2207,14 +2116,8 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
       "EL": "concern",
-      "SE": "concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "GM": "no_concern"
     }
   },
   {
@@ -2288,14 +2191,9 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "no_concern",
-      "RL": "concern",
       "EL": "concern",
-      "SE": "concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "concern"
+      "RL": "concern",
+      "GM": "no_concern"
     }
   },
   {
@@ -2369,14 +2267,9 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "no_concern",
-      "RL": "concern",
       "EL": "concern",
-      "SE": "concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "concern"
+      "RL": "concern",
+      "GM": "no_concern"
     }
   },
   {
@@ -2436,13 +2329,7 @@
     ],
     "groundTruth": {
       "GM": "concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
-      "SE": "no_concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "EL": "no_concern"
     }
   },
   {
@@ -2502,13 +2389,7 @@
     ],
     "groundTruth": {
       "GM": "concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
-      "SE": "no_concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "EL": "no_concern"
     }
   },
   {
@@ -2568,13 +2449,7 @@
     ],
     "groundTruth": {
       "GM": "concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
-      "SE": "no_concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "EL": "no_concern"
     }
   },
   {
@@ -2634,13 +2509,7 @@
     ],
     "groundTruth": {
       "GM": "concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
-      "SE": "no_concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "EL": "no_concern"
     }
   },
   {
@@ -2700,13 +2569,7 @@
     ],
     "groundTruth": {
       "GM": "concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
-      "SE": "no_concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "EL": "no_concern"
     }
   },
   {
@@ -2766,13 +2629,7 @@
     ],
     "groundTruth": {
       "GM": "concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
-      "SE": "no_concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "EL": "no_concern"
     }
   },
   {
@@ -2831,14 +2688,8 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
       "FM": "concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
-      "SE": "no_concern",
-      "CP": "concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "GM": "no_concern"
     }
   },
   {
@@ -2897,14 +2748,8 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
       "FM": "concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
-      "SE": "no_concern",
-      "CP": "concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "GM": "no_concern"
     }
   },
   {
@@ -2963,14 +2808,8 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
       "FM": "concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
-      "SE": "no_concern",
-      "CP": "concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "GM": "no_concern"
     }
   },
   {
@@ -3029,14 +2868,8 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
       "FM": "concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
-      "SE": "no_concern",
-      "CP": "concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "GM": "no_concern"
     }
   },
   {
@@ -3115,14 +2948,12 @@
       }
     ],
     "groundTruth": {
-      "GM": "concern",
-      "FM": "no_concern",
+      "SE": "concern",
       "RL": "concern",
       "EL": "concern",
-      "SE": "concern",
+      "VH": "concern",
       "CP": "concern",
-      "SH": "no_concern",
-      "VH": "concern"
+      "GM": "concern"
     }
   },
   {
@@ -3201,14 +3032,12 @@
       }
     ],
     "groundTruth": {
-      "GM": "concern",
-      "FM": "no_concern",
+      "SE": "concern",
       "RL": "concern",
       "EL": "concern",
-      "SE": "concern",
+      "VH": "concern",
       "CP": "concern",
-      "SH": "no_concern",
-      "VH": "concern"
+      "GM": "concern"
     }
   },
   {
@@ -3287,14 +3116,12 @@
       }
     ],
     "groundTruth": {
-      "GM": "concern",
-      "FM": "no_concern",
+      "SE": "concern",
       "RL": "concern",
       "EL": "concern",
-      "SE": "concern",
+      "VH": "concern",
       "CP": "concern",
-      "SH": "no_concern",
-      "VH": "concern"
+      "GM": "concern"
     }
   },
   {
@@ -3373,14 +3200,12 @@
       }
     ],
     "groundTruth": {
-      "GM": "concern",
-      "FM": "no_concern",
+      "SE": "concern",
       "RL": "concern",
       "EL": "concern",
-      "SE": "concern",
+      "VH": "concern",
       "CP": "concern",
-      "SH": "no_concern",
-      "VH": "concern"
+      "GM": "concern"
     }
   },
   {
@@ -3459,14 +3284,12 @@
       }
     ],
     "groundTruth": {
-      "GM": "concern",
-      "FM": "no_concern",
+      "SE": "concern",
       "RL": "concern",
       "EL": "concern",
-      "SE": "concern",
+      "VH": "concern",
       "CP": "concern",
-      "SH": "no_concern",
-      "VH": "concern"
+      "GM": "concern"
     }
   },
   {
@@ -3545,14 +3368,12 @@
       }
     ],
     "groundTruth": {
-      "GM": "concern",
-      "FM": "no_concern",
+      "SE": "concern",
       "RL": "concern",
       "EL": "concern",
-      "SE": "concern",
+      "VH": "concern",
       "CP": "concern",
-      "SH": "no_concern",
-      "VH": "concern"
+      "GM": "concern"
     }
   },
   {
@@ -3591,14 +3412,7 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
-      "EL": "concern",
-      "SE": "concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "EL": "concern"
     }
   },
   {
@@ -3637,14 +3451,7 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
-      "EL": "concern",
-      "SE": "concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "EL": "concern"
     }
   },
   {
@@ -3683,14 +3490,7 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
-      "EL": "concern",
-      "SE": "concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "EL": "concern"
     }
   },
   {
@@ -3729,14 +3529,7 @@
       }
     ],
     "groundTruth": {
-      "GM": "concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
-      "SE": "no_concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "GM": "concern"
     }
   },
   {
@@ -3775,14 +3568,7 @@
       }
     ],
     "groundTruth": {
-      "GM": "concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
-      "SE": "no_concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "GM": "concern"
     }
   },
   {
@@ -3836,14 +3622,7 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "no_concern",
-      "RL": "concern",
-      "EL": "concern",
-      "SE": "concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "SE": "concern"
     }
   },
   {
@@ -3903,13 +3682,7 @@
     ],
     "groundTruth": {
       "GM": "concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
-      "EL": "concern",
-      "SE": "concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "EL": "concern"
     }
   },
   {
@@ -3969,13 +3742,7 @@
     ],
     "groundTruth": {
       "GM": "concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
-      "EL": "concern",
-      "SE": "concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "EL": "concern"
     }
   },
   {
@@ -4035,13 +3802,7 @@
     ],
     "groundTruth": {
       "GM": "concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
-      "EL": "concern",
-      "SE": "concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "EL": "concern"
     }
   },
   {
@@ -4101,13 +3862,7 @@
     ],
     "groundTruth": {
       "GM": "concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
-      "EL": "concern",
-      "SE": "concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "EL": "concern"
     }
   },
   {
@@ -4166,14 +3921,8 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "no_concern",
-      "RL": "concern",
-      "EL": "concern",
       "SE": "concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "concern"
+      "GM": "no_concern"
     }
   },
   {
@@ -4232,14 +3981,8 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "no_concern",
-      "RL": "concern",
-      "EL": "concern",
       "SE": "concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "concern"
+      "GM": "no_concern"
     }
   },
   {
@@ -4298,14 +4041,8 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "no_concern",
-      "RL": "concern",
-      "EL": "concern",
       "SE": "concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "concern"
+      "GM": "no_concern"
     }
   },
   {
@@ -4364,14 +4101,8 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "no_concern",
-      "RL": "concern",
-      "EL": "concern",
       "SE": "concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "concern"
+      "GM": "no_concern"
     }
   },
   {
@@ -4430,14 +4161,8 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "no_concern",
-      "RL": "concern",
-      "EL": "concern",
       "SE": "concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "concern"
+      "GM": "no_concern"
     }
   },
   {
@@ -4496,14 +4221,8 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
-      "SE": "no_concern",
       "CP": "concern",
-      "SH": "concern",
-      "VH": "concern"
+      "GM": "no_concern"
     }
   },
   {
@@ -4562,14 +4281,8 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
-      "SE": "no_concern",
       "CP": "concern",
-      "SH": "concern",
-      "VH": "concern"
+      "GM": "no_concern"
     }
   },
   {
@@ -4628,14 +4341,8 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
-      "SE": "no_concern",
       "CP": "concern",
-      "SH": "concern",
-      "VH": "concern"
+      "GM": "no_concern"
     }
   },
   {
@@ -4694,14 +4401,8 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
-      "SE": "no_concern",
       "CP": "concern",
-      "SH": "concern",
-      "VH": "concern"
+      "GM": "no_concern"
     }
   },
   {
@@ -4760,14 +4461,8 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
-      "SE": "no_concern",
-      "CP": "concern",
       "SH": "concern",
-      "VH": "no_concern"
+      "EL": "no_concern"
     }
   },
   {
@@ -4826,14 +4521,8 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
-      "SE": "no_concern",
-      "CP": "concern",
       "SH": "concern",
-      "VH": "no_concern"
+      "EL": "no_concern"
     }
   },
   {
@@ -4892,14 +4581,8 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
-      "SE": "no_concern",
-      "CP": "concern",
       "SH": "concern",
-      "VH": "no_concern"
+      "EL": "no_concern"
     }
   },
   {
@@ -4958,14 +4641,9 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
+      "VH": "no_concern",
       "SE": "no_concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "RL": "no_concern"
     }
   },
   {
@@ -5024,14 +4702,9 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
+      "VH": "no_concern",
       "SE": "no_concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "RL": "no_concern"
     }
   },
   {
@@ -5090,14 +4763,9 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
+      "VH": "no_concern",
       "SE": "no_concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "RL": "no_concern"
     }
   },
   {
@@ -5156,14 +4824,9 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
+      "VH": "no_concern",
       "SE": "no_concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "RL": "no_concern"
     }
   },
   {
@@ -5222,14 +4885,339 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
+      "VH": "no_concern",
       "SE": "no_concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "RL": "no_concern"
+    }
+  },
+  {
+    "id": "borderline_mixed_gm_18m",
+    "name": "Borderline: mixed GM signals at 18 months",
+    "description": "Half GM milestones achieved, half not_yet — tests boundary between concern and no_concern",
+    "category": "motor_delay",
+    "child": {
+      "dob": "2024-07-16"
+    },
+    "events": [
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_09",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_10",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_12",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 70,
+        "questionId": "q_3_5m_13",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 70,
+        "questionId": "q_6_8m_10",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 70,
+        "questionId": "q_6_8m_11",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 78,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "concern"
+    }
+  },
+  {
+    "id": "borderline_single_miss_el_12m",
+    "name": "Borderline: single EL miss at 12 months",
+    "description": "One language milestone not_yet among several achieved — clinically would be \"monitor\"",
+    "category": "typical",
+    "child": {
+      "dob": "2025-01-14"
+    },
+    "events": [
+      {
+        "weekOffset": 0,
+        "questionId": "rf_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_04",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 43,
+        "questionId": "q_6_8m_04",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 52,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "EL": "no_concern"
+    }
+  },
+  {
+    "id": "borderline_sparse_se_15m",
+    "name": "Borderline: sparse SE data at 15 months",
+    "description": "Only 2 SE questions answered, one not_yet — clinically insufficient to flag concern",
+    "category": "typical",
+    "child": {
+      "dob": "2024-10-15"
+    },
+    "events": [
+      {
+        "weekOffset": 0,
+        "questionId": "rf_03",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 56,
+        "questionId": "rf_04",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "SE": "no_concern"
+    }
+  },
+  {
+    "id": "borderline_all_unsure_cp_18m",
+    "name": "Borderline: all unsure CP at 18 months",
+    "description": "All cognitive questions answered unsure — should not trigger concern",
+    "category": "typical",
+    "child": {
+      "dob": "2024-07-16"
+    },
+    "events": [
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_07",
+        "answer": "unsure"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_08",
+        "answer": "unsure"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_07",
+        "answer": "unsure"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_3_5m_08",
+        "answer": "unsure"
+      },
+      {
+        "weekOffset": 78,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "CP": "no_concern"
+    }
+  },
+  {
+    "id": "borderline_scattered_miss_el_24m",
+    "name": "Borderline: scattered EL misses at 24 months",
+    "description": "Two non-consecutive EL milestones not_yet — tests warning accumulation without streak",
+    "category": "speech_delay",
+    "child": {
+      "dob": "2024-01-15"
+    },
+    "events": [
+      {
+        "weekOffset": 0,
+        "questionId": "rf_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_04",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "q_6_8m_04",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 104,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "EL": "concern"
+    }
+  },
+  {
+    "id": "borderline_multitag_6m",
+    "name": "Borderline: multi-tag question miss at 6 months",
+    "description": "Not_yet on questions tagged to multiple domains — tests cross-domain impact",
+    "category": "global_delay",
+    "child": {
+      "dob": "2025-07-16"
+    },
+    "events": [
+      {
+        "weekOffset": 17,
+        "questionId": "rf_04",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "rf_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 0,
+        "questionId": "rf_03",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_01",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_03",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "RL": "concern",
+      "SE": "concern",
+      "EL": "concern"
+    }
+  },
+  {
+    "id": "borderline_near_threshold_fm_18m",
+    "name": "Borderline: near-threshold FM at 18 months",
+    "description": "One not_yet + one unsure among achieved — clinically would be \"monitor\"",
+    "category": "typical",
+    "child": {
+      "dob": "2024-07-16"
+    },
+    "events": [
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_09",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_10",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 70,
+        "questionId": "q_3_5m_11",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "q_6_8m_08",
+        "answer": "unsure"
+      },
+      {
+        "weekOffset": 78,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "FM": "no_concern"
+    }
+  },
+  {
+    "id": "borderline_single_obs_rl_12m",
+    "name": "Borderline: single RL observation at 12 months",
+    "description": "Only 1 RL question answered (not_yet) — clinically insufficient data to flag",
+    "category": "typical",
+    "child": {
+      "dob": "2025-01-14"
+    },
+    "events": [
+      {
+        "weekOffset": 43,
+        "questionId": "rf_04",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_09",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_10",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_12",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 52,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "RL": "no_concern",
+      "GM": "no_concern"
     }
   },
   {
@@ -5263,14 +5251,7 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
-      "SE": "no_concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "GM": "no_concern"
     }
   },
   {
@@ -5309,14 +5290,7 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
-      "SE": "no_concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "GM": "no_concern"
     }
   },
   {
@@ -5355,14 +5329,7 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
-      "SE": "no_concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "GM": "no_concern"
     }
   },
   {
@@ -5401,14 +5368,7 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
-      "SE": "no_concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "GM": "no_concern"
     }
   },
   {
@@ -5447,14 +5407,7 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
-      "SE": "no_concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "GM": "no_concern"
     }
   },
   {
@@ -5493,14 +5446,7 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
-      "SE": "no_concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "GM": "no_concern"
     }
   },
   {
@@ -5549,14 +5495,8 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
-      "SE": "no_concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "concern"
+      "VH": "concern",
+      "EL": "no_concern"
     }
   },
   {
@@ -5605,14 +5545,8 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
-      "SE": "concern",
-      "CP": "concern",
-      "SH": "no_concern",
-      "VH": "concern"
+      "VH": "concern",
+      "EL": "no_concern"
     }
   },
   {
@@ -5661,14 +5595,8 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
-      "SE": "concern",
-      "CP": "concern",
-      "SH": "no_concern",
-      "VH": "concern"
+      "VH": "concern",
+      "EL": "no_concern"
     }
   },
   {
@@ -5712,14 +5640,10 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
+      "VH": "no_concern",
       "SE": "no_concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "RL": "no_concern",
+      "EL": "no_concern"
     }
   },
   {
@@ -5763,14 +5687,10 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
+      "VH": "no_concern",
       "SE": "no_concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "RL": "no_concern",
+      "EL": "no_concern"
     }
   },
   {
@@ -5814,14 +5734,10 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
+      "VH": "no_concern",
       "SE": "no_concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "RL": "no_concern",
+      "EL": "no_concern"
     }
   },
   {
@@ -5865,14 +5781,10 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
+      "VH": "no_concern",
       "SE": "no_concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "RL": "no_concern",
+      "EL": "no_concern"
     }
   },
   {
@@ -5923,13 +5835,7 @@
     ],
     "groundTruth": {
       "GM": "concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
-      "SE": "no_concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "EL": "no_concern"
     }
   },
   {
@@ -5980,13 +5886,7 @@
     ],
     "groundTruth": {
       "GM": "concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
-      "SE": "no_concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "EL": "no_concern"
     }
   },
   {
@@ -6037,13 +5937,7 @@
     ],
     "groundTruth": {
       "GM": "concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
-      "SE": "no_concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "EL": "no_concern"
     }
   },
   {
@@ -6094,13 +5988,7 @@
     ],
     "groundTruth": {
       "GM": "concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
-      "SE": "no_concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "EL": "no_concern"
     }
   },
   {
@@ -6151,13 +6039,7 @@
     ],
     "groundTruth": {
       "GM": "concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
-      "SE": "no_concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "EL": "no_concern"
     }
   },
   {
@@ -6208,13 +6090,7 @@
     ],
     "groundTruth": {
       "GM": "concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
-      "SE": "no_concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "EL": "no_concern"
     }
   },
   {
@@ -6269,13 +6145,7 @@
     ],
     "groundTruth": {
       "GM": "no_concern",
-      "FM": "no_concern",
-      "RL": "concern",
-      "EL": "no_concern",
-      "SE": "concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "concern"
+      "RL": "concern"
     }
   },
   {
@@ -6330,13 +6200,7 @@
     ],
     "groundTruth": {
       "GM": "no_concern",
-      "FM": "no_concern",
-      "RL": "concern",
-      "EL": "no_concern",
-      "SE": "concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "concern"
+      "RL": "concern"
     }
   },
   {
@@ -6391,13 +6255,7 @@
     ],
     "groundTruth": {
       "GM": "no_concern",
-      "FM": "no_concern",
-      "RL": "concern",
-      "EL": "no_concern",
-      "SE": "concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "concern"
+      "RL": "concern"
     }
   },
   {
@@ -6452,13 +6310,7 @@
     ],
     "groundTruth": {
       "GM": "no_concern",
-      "FM": "concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
-      "SE": "no_concern",
-      "CP": "concern",
-      "SH": "concern",
-      "VH": "no_concern"
+      "SH": "concern"
     }
   },
   {
@@ -6513,13 +6365,7 @@
     ],
     "groundTruth": {
       "GM": "no_concern",
-      "FM": "concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
-      "SE": "no_concern",
-      "CP": "concern",
-      "SH": "concern",
-      "VH": "no_concern"
+      "SH": "concern"
     }
   },
   {
@@ -6574,13 +6420,7 @@
     ],
     "groundTruth": {
       "GM": "no_concern",
-      "FM": "concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
-      "SE": "no_concern",
-      "CP": "concern",
-      "SH": "concern",
-      "VH": "no_concern"
+      "SH": "concern"
     }
   },
   {
@@ -6619,14 +6459,9 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
+      "VH": "no_concern",
       "SE": "no_concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "RL": "no_concern"
     }
   },
   {
@@ -6665,14 +6500,8 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
       "SE": "no_concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "EL": "no_concern"
     }
   },
   {
@@ -6711,14 +6540,9 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
       "SE": "no_concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "EL": "no_concern",
+      "RL": "no_concern"
     }
   },
   {
@@ -6757,14 +6581,9 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "no_concern",
-      "RL": "no_concern",
-      "EL": "no_concern",
       "SE": "no_concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "RL": "no_concern",
+      "EL": "no_concern"
     }
   },
   {
@@ -6823,14 +6642,8 @@
       }
     ],
     "groundTruth": {
-      "GM": "no_concern",
-      "FM": "no_concern",
-      "RL": "concern",
       "EL": "concern",
-      "SE": "concern",
-      "CP": "no_concern",
-      "SH": "no_concern",
-      "VH": "no_concern"
+      "SE": "concern"
     }
   }
 ]

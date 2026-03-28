@@ -41,6 +41,16 @@ export interface DomainMetrics {
   metrics: MetricsWithCI;
 }
 
+export interface Disagreement {
+  profileId: string;
+  profileName: string;
+  domain: string;
+  engineClassification: string;
+  expectedClassification: string;
+  engineStatus: string;
+  description: string;
+}
+
 export interface ValidationReport {
   timestamp: string;
   engineVersion: string;
@@ -52,6 +62,7 @@ export interface ValidationReport {
     correctlyNegative: number;
     incorrectlyNegative: number;
   };
+  disagreements: Disagreement[];
   disclaimer: string;
 }
 
@@ -199,20 +210,20 @@ export function formatMetrics(m: MetricsWithCI): string {
     `(${pct(pair[0])} - ${pct(pair[1])})`;
 
   return [
-    `Sensitivity:  ${pct(m.sensitivity)} ${ci(m.sensitivityCI)}`,
-    `Specificity:  ${pct(m.specificity)} ${ci(m.specificityCI)}`,
-    `PPV:          ${pct(m.ppv)} ${ci(m.ppvCI)}`,
-    `NPV:          ${pct(m.npv)} ${ci(m.npvCI)}`,
-    `Accuracy:     ${pct(m.accuracy)}`,
-    `Cohen's κ:    ${m.kappa.toFixed(3)} (${m.kappaCI[0].toFixed(3)} - ${m.kappaCI[1].toFixed(3)})`,
-    `N:            ${m.n}`,
+    `Hit rate (concern profiles correctly flagged):  ${pct(m.sensitivity)} ${ci(m.sensitivityCI)}`,
+    `Correct clear (typical profiles correctly cleared):  ${pct(m.specificity)} ${ci(m.specificityCI)}`,
+    `Flag precision (flags that matched expected concern):  ${pct(m.ppv)} ${ci(m.ppvCI)}`,
+    `Clear precision (clears that matched expected no-concern):  ${pct(m.npv)} ${ci(m.npvCI)}`,
+    `Overall agreement:  ${pct(m.accuracy)}`,
+    `Cohen's κ (agreement beyond chance):  ${m.kappa.toFixed(3)} (${m.kappaCI[0].toFixed(3)} - ${m.kappaCI[1].toFixed(3)})`,
+    `N:  ${m.n}`,
   ].join('\n');
 }
 
 export function formatReport(report: ValidationReport): string {
   const lines: string[] = [];
 
-  lines.push('# MyChild Engine — Synthetic Scenario Verification Report');
+  lines.push('# MyChild Engine — Internal Consistency Verification Report');
   lines.push('');
   lines.push(`**Generated:** ${report.timestamp}`);
   lines.push(`**Engine version:** ${report.engineVersion}`);
@@ -245,14 +256,14 @@ export function formatReport(report: ValidationReport): string {
     lines.push('');
   }
 
-  lines.push('## Global Metrics');
+  lines.push('## Global Consistency Metrics');
   lines.push('');
   lines.push('```');
   lines.push(formatMetrics(report.globalMetrics));
   lines.push('```');
   lines.push('');
 
-  lines.push('## Per-Domain Metrics');
+  lines.push('## Per-Domain Consistency Metrics');
   lines.push('');
 
   for (const dm of report.domainMetrics) {
@@ -265,12 +276,37 @@ export function formatReport(report: ValidationReport): string {
     lines.push('');
   }
 
+  if (report.disagreements && report.disagreements.length > 0) {
+    lines.push('## Threshold Calibration Disagreements');
+    lines.push('');
+    lines.push('These cases show where the engine\'s classification differs from the hand-written');
+    lines.push('clinical expectation. Each disagreement represents a threshold calibration question');
+    lines.push('that should be reviewed with clinical input.');
+    lines.push('');
+    lines.push('| Profile | Domain | Engine says | Expected | Engine status | Notes |');
+    lines.push('|---------|--------|-------------|----------|---------------|-------|');
+    for (const d of report.disagreements) {
+      lines.push(`| ${d.profileName} | ${d.domain} | ${d.engineClassification} | ${d.expectedClassification} | ${d.engineStatus} | ${d.description} |`);
+    }
+    lines.push('');
+    lines.push(`**${report.disagreements.length} disagreement(s)** found. These are not bugs — they are`);
+    lines.push('threshold decisions where the engine is more aggressive than clinical consensus.');
+    lines.push('Reviewing these with a clinician would help calibrate the engine\'s sensitivity');
+    lines.push('vs. specificity tradeoff.');
+    lines.push('');
+  }
+
   lines.push('## Methodology');
   lines.push('');
-  lines.push('This report uses rule-derived known-answer synthetic profiles where the');
-  lines.push('ground truth is definitionally obvious from the profile design. It measures');
-  lines.push('whether the engine produces expected outputs for known developmental');
-  lines.push('trajectories. This is software verification, not clinical validation.');
+  lines.push('> **This is internal consistency verification, NOT clinical validation.**');
+  lines.push('> These metrics measure whether the engine produces expected outputs for');
+  lines.push('> hand-labeled synthetic profiles. They do NOT measure sensitivity/specificity');
+  lines.push('> against a clinical gold standard or real patient data.');
+  lines.push('');
+  lines.push('Ground truth labels are hand-written by profile designers based on the');
+  lines.push('developmental scenario each profile represents (e.g., "all milestones');
+  lines.push('not_yet in EL domain" → EL: concern). The engine\'s output is then compared');
+  lines.push('against these hand-written labels.');
   lines.push('');
   lines.push('**Evaluation path:** Each profile is evaluated through the full public engine');
   lines.push('pipeline, including regression detection (achieved→not_yet pattern escalation).');
@@ -285,10 +321,12 @@ export function formatReport(report: ValidationReport): string {
   lines.push('');
   lines.push('**Confidence intervals:** Wilson score method for proportions, normal approximation for kappa.');
   lines.push('');
-  lines.push('**Limitations:** N represents domain-profile pairs, not independent children.');
-  lines.push('Prevalence is designer-controlled, so PPV/NPV reflect the synthetic mix, not');
-  lines.push('real-world prevalence. Cohen\'s kappa measures agreement with authored expectations,');
-  lines.push('not an independent gold standard.');
+  lines.push('**Limitations:**');
+  lines.push('- N represents domain-profile pairs, not independent children.');
+  lines.push('- Prevalence is designer-controlled, so predictive values reflect the synthetic mix, not real-world prevalence.');
+  lines.push('- Cohen\'s kappa measures agreement with hand-written expectations, not an independent clinical gold standard.');
+  lines.push('- Profiles only cover domains explicitly labeled — unlabeled domains are excluded from metrics.');
+  lines.push('- Most profiles test clear-cut scenarios; borderline profiles test decision boundaries but are a small subset.');
   lines.push('');
 
   return lines.join('\n');
