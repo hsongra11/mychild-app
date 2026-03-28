@@ -1,6 +1,6 @@
 # My Child Engine
 
-Open-source developmental screening engine for children 0-36 months.
+Open-source developmental screening engine for children 0-36 months. Created by [Harsh Songra](https://harshsongra.com) and [Aafreen Ansari](https://linkedin.com/in/aafreen-ansari-8a4265112).
 
 > **This is NOT a diagnostic tool.** This software tracks developmental milestones and helps caregivers notice changes early. It cannot diagnose any medical condition, developmental disorder, or disability. If you have concerns about your child's development, please consult a qualified healthcare professional immediately.
 
@@ -219,6 +219,14 @@ Please open an issue before submitting large PRs.
 - **Question bank data**: CC BY-SA 4.0
 
 See [LICENSE](LICENSE) for full terms.
+
+## Founders
+
+**Harsh Songra** — Forbes 30 Under 30 (India & Asia), TEDx speaker, World Economic Forum Agenda Contributor. Diagnosed with dyspraxia at age 11 after 9 years of misdiagnosis. Built the first version of MyChild App at 18. [Website](https://harshsongra.com) | [TED Talk](https://www.ted.com/talks/harsh_songra_why_do_we_fail_to_understand_people_with_disabilities)
+
+**Aafreen Ansari** — Forbes 30 Under 30 (Asia), TED speaker, co-founder of We, Included. Dropped out of college at 19 to co-found MyChild App. Led product development and raised seed funding from 500 Startups and Singapore Angel Network. [LinkedIn](https://linkedin.com/in/aafreen-ansari-8a4265112)
+
+MyChild App raised $100K in seed funding from 500 Startups and angel investors including Samir Bangara, Pallav Nadhani, and Singapore Angel Network. The startup ran its course. The problem didn't go away. 10 years later, the core technology is being open-sourced.
 
 ## Acknowledgments
 
