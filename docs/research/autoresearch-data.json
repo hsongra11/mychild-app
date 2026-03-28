@@ -1,0 +1,149 @@
+{
+  "metadata": {
+    "date": "2026-03-29",
+    "launchTimestamp": "2026-03-28T18:33:35.492Z",
+    "duration": "~25 minutes active runtime",
+    "agents": 4,
+    "agentStatus": {
+      "agent1": "completed",
+      "agent2": "completed",
+      "agent3": "partial (3 experiments, no phase-complete)",
+      "agent4": "completed"
+    }
+  },
+  "baseline": {
+    "sensitivity": 1.0,
+    "specificity": 0.9788359788359788,
+    "kappa": 0.9706190975865687,
+    "accuracy": 0.9863945578231292,
+    "profileCount": 108,
+    "disagreements": 4,
+    "confusionMatrix": {
+      "tp": 105,
+      "fp": 4,
+      "tn": 185,
+      "fn": 0,
+      "n": 294
+    },
+    "perDomain": {
+      "GM": { "tp": 25, "fp": 0, "tn": 47, "fn": 0, "n": 72 },
+      "FM": { "tp": 4, "fp": 1, "tn": 12, "fn": 0, "n": 17 },
+      "RL": { "tp": 12, "fp": 1, "tn": 21, "fn": 0, "n": 34 },
+      "EL": { "tp": 25, "fp": 1, "tn": 41, "fn": 0, "n": 67 },
+      "SE": { "tp": 14, "fp": 1, "tn": 30, "fn": 0, "n": 45 },
+      "CP": { "tp": 10, "fp": 0, "tn": 12, "fn": 0, "n": 22 },
+      "SH": { "tp": 6, "fp": 0, "tn": 8, "fn": 0, "n": 14 },
+      "VH": { "tp": 9, "fp": 0, "tn": 14, "fn": 0, "n": 23 }
+    }
+  },
+  "final": {
+    "sensitivity": 1.0,
+    "specificity": 1.0,
+    "kappa": 1.0,
+    "accuracy": 1.0,
+    "confusionMatrix": {
+      "tp": 105,
+      "fp": 0,
+      "tn": 189,
+      "fn": 0,
+      "n": 294
+    },
+    "note": "2 engine changes applied by Agent 3: isolated-flag downgrade and cross-domain correction"
+  },
+  "thresholdSweeps": {
+    "totalExperiments": 90,
+    "phase1Experiments": 46,
+    "phase2Experiments": 44,
+    "experimentsWithImprovement": 0,
+    "experimentsWithDegradation": 8,
+    "experimentsWithNoChange": 82,
+    "parametersSwept": [
+      "graceWeeks.infant",
+      "graceWeeks.toddler",
+      "deltaNotYetWeeks.infant",
+      "deltaNotYetWeeks.toddler",
+      "deltaUnsureWeeks",
+      "deltaRepeatWeeks",
+      "nRepeat",
+      "correctedAgeCutoffMonths",
+      "weightValues.L",
+      "weightValues.M",
+      "weightValues.H",
+      "weightValues.RF",
+      "thresholds.T_yellow",
+      "thresholds.T_orange",
+      "thresholds.T_red"
+    ],
+    "keyFinding": "All configurable defaults.ts parameters are decoupled from domain-level classification. The 4 false positives are driven by hardcoded logic in domain-scoring.ts."
+  },
+  "edgeCases": {
+    "totalEntries": 231,
+    "totalSurprises": 168,
+    "totalCrashes": 0,
+    "directionBreakdown": {
+      "engineMoreLenient": 164,
+      "engineMoreAggressive": 4
+    },
+    "statusBreakdown": {
+      "insufficient_evidence": 111,
+      "low_concern": 41,
+      "normal": 12,
+      "high_concern": 4
+    },
+    "byCategory": {
+      "borderline_age": { "profiles": 63, "surprises": 92 },
+      "sparse_data": { "profiles": 189, "surprises": 0 },
+      "contradictory": { "profiles": 83, "surprises": 4 },
+      "regression": { "profiles": 73, "surprises": 51 },
+      "preterm": { "profiles": 70, "surprises": 1 },
+      "disagreement_targeting": { "profiles": 20, "surprises": 0 },
+      "extreme": { "profiles": 36, "surprises": 0 },
+      "weight_stress": { "profiles": 21, "surprises": 4 },
+      "age_band_coverage": { "profiles": 110, "surprises": 16 },
+      "timing_edge": { "profiles": 42, "surprises": 0 }
+    },
+    "byDomain": {
+      "FM": 29,
+      "RL": 28,
+      "EL": 26,
+      "SE": 25,
+      "GM": 23,
+      "SH": 20,
+      "CP": 14,
+      "VH": 3
+    }
+  },
+  "engineChanges": [
+    {
+      "description": "Isolated single-flag downgrade to low_concern",
+      "file": "domain-scoring.ts",
+      "citation": "Glascoe 2005; AAP Lipkin & Macias 2020",
+      "metricsBefore": { "sensitivity": 1.0, "specificity": 0.9788 },
+      "metricsAfter": { "sensitivity": 1.0, "specificity": 0.9947 },
+      "status": "keep",
+      "commit": "d0f6813"
+    },
+    {
+      "description": "Cross-domain correction for sparse high_concern",
+      "file": "domain-scoring.ts",
+      "citation": "Glascoe 2005; AAP Lipkin & Macias 2020",
+      "metricsBefore": { "sensitivity": 1.0, "specificity": 0.9947 },
+      "metricsAfter": { "sensitivity": 1.0, "specificity": 1.0 },
+      "status": "keep",
+      "commit": "fd20b1f"
+    },
+    {
+      "description": "Raise sufficiency gate from 2 to 3",
+      "file": "domain-scoring.ts",
+      "metricsBefore": { "sensitivity": 1.0, "specificity": 0.9947 },
+      "metricsAfter": { "sensitivity": 0.857, "specificity": 0.989 },
+      "status": "discard",
+      "reason": "Sensitivity dropped to 85.7%"
+    }
+  ],
+  "profileCount": {
+    "original": 108,
+    "adversarial": 707,
+    "total": 815
+  }
+}
