@@ -1,5 +1,5 @@
 /**
- * @mychild/engine
+ * mychild-engine
  *
  * Open-source developmental screening engine with evidence-weighted escalation.
  *

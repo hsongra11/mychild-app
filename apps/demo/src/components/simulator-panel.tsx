@@ -2,8 +2,8 @@
 
 import { useState, useTransition } from 'react'
 import { serverSimulate } from '@/app/actions'
-import type { Ruleset, SimulationResult, TrajectoryResult, TimelineEvent, DomainStatus, Severity } from '@mychild/engine'
-import type { Trajectory } from '@mychild/engine'
+import type { Ruleset, SimulationResult, TrajectoryResult, TimelineEvent, DomainStatus, Severity } from 'mychild-engine'
+import type { Trajectory } from 'mychild-engine'
 import { BUILT_IN_TRAJECTORIES } from '@/lib/trajectories'
 import { DEFAULT_THRESHOLDS } from '@/lib/constants'
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card'

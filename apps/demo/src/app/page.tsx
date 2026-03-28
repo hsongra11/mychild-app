@@ -44,7 +44,7 @@ export default function Home() {
       <footer className="mt-12 border-t border-border px-4 py-6 sm:px-6">
         <div className="mx-auto max-w-4xl flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
           <p className="text-xs text-muted-foreground">
-            @mychild/engine — open-source developmental screening engine
+            mychild-engine — open-source developmental screening engine
           </p>
           <p className="text-xs text-muted-foreground">
             For informational purposes only. Always consult a healthcare professional.

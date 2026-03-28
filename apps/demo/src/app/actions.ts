@@ -6,7 +6,7 @@ import {
   getDueQuestions,
   simulate,
   DEFAULT_RULESET,
-} from '@mychild/engine'
+} from 'mychild-engine'
 import type {
   AnswerEvent,
   Ruleset,
@@ -15,7 +15,7 @@ import type {
   Question,
   SimulationResult,
   Trajectory,
-} from '@mychild/engine'
+} from 'mychild-engine'
 
 // ---------------------------------------------------------------------------
 // Serialisable wire types
