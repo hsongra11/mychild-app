@@ -1,6 +1,11 @@
 # mychild-engine
 
+[![npm version](https://img.shields.io/npm/v/mychild-engine)](https://www.npmjs.com/package/mychild-engine)
+[![npm downloads](https://img.shields.io/npm/dm/mychild-engine)](https://www.npmjs.com/package/mychild-engine)
+
 Developmental screening engine for children 0-36 months. Tracks milestones, flags delays, and tells caregivers what to do next.
+
+Install from npm: [`mychild-engine`](https://www.npmjs.com/package/mychild-engine)
 
 Zero dependencies. Runs anywhere JavaScript runs. Built from a decade of work on [My Child App](https://mychildapp.in), which has screened children in 100+ countries.
 
