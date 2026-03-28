@@ -17,8 +17,8 @@ This software is provided for **informational and educational purposes only**. I
 
 - This engine does **not** perform medical diagnosis of any kind
 - All severity outputs (precaution, warning, flag) are **screening signals**, not clinical determinations
-- All thresholds are labeled **"Ruleset v0.1 (hypothesis)"** and have **not been validated through clinical trials**
-- The question bank is based on publicly available CDC milestone checklists and founder clinical research, **not** on copyrighted validated instruments (ASQ-3, M-CHAT-R/F, Denver)
+- All thresholds are labeled **"Ruleset v0.2 (hypothesis-v2-cdc2022-aligned)"** and have **not been validated through clinical trials**
+- The question bank is aligned with **CDC 2022 revised milestone checklists** (Zubler et al., *Pediatrics* 2022, 75th percentile standard) and founder clinical research, **not** on copyrighted validated instruments (ASQ-3, M-CHAT-R/F, Denver)
 - No output from this engine should be interpreted as medical advice
 
 ### Intended Use
@@ -54,12 +54,15 @@ This project does **not** reproduce or distribute any copyrighted screening inst
 An evidence-weighted rules engine for developmental milestone screening. It sits in the gap between free CDC checklists (simple checkboxes) and licensed clinical instruments (ASQ-3, M-CHAT-R/F).
 
 Features:
-- **129 caregiver-facing questions** across 10 age bands (birth to 36 months)
+- **131 caregiver-facing questions** across 10 age bands (birth to 36 months), aligned with **CDC 2022 revised milestones** (75th percentile standard)
 - **8 developmental domains**: Gross Motor, Fine Motor, Receptive Language, Expressive Language, Social-Emotional, Cognitive, Self-Help/Adaptive, Vision/Hearing
-- **Evidence-weighted escalation**: questions carry weight classes (Low/Medium/High/Red-Flag) that determine escalation speed
-- **Domain scoring with sufficiency gates**: won't flag "high concern" without enough independent observations
+- **Evidence-weighted escalation**: questions carry weight classes (Low/Medium/High/Red-Flag) that actively adjust grace windows — high-weight items escalate faster, low-weight items get more grace
+- **Domain scoring with sufficiency gates**: won't flag "high concern" without enough independent observations; streak calculation sorted by developmental sequence
+- **Regression detection**: automatically flags milestones previously achieved but now reported as "not yet" — a key clinical red flag
 - **Corrected age for preterm infants**: automatic adjustment until 24 months
 - **Probe library**: follow-up clarifiers (P1-P5) that reduce false positives
+- **Multilingual support (i18n)**: translation framework with Hindi skeleton; designed for Kannada, Tamil, Telugu expansion
+- **Text-to-Speech (TTS)**: Web Speech API integration with Indian language locale mapping; critical for low-literacy populations
 - **Rule simulator**: replay synthetic child timelines against different threshold settings and see alert diffs
 - **Explainability**: every severity output includes plain-English "why" traces
 
@@ -97,8 +100,8 @@ console.log(result.nextActions);
 
 ```
 packages/engine/     # mychild-engine - the standalone TypeScript engine
-  src/               # Engine source code (11 modules)
-  data/              # Question bank JSON (129 questions, the core IP)
+  src/               # Engine source code (13 modules incl. i18n + TTS)
+  data/              # Question bank JSON (131 questions) + translations/
   dist/              # Compiled output
 
 apps/demo/           # Next.js 16 + shadcn/ui one-page demo
@@ -138,7 +141,14 @@ For each answered question, the engine computes severity based on the child's co
 Each of the 8 developmental domains maintains a vector: `flag_count`, `warning_count`, `precaution_count`, `streak_missed`, `critical_milestone_missed`, and `confidence`. Domain status is derived from this vector with an evidence sufficiency gate (requires >= 2 independent observations before escalating beyond "watch").
 
 ### Evidence weights
-Questions carry weight classes (L/M/H/RF) that affect escalation speed. Low-weight items require corroboration before escalating. High-weight items can escalate with fewer observations. Red-flag items (regression) trigger immediate urgent pathways.
+Questions carry weight classes (L/M/H/RF) that **actively adjust grace windows**:
+- **RF (Red Flag)**: 0 weeks grace — immediate escalation
+- **H (High)**: standard grace window (4 weeks infant, 6 weeks toddler)
+- **M (Medium)**: standard + 2 weeks extra grace
+- **L (Low)**: standard + 4 weeks extra grace
+
+### Regression detection
+The engine automatically detects milestones previously answered "achieved" that are later reported as "not yet". This achieved→not_yet pattern is escalated to at least "warning" severity regardless of age-based calculation, as developmental regression is a key clinical red flag.
 
 ### Action profiles
 Seven action profiles define response pathways per milestone category:
@@ -152,7 +162,7 @@ Seven action profiles define response pathways per milestone category:
 
 ## Question bank
 
-The question bank at `packages/engine/data/question-bank.json` contains 129 questions sourced from publicly available CDC milestone checklists (2 months through 3 years). Each question includes:
+The question bank at `packages/engine/data/question-bank.json` contains 131 questions aligned with the CDC 2022 revised milestone checklists (Zubler et al., *Pediatrics* 2022). The 2022 revision shifted milestones from the 50th to the 75th percentile — each listed milestone is one that 75% of children would be expected to achieve by the given age. Each question includes:
 
 - Caregiver-facing wording (plain language, parent-observable)
 - Domain tags (which developmental areas it assesses)
@@ -166,8 +176,8 @@ The question bank at `packages/engine/data/question-bank.json` contains 129 ques
 |------|-----------|-----------|
 | 0-2 months | 0-10 weeks | 10 |
 | 3-5 months | 12-22 weeks | 13 |
-| 6-8 months | 24-36 weeks | 12 |
-| 9-11 months | 38-48 weeks | 13 |
+| 6-8 months | 24-36 weeks | 13 |
+| 9-11 months | 38-48 weeks | 14 |
 | 12-14 months | 52-64 weeks | 8 |
 | 15-17 months | 65-78 weeks | 13 |
 | 18-20 months | 79-90 weeks | 15 |
@@ -178,9 +188,9 @@ The question bank at `packages/engine/data/question-bank.json` contains 129 ques
 
 ## Clinical validation status
 
-All thresholds in this engine are **hypothesis-level** (Ruleset v0.1). They are derived from:
-- CDC "Learn the Signs. Act Early." milestone checklists (publicly available, not copyrighted screening tools)
-- AAP-referenced evidence on milestone timing
+All thresholds in this engine are **hypothesis-level** (Ruleset v0.2, CDC 2022 aligned). They are derived from:
+- **CDC 2022 revised "Learn the Signs. Act Early." milestone checklists** (Zubler et al., *Pediatrics* 2022) — shifted to 75th percentile standard
+- **AAP developmental surveillance guidelines** (Lipkin & Macias, *Pediatrics* 2020)
 - Founder clinical research and domain expertise
 
 They have **not** undergone:
@@ -190,6 +200,41 @@ They have **not** undergone:
 - Regulatory review of any kind
 
 If you are a clinician or researcher interested in validating these thresholds, please open an issue. Contributions from the clinical community are welcome and encouraged.
+
+## Multilingual & Audio Support
+
+### i18n Framework
+The engine includes a translation registry that supports multiple Indian languages:
+
+```typescript
+import { translationRegistry } from 'mychild-engine';
+import hiBundle from 'mychild-engine/data/translations/hi.json';
+
+// Register Hindi translations
+translationRegistry.register(hiBundle);
+
+// Get a translated question
+const q = translationRegistry.getQuestion('rf_01', 'hi');
+console.log(q?.text); // क्या आपके बच्चे ने कोई ऐसा कौशल खो दिया है...
+
+// Available locales: en, hi (Hindi), kn (Kannada), ta (Tamil), te (Telugu)
+```
+
+Currently includes a Hindi skeleton (5 red-flag questions, all probes, UI strings). Community contributions for additional translations are welcome.
+
+### Text-to-Speech
+For low-literacy populations, the engine provides TTS support via the Web Speech API:
+
+```typescript
+import { createTTSProvider } from 'mychild-engine';
+
+const tts = createTTSProvider(); // auto-detects browser vs Node
+if (tts.isSupported()) {
+  await tts.speak('क्या आपका बच्चा तेज़ आवाज़ पर प्रतिक्रिया करता है?', { locale: 'hi' });
+}
+```
+
+Locale mapping uses Indian English and Indian language variants (en-IN, hi-IN, kn-IN, ta-IN, te-IN).
 
 ## Running the demo
 

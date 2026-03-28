@@ -1,7 +1,7 @@
 {
-  "version": "0.1.0",
-  "source": "CDC milestone checklists (2m-3y) + founder question bank",
-  "clinicalStatus": "hypothesis",
+  "version": "0.2.0",
+  "source": "CDC 2022 revised milestone checklists (Zubler et al., Pediatrics 2022) + AAP developmental surveillance guidelines (Lipkin & Macias, Pediatrics 2020) + founder question bank",
+  "clinicalStatus": "hypothesis-v2-cdc2022-aligned",
   "universalRedFlags": [
     {
       "id": "rf_01",
@@ -27,7 +27,7 @@
       "askWindow": { "minMonths": 0, "maxMonths": 36 },
       "normativeAgeMonths": null,
       "evidenceStrength": "High",
-      "weight": "H",
+      "weight": "RF",
       "escalationRule": "R2",
       "escalationCondition": "Orange if persistent not responding",
       "probes": ["P2", "P5"],
@@ -43,7 +43,7 @@
       "askWindow": { "minMonths": 0, "maxMonths": 36 },
       "normativeAgeMonths": null,
       "evidenceStrength": "Moderate",
-      "weight": "M",
+      "weight": "RF",
       "escalationRule": "R1_R2",
       "escalationCondition": "R1 initially, escalates to R2 if persistent",
       "probes": ["P2", "P3", "P5"],
@@ -59,7 +59,7 @@
       "askWindow": { "minMonths": 0, "maxMonths": 36 },
       "normativeAgeMonths": null,
       "evidenceStrength": "High",
-      "weight": "H",
+      "weight": "RF",
       "escalationRule": "R2",
       "escalationCondition": "R2 if beyond grace period",
       "probes": ["P2", "P5"],
@@ -75,7 +75,7 @@
       "askWindow": { "minMonths": 0, "maxMonths": 36 },
       "normativeAgeMonths": null,
       "evidenceStrength": "High",
-      "weight": "H",
+      "weight": "RF",
       "escalationRule": "R2",
       "escalationCondition": "Orange if persistent absence of declarative pointing",
       "probes": ["P2", "P3"],
@@ -377,7 +377,7 @@
           "subtext": null,
           "tags": ["CP", "VH"],
           "askWindow": { "minMonths": 3, "maxMonths": 6 },
-          "normativeAgeMonths": 4,
+          "normativeAgeMonths": 2,
           "evidenceStrength": "Low",
           "weight": "L",
           "escalationRule": "R1",
@@ -385,7 +385,7 @@
           "probes": ["P2"],
           "actionProfile": "AP-STD",
           "activityId": null,
-          "notes": "Hand regard; early self-discovery and visual-motor awareness."
+          "notes": "Hand regard; CDC 2022 lists at 2 months. Early self-discovery and visual-motor awareness. Retained in 3-5m band as confirmation check."
         },
         {
           "id": "q_3_5m_09",
@@ -546,14 +546,14 @@
           "tags": ["EL"],
           "askWindow": { "minMonths": 6, "maxMonths": 9 },
           "normativeAgeMonths": 6,
-          "evidenceStrength": "Low",
+          "evidenceStrength": "Moderate",
           "weight": "L",
           "escalationRule": "R1",
           "escalationCondition": null,
           "probes": ["P2"],
           "actionProfile": "AP-LANG",
           "activityId": null,
-          "notes": "Labial-lingual motor play; oral motor exploration supporting later articulation."
+          "notes": "Labial-lingual motor play; named in CDC 2022 6-month checklist. Oral motor exploration supporting later articulation."
         },
         {
           "id": "q_6_8m_06",
@@ -666,6 +666,22 @@
           "actionProfile": "AP-MOTOR",
           "activityId": null,
           "notes": "Prop-sitting; transitional stage between supported and independent sitting."
+        },
+        {
+          "id": "q_6_8m_13",
+          "text": "Does baby sit with support or begin to sit without support?",
+          "subtext": null,
+          "tags": ["GM"],
+          "askWindow": { "minMonths": 6, "maxMonths": 9 },
+          "normativeAgeMonths": 6,
+          "evidenceStrength": "High",
+          "weight": "H",
+          "escalationRule": "R2",
+          "escalationCondition": "R2 if beyond grace period",
+          "probes": ["P1", "P2", "P5"],
+          "actionProfile": "AP-MOTOR",
+          "activityId": null,
+          "notes": "Independent sitting; CDC 2022 6-month milestone (75th percentile). Foundational for subsequent motor development."
         }
       ]
     },
@@ -840,8 +856,8 @@
           "text": "Does baby move objects from one hand to the other?",
           "subtext": null,
           "tags": ["FM"],
-          "askWindow": { "minMonths": 9, "maxMonths": 12 },
-          "normativeAgeMonths": 9,
+          "askWindow": { "minMonths": 6, "maxMonths": 12 },
+          "normativeAgeMonths": 6,
           "evidenceStrength": "Moderate",
           "weight": "M",
           "escalationRule": "R1",
@@ -849,7 +865,7 @@
           "probes": ["P1", "P2"],
           "actionProfile": "AP-STD",
           "activityId": null,
-          "notes": "Hand-to-hand transfer; bimanual coordination and emerging hand preference exploration."
+          "notes": "Hand-to-hand transfer; CDC 2022 lists at 6 months. Bimanual coordination and emerging hand preference exploration. Retained in 9-11m band as reinforcement check."
         },
         {
           "id": "q_9_11m_12",
@@ -857,7 +873,7 @@
           "subtext": null,
           "tags": ["FM", "SH"],
           "askWindow": { "minMonths": 9, "maxMonths": 12 },
-          "normativeAgeMonths": 9,
+          "normativeAgeMonths": 7,
           "evidenceStrength": "Moderate",
           "weight": "M",
           "escalationRule": "R1",
@@ -865,15 +881,15 @@
           "probes": ["P1", "P2"],
           "actionProfile": "AP-ADAPT",
           "activityId": null,
-          "notes": "Raking grasp for self-feeding; precursor to refined pincer grasp."
+          "notes": "Raking grasp for self-feeding; typically emerges 6-7 months. Precursor to refined pincer grasp. CDC 2022 aligned."
         },
         {
           "id": "q_9_11m_13",
           "text": "Can baby sit without support?",
           "subtext": null,
           "tags": ["GM"],
-          "askWindow": { "minMonths": 9, "maxMonths": 12 },
-          "normativeAgeMonths": 9,
+          "askWindow": { "minMonths": 6, "maxMonths": 12 },
+          "normativeAgeMonths": 6,
           "evidenceStrength": "High",
           "weight": "H",
           "escalationRule": "R2",
@@ -881,7 +897,23 @@
           "probes": ["P2", "P5"],
           "actionProfile": "AP-MOTOR",
           "activityId": null,
-          "notes": "Independent sitting; typically achieved 6-8 months, consolidates through this band."
+          "notes": "Independent sitting; CDC 2022 lists at 6 months (75th percentile). Absence beyond 8 months warrants motor evaluation. Retained in 9-11m band as confirmation check."
+        },
+        {
+          "id": "q_9_11m_14",
+          "text": "Does baby use finger and thumb to pick up small things?",
+          "subtext": "Like a piece of food between thumb and pointing finger.",
+          "tags": ["FM"],
+          "askWindow": { "minMonths": 9, "maxMonths": 12 },
+          "normativeAgeMonths": 9,
+          "evidenceStrength": "High",
+          "weight": "H",
+          "escalationRule": "R2",
+          "escalationCondition": "R2 if absent beyond 12 months",
+          "probes": ["P1", "P2"],
+          "actionProfile": "AP-MOTOR",
+          "activityId": null,
+          "notes": "Pincer grasp (finger-thumb opposition); CDC 2022 9-month milestone. Critical fine motor milestone absent from v0.1. Absence beyond 12 months warrants fine motor evaluation."
         }
       ]
     },
@@ -992,8 +1024,8 @@
           "text": "Does your child pull to stand?",
           "subtext": null,
           "tags": ["GM"],
-          "askWindow": { "minMonths": 12, "maxMonths": 15 },
-          "normativeAgeMonths": 12,
+          "askWindow": { "minMonths": 9, "maxMonths": 15 },
+          "normativeAgeMonths": 9,
           "evidenceStrength": "High",
           "weight": "H",
           "escalationRule": "R2",
@@ -1001,7 +1033,7 @@
           "probes": ["P1", "P2"],
           "actionProfile": "AP-MOTOR",
           "activityId": null,
-          "notes": "Pull-to-stand is a key 12-month motor milestone; precursor to independent standing and walking."
+          "notes": "Pull-to-stand; CDC 2022 lists at 9 months (75th percentile). Absence beyond 12 months warrants motor evaluation."
         },
         {
           "id": "q_12_14m_08",
@@ -1777,7 +1809,7 @@
           "subtext": null,
           "tags": ["EL"],
           "askWindow": { "minMonths": 24, "maxMonths": 30 },
-          "normativeAgeMonths": 24,
+          "normativeAgeMonths": 30,
           "evidenceStrength": "Moderate",
           "weight": "M",
           "escalationRule": "R1",
@@ -1785,7 +1817,7 @@
           "probes": ["P2", "P3"],
           "actionProfile": "AP-LANG",
           "activityId": null,
-          "notes": "Personal pronoun use; self-referential language and emerging self-concept."
+          "notes": "Personal pronoun use; CDC 2022 places at 30 months (75th percentile). Self-referential language and emerging self-concept."
         },
         {
           "id": "q_24_29m_06",
@@ -1841,7 +1873,7 @@
           "subtext": "For example: can they point to something red when asked?",
           "tags": ["RL", "CP"],
           "askWindow": { "minMonths": 24, "maxMonths": 30 },
-          "normativeAgeMonths": 24,
+          "normativeAgeMonths": 33,
           "evidenceStrength": "Moderate",
           "weight": "M",
           "escalationRule": "R1",
@@ -1849,7 +1881,7 @@
           "probes": ["P1", "P2"],
           "actionProfile": "AP-STD",
           "activityId": null,
-          "notes": "Colour concept acquisition; categorical perception and vocabulary development."
+          "notes": "Colour concept acquisition; CDC 2022 places colour knowledge at 36 months. normativeAge set to 33 months to allow appropriate grace window. Categorical perception and vocabulary development."
         },
         {
           "id": "q_24_29m_10",
@@ -2073,7 +2105,7 @@
           "subtext": null,
           "tags": ["FM", "CP"],
           "askWindow": { "minMonths": 30, "maxMonths": 36 },
-          "normativeAgeMonths": 30,
+          "normativeAgeMonths": 36,
           "evidenceStrength": "Moderate",
           "weight": "M",
           "escalationRule": "R1",
@@ -2081,7 +2113,7 @@
           "probes": ["P1", "P2"],
           "actionProfile": "AP-STD",
           "activityId": null,
-          "notes": "Imitative circle drawing; visual-motor integration and copy-from-model skill."
+          "notes": "Imitative circle drawing; CDC 2022 places at 36 months (75th percentile). Visual-motor integration and copy-from-model skill."
         },
         {
           "id": "q_30_36m_10",

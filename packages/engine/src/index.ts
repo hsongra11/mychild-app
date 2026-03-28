@@ -315,6 +315,49 @@ export function evaluate(
 
   const questionResults: QuestionResult[] = Array.from(resultMap.values());
 
+  // 3b. Detect regressions: a question previously answered "achieved" that is
+  //     now answered "not_yet" indicates a possible regression.
+  const answersByQuestion = new Map<string, AnswerEvent[]>();
+  for (const a of answers) {
+    const arr = answersByQuestion.get(a.questionId);
+    if (arr) {
+      arr.push(a);
+    } else {
+      answersByQuestion.set(a.questionId, [a]);
+    }
+  }
+
+  for (const qr of questionResults) {
+    const history = answersByQuestion.get(qr.questionId);
+    if (!history || history.length < 2) continue;
+
+    // Sort by timestamp ascending
+    const sorted = [...history].sort(
+      (a, b) => a.timestamp.getTime() - b.timestamp.getTime(),
+    );
+
+    const latest = sorted[sorted.length - 1];
+    if (latest.answer !== 'not_yet') continue;
+
+    // Check if any earlier answer was "achieved"
+    const hadAchieved = sorted
+      .slice(0, -1)
+      .some((a) => a.answer === 'achieved');
+
+    if (hadAchieved) {
+      qr.regressionDetected = true;
+      // Escalate severity to at least "warning"
+      const severityLevel = SEVERITY_LEVEL_ORDER[qr.severity] ?? 0;
+      if (severityLevel < SEVERITY_LEVEL_ORDER.warning) {
+        qr.severity = 'warning';
+        qr.explanation =
+          qr.explanation +
+          ' NOTE: This milestone was previously achieved but is now reported as "not yet" — ' +
+          'this regression pattern warrants closer attention.';
+      }
+    }
+  }
+
   // 4. Score domains (excluding RF domain — it's handled via question severity)
   const domains = scoreAllDomains(
     questionResults,
@@ -435,3 +478,17 @@ export {
   resolveProbeDefinitions,
 } from './probes.js';
 export type { ProbeDefinition } from './probes.js';
+
+// ---------------------------------------------------------------------------
+// Re-exports — i18n
+// ---------------------------------------------------------------------------
+
+export { translationRegistry, TranslationRegistry } from './i18n.js';
+export type { Locale, TranslatedQuestion, TranslationBundle } from './i18n.js';
+
+// ---------------------------------------------------------------------------
+// Re-exports — TTS
+// ---------------------------------------------------------------------------
+
+export { createTTSProvider, WebSpeechTTSProvider, NoopTTSProvider } from './tts.js';
+export type { TTSOptions, TTSProvider } from './tts.js';
