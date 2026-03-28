@@ -40,6 +40,12 @@ export type DomainStatus =
 
 export type Confidence = 'high' | 'medium' | 'low';
 
+export interface QuestionCitation {
+  source: string;
+  reference: string;
+  normativeBasis: string;
+}
+
 export interface Question {
   id: string;
   text: string;
@@ -55,6 +61,7 @@ export interface Question {
   actionProfile: ActionProfileType;
   activityId: string | null;
   notes: string;
+  citation?: QuestionCitation;
 }
 
 export interface AgeResult {

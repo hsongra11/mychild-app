@@ -1,0 +1,6659 @@
+{
+  "profileResults": [
+    {
+      "profileId": "typical_band_1",
+      "profileName": "Typical development at 2 months",
+      "category": "typical",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "typical_band_2",
+      "profileName": "Typical development at 4 months",
+      "category": "typical",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "typical_band_3",
+      "profileName": "Typical development at 6 months",
+      "category": "typical",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "typical_band_4",
+      "profileName": "Typical development at 9 months",
+      "category": "typical",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "typical_band_5",
+      "profileName": "Typical development at 12 months",
+      "category": "typical",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "typical_band_6",
+      "profileName": "Typical development at 15 months",
+      "category": "typical",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "typical_band_7",
+      "profileName": "Typical development at 18 months",
+      "category": "typical",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "typical_band_8",
+      "profileName": "Typical development at 21 months",
+      "category": "typical",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "typical_band_9",
+      "profileName": "Typical development at 24 months",
+      "category": "typical",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "typical_band_10",
+      "profileName": "Typical development at 30 months",
+      "category": "typical",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "typical_preterm_32w",
+      "profileName": "Typical preterm (32 weeks) at 6 months",
+      "category": "typical",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "typical_preterm_34w",
+      "profileName": "Typical preterm (34 weeks) at 6 months",
+      "category": "typical",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "typical_preterm_36w",
+      "profileName": "Typical preterm (36 weeks) at 6 months",
+      "category": "typical",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "typical_sparse_1",
+      "profileName": "Typical sparse answers at 2 months",
+      "category": "typical",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "typical_sparse_2",
+      "profileName": "Typical sparse answers at 6 months",
+      "category": "typical",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "typical_sparse_3",
+      "profileName": "Typical sparse answers at 12 months",
+      "category": "typical",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "typical_sparse_4",
+      "profileName": "Typical sparse answers at 18 months",
+      "category": "typical",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "typical_sparse_5",
+      "profileName": "Typical sparse answers at 24 months",
+      "category": "typical",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "speech_delay_1",
+      "profileName": "Speech delay at 9 months",
+      "category": "speech_delay",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "speech_delay_2",
+      "profileName": "Speech delay at 12 months",
+      "category": "speech_delay",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "speech_delay_3",
+      "profileName": "Speech delay at 15 months",
+      "category": "speech_delay",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "speech_delay_4",
+      "profileName": "Speech delay at 18 months",
+      "category": "speech_delay",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "speech_delay_5",
+      "profileName": "Speech delay at 21 months",
+      "category": "speech_delay",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "speech_delay_6",
+      "profileName": "Speech delay at 24 months",
+      "category": "speech_delay",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "speech_delay_7",
+      "profileName": "Speech delay at 30 months",
+      "category": "speech_delay",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "speech_receptive_delay_18m",
+      "profileName": "Receptive + expressive delay at 18 months",
+      "category": "speech_delay",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "speech_receptive_delay_24m",
+      "profileName": "Receptive + expressive delay at 24 months",
+      "category": "speech_delay",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "motor_delay_gm_6m",
+      "profileName": "Gross motor delay at 6 months",
+      "category": "motor_delay",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "motor_delay_gm_9m",
+      "profileName": "Gross motor delay at 9 months",
+      "category": "motor_delay",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "motor_delay_gm_12m",
+      "profileName": "Gross motor delay at 12 months",
+      "category": "motor_delay",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "motor_delay_gm_15m",
+      "profileName": "Gross motor delay at 15 months",
+      "category": "motor_delay",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "motor_delay_gm_18m",
+      "profileName": "Gross motor delay at 18 months",
+      "category": "motor_delay",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "motor_delay_gm_24m",
+      "profileName": "Gross motor delay at 24 months",
+      "category": "motor_delay",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "motor_delay_fm_9m",
+      "profileName": "Fine motor delay at 9 months",
+      "category": "motor_delay",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "motor_delay_fm_12m",
+      "profileName": "Fine motor delay at 12 months",
+      "category": "motor_delay",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "motor_delay_fm_18m",
+      "profileName": "Fine motor delay at 18 months",
+      "category": "motor_delay",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "motor_delay_fm_24m",
+      "profileName": "Fine motor delay at 24 months",
+      "category": "motor_delay",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "global_delay_6m",
+      "profileName": "Global delay at 6 months",
+      "category": "global_delay",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "global_delay_9m",
+      "profileName": "Global delay at 9 months",
+      "category": "global_delay",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "global_delay_12m",
+      "profileName": "Global delay at 12 months",
+      "category": "global_delay",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "global_delay_18m",
+      "profileName": "Global delay at 18 months",
+      "category": "global_delay",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "global_delay_24m",
+      "profileName": "Global delay at 24 months",
+      "category": "global_delay",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "global_delay_30m",
+      "profileName": "Global delay at 30 months",
+      "category": "global_delay",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "regression_lang_18m",
+      "profileName": "Language regression at 18 months",
+      "category": "mixed_regression",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "regression_lang_24m",
+      "profileName": "Language regression at 24 months",
+      "category": "mixed_regression",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "regression_lang_30m",
+      "profileName": "Language regression at 30 months",
+      "category": "mixed_regression",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "regression_motor_12m",
+      "profileName": "Motor regression at 12 months",
+      "category": "mixed_regression",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "regression_motor_18m",
+      "profileName": "Motor regression at 18 months",
+      "category": "mixed_regression",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "regression_social_24m",
+      "profileName": "Social regression at 24 months",
+      "category": "mixed_regression",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "mixed_gm_el_9m",
+      "profileName": "Motor + language delay at 9 months",
+      "category": "global_delay",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "mixed_gm_el_12m",
+      "profileName": "Motor + language delay at 12 months",
+      "category": "global_delay",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "mixed_gm_el_18m",
+      "profileName": "Motor + language delay at 18 months",
+      "category": "global_delay",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "mixed_gm_el_24m",
+      "profileName": "Motor + language delay at 24 months",
+      "category": "global_delay",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "se_delay_6m",
+      "profileName": "Social-emotional delay at 6 months",
+      "category": "speech_delay",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "se_delay_9m",
+      "profileName": "Social-emotional delay at 9 months",
+      "category": "speech_delay",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "se_delay_12m",
+      "profileName": "Social-emotional delay at 12 months",
+      "category": "speech_delay",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "se_delay_18m",
+      "profileName": "Social-emotional delay at 18 months",
+      "category": "speech_delay",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "se_delay_24m",
+      "profileName": "Social-emotional delay at 24 months",
+      "category": "speech_delay",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "cp_delay_9m",
+      "profileName": "Cognitive delay at 9 months",
+      "category": "global_delay",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "cp_delay_12m",
+      "profileName": "Cognitive delay at 12 months",
+      "category": "global_delay",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "cp_delay_18m",
+      "profileName": "Cognitive delay at 18 months",
+      "category": "global_delay",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "cp_delay_24m",
+      "profileName": "Cognitive delay at 24 months",
+      "category": "global_delay",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "sh_delay_18m",
+      "profileName": "Self-help delay at 18 months",
+      "category": "global_delay",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "sh_delay_24m",
+      "profileName": "Self-help delay at 24 months",
+      "category": "global_delay",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "sh_delay_30m",
+      "profileName": "Self-help delay at 30 months",
+      "category": "global_delay",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "typical_allrf_3m",
+      "profileName": "Typical with all red flags clear at 3 months",
+      "category": "typical",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "typical_allrf_6m",
+      "profileName": "Typical with all red flags clear at 6 months",
+      "category": "typical",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "typical_allrf_12m",
+      "profileName": "Typical with all red flags clear at 12 months",
+      "category": "typical",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "typical_allrf_18m",
+      "profileName": "Typical with all red flags clear at 18 months",
+      "category": "typical",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "typical_allrf_24m",
+      "profileName": "Typical with all red flags clear at 24 months",
+      "category": "typical",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "redflag_rf01_3m",
+      "profileName": "Red flag rf_01 triggered at 3 months",
+      "category": "mixed_regression",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "redflag_rf01_6m",
+      "profileName": "Red flag rf_01 triggered at 6 months",
+      "category": "mixed_regression",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "redflag_rf01_9m",
+      "profileName": "Red flag rf_01 triggered at 9 months",
+      "category": "mixed_regression",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "redflag_rf01_12m",
+      "profileName": "Red flag rf_01 triggered at 12 months",
+      "category": "mixed_regression",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "redflag_rf01_18m",
+      "profileName": "Red flag rf_01 triggered at 18 months",
+      "category": "mixed_regression",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "redflag_rf01_24m",
+      "profileName": "Red flag rf_01 triggered at 24 months",
+      "category": "mixed_regression",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "vh_concern_3m",
+      "profileName": "Vision/hearing concern at 3 months",
+      "category": "global_delay",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "watch",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "vh_concern_6m",
+      "profileName": "Vision/hearing concern at 6 months",
+      "category": "global_delay",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "vh_concern_12m",
+      "profileName": "Vision/hearing concern at 12 months",
+      "category": "global_delay",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "typical_unsure_4m",
+      "profileName": "Typical with unsure answers at 4 months",
+      "category": "typical",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "typical_unsure_9m",
+      "profileName": "Typical with unsure answers at 9 months",
+      "category": "typical",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "typical_unsure_15m",
+      "profileName": "Typical with unsure answers at 15 months",
+      "category": "typical",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "typical_unsure_24m",
+      "profileName": "Typical with unsure answers at 24 months",
+      "category": "typical",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "preterm_delay_30w_6m",
+      "profileName": "Preterm (30w) motor delay at 6 months",
+      "category": "motor_delay",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "moderate_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "preterm_delay_30w_12m",
+      "profileName": "Preterm (30w) motor delay at 12 months",
+      "category": "motor_delay",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "preterm_delay_32w_6m",
+      "profileName": "Preterm (32w) motor delay at 6 months",
+      "category": "motor_delay",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "preterm_delay_32w_12m",
+      "profileName": "Preterm (32w) motor delay at 12 months",
+      "category": "motor_delay",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "preterm_delay_34w_6m",
+      "profileName": "Preterm (34w) motor delay at 6 months",
+      "category": "motor_delay",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "preterm_delay_34w_12m",
+      "profileName": "Preterm (34w) motor delay at 12 months",
+      "category": "motor_delay",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "isolated_rl_12m",
+      "profileName": "Isolated Receptive Language delay at 12 months",
+      "category": "speech_delay",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "isolated_rl_18m",
+      "profileName": "Isolated Receptive Language delay at 18 months",
+      "category": "speech_delay",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "isolated_rl_24m",
+      "profileName": "Isolated Receptive Language delay at 24 months",
+      "category": "speech_delay",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "isolated_sh_12m",
+      "profileName": "Isolated Self-Help delay at 12 months",
+      "category": "speech_delay",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "isolated_sh_18m",
+      "profileName": "Isolated Self-Help delay at 18 months",
+      "category": "speech_delay",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "isolated_sh_24m",
+      "profileName": "Isolated Self-Help delay at 24 months",
+      "category": "speech_delay",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "late_bloomer_4m",
+      "profileName": "Late bloomer at 4 months",
+      "category": "typical",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "late_bloomer_9m",
+      "profileName": "Late bloomer at 9 months",
+      "category": "typical",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "late_bloomer_15m",
+      "profileName": "Late bloomer at 15 months",
+      "category": "typical",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "late_bloomer_24m",
+      "profileName": "Late bloomer at 24 months",
+      "category": "typical",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "multi_regression_el_se_24m",
+      "profileName": "Multi-domain regression at 24 months",
+      "category": "mixed_regression",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "SE",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "CP",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "report": {
+    "timestamp": "2026-03-28T13:36:16.392Z",
+    "engineVersion": "0.2.0",
+    "profileCount": 100,
+    "globalMetrics": {
+      "sensitivity": 1,
+      "specificity": 1,
+      "ppv": 1,
+      "npv": 1,
+      "accuracy": 1,
+      "prevalence": 0.2175,
+      "n": 800,
+      "sensitivityCI": [
+        0.97839875484701,
+        1
+      ],
+      "specificityCI": [
+        0.9939006886810904,
+        0.9999999999999998
+      ],
+      "ppvCI": [
+        0.97839875484701,
+        1
+      ],
+      "npvCI": [
+        0.9939006886810904,
+        0.9999999999999998
+      ],
+      "kappa": 1,
+      "kappaCI": [
+        1,
+        1
+      ]
+    },
+    "domainMetrics": [
+      {
+        "domain": "Gross Motor",
+        "confusionMatrix": {
+          "tp": 24,
+          "fp": 0,
+          "tn": 76,
+          "fn": 0
+        },
+        "metrics": {
+          "sensitivity": 1,
+          "specificity": 1,
+          "ppv": 1,
+          "npv": 1,
+          "accuracy": 1,
+          "prevalence": 0.24,
+          "n": 100,
+          "sensitivityCI": [
+            0.8620194241710247,
+            1
+          ],
+          "specificityCI": [
+            0.9518847317689024,
+            1
+          ],
+          "ppvCI": [
+            0.8620194241710247,
+            1
+          ],
+          "npvCI": [
+            0.9518847317689024,
+            1
+          ],
+          "kappa": 1,
+          "kappaCI": [
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "domain": "Fine Motor",
+        "confusionMatrix": {
+          "tp": 14,
+          "fp": 0,
+          "tn": 86,
+          "fn": 0
+        },
+        "metrics": {
+          "sensitivity": 1,
+          "specificity": 1,
+          "ppv": 1,
+          "npv": 1,
+          "accuracy": 1,
+          "prevalence": 0.14,
+          "n": 100,
+          "sensitivityCI": [
+            0.7846829880728186,
+            1
+          ],
+          "specificityCI": [
+            0.9572402984808818,
+            1
+          ],
+          "ppvCI": [
+            0.7846829880728186,
+            1
+          ],
+          "npvCI": [
+            0.9572402984808818,
+            1
+          ],
+          "kappa": 1,
+          "kappaCI": [
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "domain": "Receptive Language",
+        "confusionMatrix": {
+          "tp": 18,
+          "fp": 0,
+          "tn": 82,
+          "fn": 0
+        },
+        "metrics": {
+          "sensitivity": 1,
+          "specificity": 1,
+          "ppv": 1,
+          "npv": 1,
+          "accuracy": 1,
+          "prevalence": 0.18,
+          "n": 100,
+          "sensitivityCI": [
+            0.8241154494176252,
+            1
+          ],
+          "specificityCI": [
+            0.9552478052599206,
+            1
+          ],
+          "ppvCI": [
+            0.8241154494176252,
+            1
+          ],
+          "npvCI": [
+            0.9552478052599206,
+            1
+          ],
+          "kappa": 1,
+          "kappaCI": [
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "domain": "Expressive Language",
+        "confusionMatrix": {
+          "tp": 29,
+          "fp": 0,
+          "tn": 71,
+          "fn": 0
+        },
+        "metrics": {
+          "sensitivity": 1,
+          "specificity": 1,
+          "ppv": 1,
+          "npv": 1,
+          "accuracy": 1,
+          "prevalence": 0.29,
+          "n": 100,
+          "sensitivityCI": [
+            0.8830264055344442,
+            1
+          ],
+          "specificityCI": [
+            0.9486702582520952,
+            1
+          ],
+          "ppvCI": [
+            0.8830264055344442,
+            1
+          ],
+          "npvCI": [
+            0.9486702582520952,
+            1
+          ],
+          "kappa": 1,
+          "kappaCI": [
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "domain": "Social-Emotional",
+        "confusionMatrix": {
+          "tp": 34,
+          "fp": 0,
+          "tn": 66,
+          "fn": 0
+        },
+        "metrics": {
+          "sensitivity": 1,
+          "specificity": 1,
+          "ppv": 1,
+          "npv": 1,
+          "accuracy": 1,
+          "prevalence": 0.34,
+          "n": 100,
+          "sensitivityCI": [
+            0.8984820937803899,
+            1
+          ],
+          "specificityCI": [
+            0.9449955327483907,
+            1
+          ],
+          "ppvCI": [
+            0.8984820937803899,
+            1
+          ],
+          "npvCI": [
+            0.9449955327483907,
+            1
+          ],
+          "kappa": 1,
+          "kappaCI": [
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "domain": "Cognitive / Play",
+        "confusionMatrix": {
+          "tp": 22,
+          "fp": 0,
+          "tn": 78,
+          "fn": 0
+        },
+        "metrics": {
+          "sensitivity": 1,
+          "specificity": 1,
+          "ppv": 1,
+          "npv": 1,
+          "accuracy": 1,
+          "prevalence": 0.22,
+          "n": 100,
+          "sensitivityCI": [
+            0.8513404742740388,
+            1
+          ],
+          "specificityCI": [
+            0.9530605462258802,
+            1
+          ],
+          "ppvCI": [
+            0.8513404742740388,
+            1
+          ],
+          "npvCI": [
+            0.9530605462258802,
+            1
+          ],
+          "kappa": 1,
+          "kappaCI": [
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "domain": "Self-Help / Adaptive",
+        "confusionMatrix": {
+          "tp": 10,
+          "fp": 0,
+          "tn": 90,
+          "fn": 0
+        },
+        "metrics": {
+          "sensitivity": 1,
+          "specificity": 1,
+          "ppv": 1,
+          "npv": 1,
+          "accuracy": 1,
+          "prevalence": 0.1,
+          "n": 100,
+          "sensitivityCI": [
+            0.7224598312333834,
+            1
+          ],
+          "specificityCI": [
+            0.959062931578319,
+            0.9999999999999998
+          ],
+          "ppvCI": [
+            0.7224598312333834,
+            1
+          ],
+          "npvCI": [
+            0.959062931578319,
+            0.9999999999999998
+          ],
+          "kappa": 1,
+          "kappaCI": [
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "domain": "Vision / Hearing",
+        "confusionMatrix": {
+          "tp": 23,
+          "fp": 0,
+          "tn": 77,
+          "fn": 0
+        },
+        "metrics": {
+          "sensitivity": 1,
+          "specificity": 1,
+          "ppv": 1,
+          "npv": 1,
+          "accuracy": 1,
+          "prevalence": 0.23,
+          "n": 100,
+          "sensitivityCI": [
+            0.8568788745827373,
+            1
+          ],
+          "specificityCI": [
+            0.9524799113327792,
+            1
+          ],
+          "ppvCI": [
+            0.8568788745827373,
+            1
+          ],
+          "npvCI": [
+            0.9524799113327792,
+            1
+          ],
+          "kappa": 1,
+          "kappaCI": [
+            1,
+            1
+          ]
+        }
+      }
+    ],
+    "abstentions": {
+      "total": 478,
+      "correctlyNegative": 478,
+      "incorrectlyNegative": 0
+    },
+    "disclaimer": "Synthetic Scenario Verification — this study measures whether the engine produces expected outputs for known developmental trajectories. It does NOT measure sensitivity/specificity against a clinical gold standard."
+  }
+}

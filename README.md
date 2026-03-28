@@ -186,18 +186,26 @@ The question bank at `packages/engine/data/question-bank.json` contains 131 ques
 | 30-36 months | 131-156 weeks | 13 |
 | Universal red flags | All ages | 5 |
 
-## Clinical validation status
+## Evidence basis
 
-All thresholds in this engine are **hypothesis-level** (Ruleset v0.2, CDC 2022 aligned). They are derived from:
-- **CDC 2022 revised "Learn the Signs. Act Early." milestone checklists** (Zubler et al., *Pediatrics* 2022) — shifted to 75th percentile standard
-- **AAP developmental surveillance guidelines** (Lipkin & Macias, *Pediatrics* 2020)
-- Founder clinical research and domain expertise
+This engine's question bank and scoring logic are grounded in peer-reviewed developmental science:
 
-They have **not** undergone:
-- Retrospective simulation against clinical datasets
-- Prospective pilot with clinical adjudication
-- Formal sensitivity/specificity analysis
-- Regulatory review of any kind
+1. **Zubler JM, et al.** "Evidence-Informed Milestones for Developmental Surveillance Tools." *Pediatrics*. 2022;149(3):e2021052138. — The CDC 2022 revised milestones shifted from the 50th to the 75th percentile standard. Each milestone listed is one that 75% of children would be expected to achieve by the given age.
+2. **Lipkin PH, Macias MM.** "Promoting Optimal Development: Identifying Infants and Young Children With Developmental Disorders Through Developmental Surveillance and Screening." *Pediatrics*. 2020;145(1):e20193449. — AAP policy statement on developmental surveillance and screening.
+3. **CDC "Learn the Signs. Act Early."** milestone checklists (public domain) — the primary source for the question bank's caregiver-facing wording.
+
+### Synthetic scenario verification
+
+The engine includes a built-in verification pipeline that runs 100 synthetic developmental profiles (typical development, speech delay, motor delay, global delay, regression patterns) through the full scoring logic and measures concordance with expected outcomes across all 8 developmental domains. This is **software verification**, not clinical validation. It demonstrates that the engine behaves predictably and consistently across known developmental trajectories.
+
+Run it yourself:
+```bash
+npx mychild-engine validate --profiles data/synthetic-profiles.json --format markdown
+```
+
+### Clinical validation status
+
+All thresholds in this engine are **hypothesis-level** (Ruleset v0.2, CDC 2022 aligned). They have **not** undergone clinical validation (prospective pilot, sensitivity/specificity against a clinical gold standard, or regulatory review). The synthetic scenario verification above demonstrates engine behavior, not clinical accuracy.
 
 If you are a clinician or researcher interested in validating these thresholds, please open an issue. Contributions from the clinical community are welcome and encouraged.
 
