@@ -158,10 +158,16 @@ export function scoreDomain(
   let status: DomainStatus;
   let explanation: string;
 
+  // CDC 2022 (Zubler et al.): loss of previously acquired skills is a clinical
+  // red flag requiring immediate evaluation, regardless of data completeness.
+  // AAP (Lipkin & Macias 2020): skill regression is one of the most concerning
+  // developmental patterns and should always trigger follow-up.
+  const hasRegression = questionResults.some((qr) => qr.regressionDetected);
+
   // Evidence sufficiency gate: if fewer than 2 answered observations, we can
   // only report 'insufficient_evidence' UNLESS there is a critical milestone miss
-  // (flag), which bypasses the gate.
-  if (answeredCount < 2 && !criticalMilestoneMissed) {
+  // (flag) or regression, which bypasses the gate.
+  if (answeredCount < 2 && !criticalMilestoneMissed && !hasRegression) {
     status = 'insufficient_evidence';
     explanation =
       `Not enough observations to assess ${displayName} reliably. ` +
@@ -205,6 +211,19 @@ export function scoreDomain(
   } else {
     status = 'normal';
     explanation = `${displayName} is progressing as expected.`;
+  }
+
+  // CDC 2022 (Zubler et al.): loss of previously acquired skills is one of the
+  // strongest indicators of developmental concern and warrants immediate
+  // clinical evaluation, regardless of how many observations are available.
+  // AAP (Lipkin & Macias 2020): regression should always trigger at minimum
+  // a moderate_concern classification to ensure clinical follow-up.
+  if (hasRegression && status !== 'high_concern') {
+    status = 'moderate_concern';
+    explanation =
+      `${displayName} shows regression: a previously achieved milestone is now ` +
+      `reported as "not yet." Skill loss is a significant clinical concern — ` +
+      `please discuss with your child's doctor promptly.`;
   }
 
   return {
