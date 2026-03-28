@@ -167,10 +167,26 @@ export function scoreDomain(
       `Not enough observations to assess ${displayName} reliably. ` +
       `Please answer at least 2 questions in this domain.`;
   } else if (flagCount >= 1 || criticalMilestoneMissed) {
-    status = 'high_concern';
-    explanation =
-      `${displayName} has ${flagCount} flagged milestone(s) that are significantly overdue. ` +
-      `Prompt discussion with a clinician is recommended.`;
+    // Glascoe 2005: a single flagged milestone in a domain where other
+    // milestones are achieved represents an isolated delay, not a pattern of
+    // domain-wide concern. Downgrade to low_concern (monitor) when the
+    // majority of observations are normal.
+    // AAP (Lipkin & Macias 2020): isolated delays warrant continued
+    // monitoring and re-evaluation, not immediate high-concern classification.
+    const normalCount = questionResults.filter(
+      (qr) => qr.severity === 'normal',
+    ).length;
+    if (flagCount === 1 && normalCount >= 1) {
+      status = 'low_concern';
+      explanation =
+        `${displayName} has 1 flagged milestone but ${normalCount} other milestone(s) achieved. ` +
+        `This appears to be an isolated delay — continue monitoring and re-check soon.`;
+    } else {
+      status = 'high_concern';
+      explanation =
+        `${displayName} has ${flagCount} flagged milestone(s) that are significantly overdue. ` +
+        `Prompt discussion with a clinician is recommended.`;
+    }
   } else if (warningCount >= 2 || (warningCount >= 1 && streakMissed >= 2)) {
     status = 'moderate_concern';
     explanation =
