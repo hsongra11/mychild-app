@@ -447,6 +447,7 @@ export type {
   EscalationRule,
   EvidenceStrength,
   ActionProfileType,
+  QuestionCitation,
 } from './types.js';
 
 // ---------------------------------------------------------------------------
@@ -492,3 +493,38 @@ export type { Locale, TranslatedQuestion, TranslationBundle } from './i18n.js';
 
 export { createTTSProvider, WebSpeechTTSProvider, NoopTTSProvider } from './tts.js';
 export type { TTSOptions, TTSProvider } from './tts.js';
+
+// ---------------------------------------------------------------------------
+// Re-exports — validation
+// ---------------------------------------------------------------------------
+
+export {
+  validateProfile,
+  runValidation,
+  runValidationReport,
+  runValidationJSON,
+  classifyDomainStatus,
+} from './validation.js';
+export type {
+  ValidationProfile,
+  GroundTruthLabel,
+  ProfileValidationResult,
+} from './validation.js';
+
+export { generateProfiles, generateProfilesJSON } from './profile-generator.js';
+
+export {
+  computeBinaryMetrics,
+  computeMetricsWithCI,
+  wilsonCI,
+  cohensKappa,
+  formatMetrics,
+  formatReport,
+} from './statistics.js';
+export type {
+  ConfusionMatrix,
+  BinaryMetrics,
+  MetricsWithCI,
+  DomainMetrics,
+  ValidationReport,
+} from './statistics.js';

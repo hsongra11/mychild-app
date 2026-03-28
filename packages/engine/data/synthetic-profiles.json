@@ -1,0 +1,6836 @@
+[
+  {
+    "id": "typical_band_1",
+    "name": "Typical development at 2 months",
+    "description": "All milestones achieved on time through 2 months",
+    "category": "typical",
+    "child": {
+      "dob": "2025-10-15"
+    },
+    "events": [
+      {
+        "weekOffset": 0,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 0,
+        "questionId": "rf_02",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 0,
+        "questionId": "rf_03",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 0,
+        "questionId": "rf_04",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 0,
+        "questionId": "rf_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_01",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_02",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_03",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_04",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_06",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_07",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_08",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_09",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_10",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_3_5m_08",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 13,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 13,
+        "questionId": "rf_02",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "typical_band_2",
+    "name": "Typical development at 4 months",
+    "description": "All milestones achieved on time through 4 months",
+    "category": "typical",
+    "child": {
+      "dob": "2025-08-15"
+    },
+    "events": [
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_01",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_02",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_03",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_04",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_06",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_07",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_09",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_10",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_11",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_12",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_13",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 22,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 22,
+        "questionId": "rf_02",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "typical_band_3",
+    "name": "Typical development at 6 months",
+    "description": "All milestones achieved on time through 6 months",
+    "category": "typical",
+    "child": {
+      "dob": "2025-05-16"
+    },
+    "events": [
+      {
+        "weekOffset": 26,
+        "questionId": "q_6_8m_01",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "q_6_8m_02",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "q_6_8m_03",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "q_6_8m_04",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "q_6_8m_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "q_6_8m_06",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "q_6_8m_07",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "q_6_8m_08",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "q_6_8m_09",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "q_6_8m_10",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "q_6_8m_11",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "q_6_8m_12",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "q_6_8m_13",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "q_9_11m_11",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 30,
+        "questionId": "q_9_11m_12",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "q_9_11m_13",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 35,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 35,
+        "questionId": "rf_02",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "typical_band_4",
+    "name": "Typical development at 9 months",
+    "description": "All milestones achieved on time through 9 months",
+    "category": "typical",
+    "child": {
+      "dob": "2025-02-14"
+    },
+    "events": [
+      {
+        "weekOffset": 39,
+        "questionId": "q_9_11m_01",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "q_9_11m_02",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "q_9_11m_03",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "q_9_11m_04",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "q_9_11m_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "q_9_11m_06",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "q_9_11m_07",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "q_9_11m_08",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "q_9_11m_09",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "q_9_11m_10",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "q_9_11m_14",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "q_12_14m_07",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 48,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 48,
+        "questionId": "rf_02",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "typical_band_5",
+    "name": "Typical development at 12 months",
+    "description": "All milestones achieved on time through 12 months",
+    "category": "typical",
+    "child": {
+      "dob": "2024-11-14"
+    },
+    "events": [
+      {
+        "weekOffset": 52,
+        "questionId": "q_12_14m_01",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 52,
+        "questionId": "q_12_14m_02",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 52,
+        "questionId": "q_12_14m_03",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 52,
+        "questionId": "q_12_14m_04",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 52,
+        "questionId": "q_12_14m_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 52,
+        "questionId": "q_12_14m_06",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 52,
+        "questionId": "q_12_14m_08",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 61,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 61,
+        "questionId": "rf_02",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "typical_band_6",
+    "name": "Typical development at 15 months",
+    "description": "All milestones achieved on time through 15 months",
+    "category": "typical",
+    "child": {
+      "dob": "2024-08-15"
+    },
+    "events": [
+      {
+        "weekOffset": 65,
+        "questionId": "q_15_17m_01",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_15_17m_02",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_15_17m_03",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_15_17m_04",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_15_17m_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_15_17m_06",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_15_17m_07",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_15_17m_08",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_15_17m_09",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_15_17m_10",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_15_17m_11",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_15_17m_12",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_15_17m_13",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 74,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 74,
+        "questionId": "rf_02",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "typical_band_7",
+    "name": "Typical development at 18 months",
+    "description": "All milestones achieved on time through 18 months",
+    "category": "typical",
+    "child": {
+      "dob": "2024-05-16"
+    },
+    "events": [
+      {
+        "weekOffset": 78,
+        "questionId": "q_18_20m_01",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 78,
+        "questionId": "q_18_20m_02",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 78,
+        "questionId": "q_18_20m_03",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 78,
+        "questionId": "q_18_20m_04",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 78,
+        "questionId": "q_18_20m_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 78,
+        "questionId": "q_18_20m_06",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 78,
+        "questionId": "q_18_20m_07",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 78,
+        "questionId": "q_18_20m_08",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 78,
+        "questionId": "q_18_20m_09",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 78,
+        "questionId": "q_18_20m_10",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 78,
+        "questionId": "q_18_20m_11",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 78,
+        "questionId": "q_18_20m_12",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 78,
+        "questionId": "q_18_20m_13",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 78,
+        "questionId": "q_18_20m_14",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 78,
+        "questionId": "q_18_20m_15",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 87,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 87,
+        "questionId": "rf_02",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "typical_band_8",
+    "name": "Typical development at 21 months",
+    "description": "All milestones achieved on time through 21 months",
+    "category": "typical",
+    "child": {
+      "dob": "2024-02-14"
+    },
+    "events": [
+      {
+        "weekOffset": 91,
+        "questionId": "q_21_23m_01",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_21_23m_02",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_21_23m_03",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_21_23m_04",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_21_23m_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_21_23m_06",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_21_23m_07",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_21_23m_08",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_21_23m_09",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_21_23m_10",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_21_23m_11",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_21_23m_12",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_21_23m_13",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 100,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 100,
+        "questionId": "rf_02",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "typical_band_9",
+    "name": "Typical development at 24 months",
+    "description": "All milestones achieved on time through 24 months",
+    "category": "typical",
+    "child": {
+      "dob": "2023-08-16"
+    },
+    "events": [
+      {
+        "weekOffset": 104,
+        "questionId": "q_24_29m_01",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 104,
+        "questionId": "q_24_29m_02",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 104,
+        "questionId": "q_24_29m_03",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 104,
+        "questionId": "q_24_29m_04",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 104,
+        "questionId": "q_24_29m_06",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 104,
+        "questionId": "q_24_29m_07",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 104,
+        "questionId": "q_24_29m_08",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 104,
+        "questionId": "q_24_29m_10",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 104,
+        "questionId": "q_24_29m_11",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 104,
+        "questionId": "q_24_29m_12",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 104,
+        "questionId": "q_24_29m_13",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 117,
+        "questionId": "q_24_29m_14",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 126,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 126,
+        "questionId": "rf_02",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "typical_band_10",
+    "name": "Typical development at 30 months",
+    "description": "All milestones achieved on time through 30 months",
+    "category": "typical",
+    "child": {
+      "dob": "2023-01-15"
+    },
+    "events": [
+      {
+        "weekOffset": 130,
+        "questionId": "q_24_29m_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 143,
+        "questionId": "q_24_29m_09",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 130,
+        "questionId": "q_30_36m_01",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 130,
+        "questionId": "q_30_36m_02",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 130,
+        "questionId": "q_30_36m_03",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 130,
+        "questionId": "q_30_36m_04",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 130,
+        "questionId": "q_30_36m_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 130,
+        "questionId": "q_30_36m_06",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 130,
+        "questionId": "q_30_36m_07",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 130,
+        "questionId": "q_30_36m_08",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 156,
+        "questionId": "q_30_36m_09",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 130,
+        "questionId": "q_30_36m_10",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 130,
+        "questionId": "q_30_36m_11",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 130,
+        "questionId": "q_30_36m_12",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 130,
+        "questionId": "q_30_36m_13",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 156,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 156,
+        "questionId": "rf_02",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "typical_preterm_32w",
+    "name": "Typical preterm (32 weeks) at 6 months",
+    "description": "Born at 32 weeks, all milestones on corrected-age track",
+    "category": "typical",
+    "child": {
+      "dob": "2025-07-16",
+      "gestationalWeeks": 32
+    },
+    "events": [
+      {
+        "weekOffset": 8,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 8,
+        "questionId": "rf_02",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 8,
+        "questionId": "rf_03",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 8,
+        "questionId": "rf_04",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 8,
+        "questionId": "rf_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_0_2m_01",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_0_2m_02",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_0_2m_03",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_0_2m_04",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_0_2m_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_0_2m_06",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_0_2m_07",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_0_2m_08",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_0_2m_09",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_0_2m_10",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 25,
+        "questionId": "q_3_5m_01",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 25,
+        "questionId": "q_3_5m_02",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 25,
+        "questionId": "q_3_5m_03",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 25,
+        "questionId": "q_3_5m_04",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 25,
+        "questionId": "q_3_5m_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 25,
+        "questionId": "q_3_5m_06",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 25,
+        "questionId": "q_3_5m_07",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_08",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 25,
+        "questionId": "q_3_5m_09",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 25,
+        "questionId": "q_3_5m_10",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 25,
+        "questionId": "q_3_5m_11",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 25,
+        "questionId": "q_3_5m_12",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 25,
+        "questionId": "q_3_5m_13",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "rf_02",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "typical_preterm_34w",
+    "name": "Typical preterm (34 weeks) at 6 months",
+    "description": "Born at 34 weeks, all milestones on corrected-age track",
+    "category": "typical",
+    "child": {
+      "dob": "2025-07-16",
+      "gestationalWeeks": 34
+    },
+    "events": [
+      {
+        "weekOffset": 6,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 6,
+        "questionId": "rf_02",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 6,
+        "questionId": "rf_03",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 6,
+        "questionId": "rf_04",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 6,
+        "questionId": "rf_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 15,
+        "questionId": "q_0_2m_01",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 15,
+        "questionId": "q_0_2m_02",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 15,
+        "questionId": "q_0_2m_03",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 15,
+        "questionId": "q_0_2m_04",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 15,
+        "questionId": "q_0_2m_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 15,
+        "questionId": "q_0_2m_06",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 15,
+        "questionId": "q_0_2m_07",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 15,
+        "questionId": "q_0_2m_08",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 15,
+        "questionId": "q_0_2m_09",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 15,
+        "questionId": "q_0_2m_10",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 23,
+        "questionId": "q_3_5m_01",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 23,
+        "questionId": "q_3_5m_02",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 23,
+        "questionId": "q_3_5m_03",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 23,
+        "questionId": "q_3_5m_04",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 23,
+        "questionId": "q_3_5m_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 23,
+        "questionId": "q_3_5m_06",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 23,
+        "questionId": "q_3_5m_07",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 15,
+        "questionId": "q_3_5m_08",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 23,
+        "questionId": "q_3_5m_09",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 23,
+        "questionId": "q_3_5m_10",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 23,
+        "questionId": "q_3_5m_11",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 23,
+        "questionId": "q_3_5m_12",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 23,
+        "questionId": "q_3_5m_13",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "rf_02",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "typical_preterm_36w",
+    "name": "Typical preterm (36 weeks) at 6 months",
+    "description": "Born at 36 weeks, all milestones on corrected-age track",
+    "category": "typical",
+    "child": {
+      "dob": "2025-07-16",
+      "gestationalWeeks": 36
+    },
+    "events": [
+      {
+        "weekOffset": 4,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 4,
+        "questionId": "rf_02",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 4,
+        "questionId": "rf_03",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 4,
+        "questionId": "rf_04",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 4,
+        "questionId": "rf_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 13,
+        "questionId": "q_0_2m_01",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 13,
+        "questionId": "q_0_2m_02",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 13,
+        "questionId": "q_0_2m_03",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 13,
+        "questionId": "q_0_2m_04",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 13,
+        "questionId": "q_0_2m_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 13,
+        "questionId": "q_0_2m_06",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 13,
+        "questionId": "q_0_2m_07",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 13,
+        "questionId": "q_0_2m_08",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 13,
+        "questionId": "q_0_2m_09",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 13,
+        "questionId": "q_0_2m_10",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 21,
+        "questionId": "q_3_5m_01",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 21,
+        "questionId": "q_3_5m_02",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 21,
+        "questionId": "q_3_5m_03",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 21,
+        "questionId": "q_3_5m_04",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 21,
+        "questionId": "q_3_5m_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 21,
+        "questionId": "q_3_5m_06",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 21,
+        "questionId": "q_3_5m_07",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 13,
+        "questionId": "q_3_5m_08",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 21,
+        "questionId": "q_3_5m_09",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 21,
+        "questionId": "q_3_5m_10",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 21,
+        "questionId": "q_3_5m_11",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 21,
+        "questionId": "q_3_5m_12",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 21,
+        "questionId": "q_3_5m_13",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "rf_02",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "typical_sparse_1",
+    "name": "Typical sparse answers at 2 months",
+    "description": "Only 3 questions answered, all achieved",
+    "category": "typical",
+    "child": {
+      "dob": "2025-10-15"
+    },
+    "events": [
+      {
+        "weekOffset": 0,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 0,
+        "questionId": "rf_02",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 0,
+        "questionId": "rf_03",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 13,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "typical_sparse_2",
+    "name": "Typical sparse answers at 6 months",
+    "description": "Only 3 questions answered, all achieved",
+    "category": "typical",
+    "child": {
+      "dob": "2025-05-16"
+    },
+    "events": [
+      {
+        "weekOffset": 26,
+        "questionId": "q_6_8m_01",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "q_6_8m_02",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "q_6_8m_03",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 35,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "typical_sparse_3",
+    "name": "Typical sparse answers at 12 months",
+    "description": "Only 3 questions answered, all achieved",
+    "category": "typical",
+    "child": {
+      "dob": "2024-11-14"
+    },
+    "events": [
+      {
+        "weekOffset": 52,
+        "questionId": "q_12_14m_01",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 52,
+        "questionId": "q_12_14m_02",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 52,
+        "questionId": "q_12_14m_03",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 61,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "typical_sparse_4",
+    "name": "Typical sparse answers at 18 months",
+    "description": "Only 3 questions answered, all achieved",
+    "category": "typical",
+    "child": {
+      "dob": "2024-05-16"
+    },
+    "events": [
+      {
+        "weekOffset": 78,
+        "questionId": "q_18_20m_01",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 78,
+        "questionId": "q_18_20m_02",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 78,
+        "questionId": "q_18_20m_03",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 87,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "typical_sparse_5",
+    "name": "Typical sparse answers at 24 months",
+    "description": "Only 3 questions answered, all achieved",
+    "category": "typical",
+    "child": {
+      "dob": "2023-08-16"
+    },
+    "events": [
+      {
+        "weekOffset": 104,
+        "questionId": "q_24_29m_01",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 104,
+        "questionId": "q_24_29m_02",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 104,
+        "questionId": "q_24_29m_03",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 126,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "speech_delay_1",
+    "name": "Speech delay at 9 months",
+    "description": "Language milestones not_yet, motor on track at 9 months",
+    "category": "speech_delay",
+    "child": {
+      "dob": "2025-04-16"
+    },
+    "events": [
+      {
+        "weekOffset": 26,
+        "questionId": "rf_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "q_0_2m_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "q_3_5m_04",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "q_3_5m_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "q_6_8m_04",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "q_6_8m_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_09",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_10",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_12",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_13",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "concern",
+      "SE": "concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "speech_delay_2",
+    "name": "Speech delay at 12 months",
+    "description": "Language milestones not_yet, motor on track at 12 months",
+    "category": "speech_delay",
+    "child": {
+      "dob": "2025-01-14"
+    },
+    "events": [
+      {
+        "weekOffset": 39,
+        "questionId": "rf_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "q_0_2m_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "q_3_5m_04",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "q_3_5m_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "q_6_8m_04",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "q_6_8m_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_09",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_10",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_12",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_13",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 52,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "concern",
+      "SE": "concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "speech_delay_3",
+    "name": "Speech delay at 15 months",
+    "description": "Language milestones not_yet, motor on track at 15 months",
+    "category": "speech_delay",
+    "child": {
+      "dob": "2024-10-15"
+    },
+    "events": [
+      {
+        "weekOffset": 52,
+        "questionId": "rf_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 52,
+        "questionId": "q_0_2m_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 52,
+        "questionId": "q_3_5m_04",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 52,
+        "questionId": "q_3_5m_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 52,
+        "questionId": "q_6_8m_04",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 52,
+        "questionId": "q_6_8m_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_09",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_10",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_12",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_13",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "concern",
+      "SE": "concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "speech_delay_4",
+    "name": "Speech delay at 18 months",
+    "description": "Language milestones not_yet, motor on track at 18 months",
+    "category": "speech_delay",
+    "child": {
+      "dob": "2024-07-16"
+    },
+    "events": [
+      {
+        "weekOffset": 65,
+        "questionId": "rf_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_0_2m_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_3_5m_04",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_3_5m_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_6_8m_04",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_6_8m_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_09",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_10",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_12",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_13",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 78,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "concern",
+      "SE": "concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "speech_delay_5",
+    "name": "Speech delay at 21 months",
+    "description": "Language milestones not_yet, motor on track at 21 months",
+    "category": "speech_delay",
+    "child": {
+      "dob": "2024-04-15"
+    },
+    "events": [
+      {
+        "weekOffset": 78,
+        "questionId": "rf_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 78,
+        "questionId": "q_0_2m_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 78,
+        "questionId": "q_3_5m_04",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 78,
+        "questionId": "q_3_5m_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 78,
+        "questionId": "q_6_8m_04",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 78,
+        "questionId": "q_6_8m_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_09",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_10",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_12",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_13",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "concern",
+      "SE": "concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "speech_delay_6",
+    "name": "Speech delay at 24 months",
+    "description": "Language milestones not_yet, motor on track at 24 months",
+    "category": "speech_delay",
+    "child": {
+      "dob": "2024-01-15"
+    },
+    "events": [
+      {
+        "weekOffset": 91,
+        "questionId": "rf_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_0_2m_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_3_5m_04",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_3_5m_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_6_8m_04",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_6_8m_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_09",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_10",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_12",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_13",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 104,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "concern",
+      "SE": "concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "speech_delay_7",
+    "name": "Speech delay at 30 months",
+    "description": "Language milestones not_yet, motor on track at 30 months",
+    "category": "speech_delay",
+    "child": {
+      "dob": "2023-07-16"
+    },
+    "events": [
+      {
+        "weekOffset": 117,
+        "questionId": "rf_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 117,
+        "questionId": "q_0_2m_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 117,
+        "questionId": "q_3_5m_04",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 117,
+        "questionId": "q_3_5m_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 117,
+        "questionId": "q_6_8m_04",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 117,
+        "questionId": "q_6_8m_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_09",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_10",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_12",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_13",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 130,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "concern",
+      "SE": "concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "speech_receptive_delay_18m",
+    "name": "Receptive + expressive delay at 18 months",
+    "description": "Both receptive and expressive language delayed, motor on track",
+    "category": "speech_delay",
+    "child": {
+      "dob": "2024-07-16"
+    },
+    "events": [
+      {
+        "weekOffset": 65,
+        "questionId": "rf_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_0_2m_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_3_5m_04",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_3_5m_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "rf_04",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_3_5m_06",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_9_11m_03",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_12_14m_04",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_09",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_10",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_12",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 78,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "concern",
+      "EL": "concern",
+      "SE": "concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "concern"
+    }
+  },
+  {
+    "id": "speech_receptive_delay_24m",
+    "name": "Receptive + expressive delay at 24 months",
+    "description": "Both receptive and expressive language delayed, motor on track",
+    "category": "speech_delay",
+    "child": {
+      "dob": "2024-01-15"
+    },
+    "events": [
+      {
+        "weekOffset": 91,
+        "questionId": "rf_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_0_2m_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_3_5m_04",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_3_5m_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "rf_04",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_3_5m_06",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_9_11m_03",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_12_14m_04",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_09",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_10",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_12",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 104,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "concern",
+      "EL": "concern",
+      "SE": "concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "concern"
+    }
+  },
+  {
+    "id": "motor_delay_gm_6m",
+    "name": "Gross motor delay at 6 months",
+    "description": "GM milestones not_yet, language on track",
+    "category": "motor_delay",
+    "child": {
+      "dob": "2025-07-16"
+    },
+    "events": [
+      {
+        "weekOffset": 13,
+        "questionId": "q_0_2m_09",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 13,
+        "questionId": "q_0_2m_10",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_12",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_13",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "q_6_8m_10",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 0,
+        "questionId": "rf_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_04",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "motor_delay_gm_9m",
+    "name": "Gross motor delay at 9 months",
+    "description": "GM milestones not_yet, language on track",
+    "category": "motor_delay",
+    "child": {
+      "dob": "2025-04-16"
+    },
+    "events": [
+      {
+        "weekOffset": 26,
+        "questionId": "q_0_2m_09",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "q_0_2m_10",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "q_3_5m_12",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "q_3_5m_13",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "q_6_8m_10",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 0,
+        "questionId": "rf_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_04",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "motor_delay_gm_12m",
+    "name": "Gross motor delay at 12 months",
+    "description": "GM milestones not_yet, language on track",
+    "category": "motor_delay",
+    "child": {
+      "dob": "2025-01-14"
+    },
+    "events": [
+      {
+        "weekOffset": 39,
+        "questionId": "q_0_2m_09",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "q_0_2m_10",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "q_3_5m_12",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "q_3_5m_13",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "q_6_8m_10",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 0,
+        "questionId": "rf_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_04",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 52,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "motor_delay_gm_15m",
+    "name": "Gross motor delay at 15 months",
+    "description": "GM milestones not_yet, language on track",
+    "category": "motor_delay",
+    "child": {
+      "dob": "2024-10-15"
+    },
+    "events": [
+      {
+        "weekOffset": 52,
+        "questionId": "q_0_2m_09",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 52,
+        "questionId": "q_0_2m_10",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 52,
+        "questionId": "q_3_5m_12",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 52,
+        "questionId": "q_3_5m_13",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 52,
+        "questionId": "q_6_8m_10",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 0,
+        "questionId": "rf_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_04",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "motor_delay_gm_18m",
+    "name": "Gross motor delay at 18 months",
+    "description": "GM milestones not_yet, language on track",
+    "category": "motor_delay",
+    "child": {
+      "dob": "2024-07-16"
+    },
+    "events": [
+      {
+        "weekOffset": 65,
+        "questionId": "q_0_2m_09",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_0_2m_10",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_3_5m_12",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_3_5m_13",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_6_8m_10",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 0,
+        "questionId": "rf_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_04",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 78,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "motor_delay_gm_24m",
+    "name": "Gross motor delay at 24 months",
+    "description": "GM milestones not_yet, language on track",
+    "category": "motor_delay",
+    "child": {
+      "dob": "2024-01-15"
+    },
+    "events": [
+      {
+        "weekOffset": 91,
+        "questionId": "q_0_2m_09",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_0_2m_10",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_3_5m_12",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_3_5m_13",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_6_8m_10",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 0,
+        "questionId": "rf_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_04",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 104,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "motor_delay_fm_9m",
+    "name": "Fine motor delay at 9 months",
+    "description": "FM milestones not_yet, gross motor on track",
+    "category": "motor_delay",
+    "child": {
+      "dob": "2025-04-16"
+    },
+    "events": [
+      {
+        "weekOffset": 26,
+        "questionId": "q_3_5m_09",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "q_3_5m_10",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "q_3_5m_11",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "q_6_8m_08",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "q_9_11m_09",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_09",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_10",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_12",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "motor_delay_fm_12m",
+    "name": "Fine motor delay at 12 months",
+    "description": "FM milestones not_yet, gross motor on track",
+    "category": "motor_delay",
+    "child": {
+      "dob": "2025-01-14"
+    },
+    "events": [
+      {
+        "weekOffset": 39,
+        "questionId": "q_3_5m_09",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "q_3_5m_10",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "q_3_5m_11",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "q_6_8m_08",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "q_9_11m_09",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_09",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_10",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_12",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 52,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "motor_delay_fm_18m",
+    "name": "Fine motor delay at 18 months",
+    "description": "FM milestones not_yet, gross motor on track",
+    "category": "motor_delay",
+    "child": {
+      "dob": "2024-07-16"
+    },
+    "events": [
+      {
+        "weekOffset": 65,
+        "questionId": "q_3_5m_09",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_3_5m_10",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_3_5m_11",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_6_8m_08",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_9_11m_09",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_09",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_10",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_12",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 78,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "motor_delay_fm_24m",
+    "name": "Fine motor delay at 24 months",
+    "description": "FM milestones not_yet, gross motor on track",
+    "category": "motor_delay",
+    "child": {
+      "dob": "2024-01-15"
+    },
+    "events": [
+      {
+        "weekOffset": 91,
+        "questionId": "q_3_5m_09",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_3_5m_10",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_3_5m_11",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_6_8m_08",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_9_11m_09",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_09",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_10",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_12",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 104,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "global_delay_6m",
+    "name": "Global delay at 6 months",
+    "description": "All domains delayed at 6 months",
+    "category": "global_delay",
+    "child": {
+      "dob": "2025-07-16"
+    },
+    "events": [
+      {
+        "weekOffset": 13,
+        "questionId": "rf_03",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 13,
+        "questionId": "rf_04",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 13,
+        "questionId": "rf_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 13,
+        "questionId": "q_0_2m_01",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 13,
+        "questionId": "q_0_2m_02",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 13,
+        "questionId": "q_0_2m_03",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 13,
+        "questionId": "q_0_2m_04",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 13,
+        "questionId": "q_0_2m_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 13,
+        "questionId": "q_0_2m_06",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 13,
+        "questionId": "q_0_2m_07",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 13,
+        "questionId": "q_0_2m_08",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 13,
+        "questionId": "q_0_2m_09",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "concern",
+      "FM": "no_concern",
+      "RL": "concern",
+      "EL": "concern",
+      "SE": "concern",
+      "CP": "concern",
+      "SH": "no_concern",
+      "VH": "concern"
+    }
+  },
+  {
+    "id": "global_delay_9m",
+    "name": "Global delay at 9 months",
+    "description": "All domains delayed at 9 months",
+    "category": "global_delay",
+    "child": {
+      "dob": "2025-04-16"
+    },
+    "events": [
+      {
+        "weekOffset": 26,
+        "questionId": "rf_03",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "rf_04",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "rf_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "q_0_2m_01",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "q_0_2m_02",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "q_0_2m_03",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "q_0_2m_04",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "q_0_2m_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "q_0_2m_06",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "q_0_2m_07",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "q_0_2m_08",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "q_0_2m_09",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "concern",
+      "FM": "no_concern",
+      "RL": "concern",
+      "EL": "concern",
+      "SE": "concern",
+      "CP": "concern",
+      "SH": "no_concern",
+      "VH": "concern"
+    }
+  },
+  {
+    "id": "global_delay_12m",
+    "name": "Global delay at 12 months",
+    "description": "All domains delayed at 12 months",
+    "category": "global_delay",
+    "child": {
+      "dob": "2025-01-14"
+    },
+    "events": [
+      {
+        "weekOffset": 39,
+        "questionId": "rf_03",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "rf_04",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "rf_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "q_0_2m_01",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "q_0_2m_02",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "q_0_2m_03",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "q_0_2m_04",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "q_0_2m_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "q_0_2m_06",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "q_0_2m_07",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "q_0_2m_08",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "q_0_2m_09",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 52,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "concern",
+      "FM": "no_concern",
+      "RL": "concern",
+      "EL": "concern",
+      "SE": "concern",
+      "CP": "concern",
+      "SH": "no_concern",
+      "VH": "concern"
+    }
+  },
+  {
+    "id": "global_delay_18m",
+    "name": "Global delay at 18 months",
+    "description": "All domains delayed at 18 months",
+    "category": "global_delay",
+    "child": {
+      "dob": "2024-07-16"
+    },
+    "events": [
+      {
+        "weekOffset": 65,
+        "questionId": "rf_03",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "rf_04",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "rf_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_0_2m_01",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_0_2m_02",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_0_2m_03",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_0_2m_04",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_0_2m_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_0_2m_06",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_0_2m_07",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_0_2m_08",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_0_2m_09",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 78,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "concern",
+      "FM": "no_concern",
+      "RL": "concern",
+      "EL": "concern",
+      "SE": "concern",
+      "CP": "concern",
+      "SH": "no_concern",
+      "VH": "concern"
+    }
+  },
+  {
+    "id": "global_delay_24m",
+    "name": "Global delay at 24 months",
+    "description": "All domains delayed at 24 months",
+    "category": "global_delay",
+    "child": {
+      "dob": "2024-01-15"
+    },
+    "events": [
+      {
+        "weekOffset": 91,
+        "questionId": "rf_03",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "rf_04",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "rf_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_0_2m_01",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_0_2m_02",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_0_2m_03",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_0_2m_04",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_0_2m_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_0_2m_06",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_0_2m_07",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_0_2m_08",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_0_2m_09",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 104,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "concern",
+      "FM": "no_concern",
+      "RL": "concern",
+      "EL": "concern",
+      "SE": "concern",
+      "CP": "concern",
+      "SH": "no_concern",
+      "VH": "concern"
+    }
+  },
+  {
+    "id": "global_delay_30m",
+    "name": "Global delay at 30 months",
+    "description": "All domains delayed at 30 months",
+    "category": "global_delay",
+    "child": {
+      "dob": "2023-07-16"
+    },
+    "events": [
+      {
+        "weekOffset": 117,
+        "questionId": "rf_03",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 117,
+        "questionId": "rf_04",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 117,
+        "questionId": "rf_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 117,
+        "questionId": "q_0_2m_01",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 117,
+        "questionId": "q_0_2m_02",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 117,
+        "questionId": "q_0_2m_03",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 117,
+        "questionId": "q_0_2m_04",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 117,
+        "questionId": "q_0_2m_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 117,
+        "questionId": "q_0_2m_06",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 117,
+        "questionId": "q_0_2m_07",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 117,
+        "questionId": "q_0_2m_08",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 117,
+        "questionId": "q_0_2m_09",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 130,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "concern",
+      "FM": "no_concern",
+      "RL": "concern",
+      "EL": "concern",
+      "SE": "concern",
+      "CP": "concern",
+      "SH": "no_concern",
+      "VH": "concern"
+    }
+  },
+  {
+    "id": "regression_lang_18m",
+    "name": "Language regression at 18 months",
+    "description": "Language milestones achieved then lost at 18 months",
+    "category": "mixed_regression",
+    "child": {
+      "dob": "2024-07-16"
+    },
+    "events": [
+      {
+        "weekOffset": 0,
+        "questionId": "rf_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 78,
+        "questionId": "rf_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 78,
+        "questionId": "q_0_2m_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 78,
+        "questionId": "rf_01",
+        "answer": "not_yet"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "concern",
+      "SE": "concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "regression_lang_24m",
+    "name": "Language regression at 24 months",
+    "description": "Language milestones achieved then lost at 24 months",
+    "category": "mixed_regression",
+    "child": {
+      "dob": "2024-01-15"
+    },
+    "events": [
+      {
+        "weekOffset": 0,
+        "questionId": "rf_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 104,
+        "questionId": "rf_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 104,
+        "questionId": "q_0_2m_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 104,
+        "questionId": "rf_01",
+        "answer": "not_yet"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "concern",
+      "SE": "concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "regression_lang_30m",
+    "name": "Language regression at 30 months",
+    "description": "Language milestones achieved then lost at 30 months",
+    "category": "mixed_regression",
+    "child": {
+      "dob": "2023-07-16"
+    },
+    "events": [
+      {
+        "weekOffset": 0,
+        "questionId": "rf_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 130,
+        "questionId": "rf_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 130,
+        "questionId": "q_0_2m_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 130,
+        "questionId": "rf_01",
+        "answer": "not_yet"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "concern",
+      "SE": "concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "regression_motor_12m",
+    "name": "Motor regression at 12 months",
+    "description": "Motor milestones achieved then lost at 12 months",
+    "category": "mixed_regression",
+    "child": {
+      "dob": "2025-01-14"
+    },
+    "events": [
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_09",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_10",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 52,
+        "questionId": "q_0_2m_09",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 52,
+        "questionId": "q_0_2m_10",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 52,
+        "questionId": "rf_01",
+        "answer": "not_yet"
+      }
+    ],
+    "groundTruth": {
+      "GM": "concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "regression_motor_18m",
+    "name": "Motor regression at 18 months",
+    "description": "Motor milestones achieved then lost at 18 months",
+    "category": "mixed_regression",
+    "child": {
+      "dob": "2024-07-16"
+    },
+    "events": [
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_09",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_10",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 78,
+        "questionId": "q_0_2m_09",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 78,
+        "questionId": "q_0_2m_10",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 78,
+        "questionId": "rf_01",
+        "answer": "not_yet"
+      }
+    ],
+    "groundTruth": {
+      "GM": "concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "regression_social_24m",
+    "name": "Social regression at 24 months",
+    "description": "Social milestones achieved then lost, ASD-like pattern",
+    "category": "mixed_regression",
+    "child": {
+      "dob": "2024-01-15"
+    },
+    "events": [
+      {
+        "weekOffset": 0,
+        "questionId": "rf_03",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 0,
+        "questionId": "rf_04",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 0,
+        "questionId": "rf_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 104,
+        "questionId": "rf_03",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 104,
+        "questionId": "rf_04",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 104,
+        "questionId": "rf_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 104,
+        "questionId": "rf_01",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 104,
+        "questionId": "rf_03",
+        "answer": "not_yet"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "concern",
+      "EL": "concern",
+      "SE": "concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "mixed_gm_el_9m",
+    "name": "Motor + language delay at 9 months",
+    "description": "Both GM and EL delayed, other domains not tested",
+    "category": "global_delay",
+    "child": {
+      "dob": "2025-04-16"
+    },
+    "events": [
+      {
+        "weekOffset": 26,
+        "questionId": "q_0_2m_09",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "q_0_2m_10",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "q_3_5m_12",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "q_3_5m_13",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "rf_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "q_0_2m_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "q_3_5m_04",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "q_3_5m_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "concern",
+      "SE": "concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "mixed_gm_el_12m",
+    "name": "Motor + language delay at 12 months",
+    "description": "Both GM and EL delayed, other domains not tested",
+    "category": "global_delay",
+    "child": {
+      "dob": "2025-01-14"
+    },
+    "events": [
+      {
+        "weekOffset": 39,
+        "questionId": "q_0_2m_09",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "q_0_2m_10",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "q_3_5m_12",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "q_3_5m_13",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "rf_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "q_0_2m_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "q_3_5m_04",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "q_3_5m_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 52,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "concern",
+      "SE": "concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "mixed_gm_el_18m",
+    "name": "Motor + language delay at 18 months",
+    "description": "Both GM and EL delayed, other domains not tested",
+    "category": "global_delay",
+    "child": {
+      "dob": "2024-07-16"
+    },
+    "events": [
+      {
+        "weekOffset": 65,
+        "questionId": "q_0_2m_09",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_0_2m_10",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_3_5m_12",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_3_5m_13",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "rf_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_0_2m_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_3_5m_04",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_3_5m_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 78,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "concern",
+      "SE": "concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "mixed_gm_el_24m",
+    "name": "Motor + language delay at 24 months",
+    "description": "Both GM and EL delayed, other domains not tested",
+    "category": "global_delay",
+    "child": {
+      "dob": "2024-01-15"
+    },
+    "events": [
+      {
+        "weekOffset": 91,
+        "questionId": "q_0_2m_09",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_0_2m_10",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_3_5m_12",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_3_5m_13",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "rf_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_0_2m_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_3_5m_04",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_3_5m_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 104,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "concern",
+      "SE": "concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "se_delay_6m",
+    "name": "Social-emotional delay at 6 months",
+    "description": "SE milestones delayed, motor on track",
+    "category": "speech_delay",
+    "child": {
+      "dob": "2025-07-16"
+    },
+    "events": [
+      {
+        "weekOffset": 13,
+        "questionId": "rf_03",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 13,
+        "questionId": "rf_04",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 13,
+        "questionId": "rf_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 13,
+        "questionId": "q_0_2m_01",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 13,
+        "questionId": "q_0_2m_02",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_09",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_10",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_12",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "concern",
+      "EL": "concern",
+      "SE": "concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "concern"
+    }
+  },
+  {
+    "id": "se_delay_9m",
+    "name": "Social-emotional delay at 9 months",
+    "description": "SE milestones delayed, motor on track",
+    "category": "speech_delay",
+    "child": {
+      "dob": "2025-04-16"
+    },
+    "events": [
+      {
+        "weekOffset": 26,
+        "questionId": "rf_03",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "rf_04",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "rf_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "q_0_2m_01",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "q_0_2m_02",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_09",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_10",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_12",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "concern",
+      "EL": "concern",
+      "SE": "concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "concern"
+    }
+  },
+  {
+    "id": "se_delay_12m",
+    "name": "Social-emotional delay at 12 months",
+    "description": "SE milestones delayed, motor on track",
+    "category": "speech_delay",
+    "child": {
+      "dob": "2025-01-14"
+    },
+    "events": [
+      {
+        "weekOffset": 39,
+        "questionId": "rf_03",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "rf_04",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "rf_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "q_0_2m_01",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "q_0_2m_02",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_09",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_10",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_12",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 52,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "concern",
+      "EL": "concern",
+      "SE": "concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "concern"
+    }
+  },
+  {
+    "id": "se_delay_18m",
+    "name": "Social-emotional delay at 18 months",
+    "description": "SE milestones delayed, motor on track",
+    "category": "speech_delay",
+    "child": {
+      "dob": "2024-07-16"
+    },
+    "events": [
+      {
+        "weekOffset": 65,
+        "questionId": "rf_03",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "rf_04",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "rf_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_0_2m_01",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_0_2m_02",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_09",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_10",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_12",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 78,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "concern",
+      "EL": "concern",
+      "SE": "concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "concern"
+    }
+  },
+  {
+    "id": "se_delay_24m",
+    "name": "Social-emotional delay at 24 months",
+    "description": "SE milestones delayed, motor on track",
+    "category": "speech_delay",
+    "child": {
+      "dob": "2024-01-15"
+    },
+    "events": [
+      {
+        "weekOffset": 91,
+        "questionId": "rf_03",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "rf_04",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "rf_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_0_2m_01",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_0_2m_02",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_09",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_10",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_12",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 104,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "concern",
+      "EL": "concern",
+      "SE": "concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "concern"
+    }
+  },
+  {
+    "id": "cp_delay_9m",
+    "name": "Cognitive delay at 9 months",
+    "description": "CP milestones delayed, motor on track",
+    "category": "global_delay",
+    "child": {
+      "dob": "2025-04-16"
+    },
+    "events": [
+      {
+        "weekOffset": 26,
+        "questionId": "q_0_2m_07",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "q_0_2m_08",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "q_3_5m_07",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "q_3_5m_08",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "q_3_5m_10",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_09",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_10",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_12",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "concern",
+      "SH": "concern",
+      "VH": "concern"
+    }
+  },
+  {
+    "id": "cp_delay_12m",
+    "name": "Cognitive delay at 12 months",
+    "description": "CP milestones delayed, motor on track",
+    "category": "global_delay",
+    "child": {
+      "dob": "2025-01-14"
+    },
+    "events": [
+      {
+        "weekOffset": 39,
+        "questionId": "q_0_2m_07",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "q_0_2m_08",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "q_3_5m_07",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "q_3_5m_08",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "q_3_5m_10",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_09",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_10",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_12",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 52,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "concern",
+      "SH": "concern",
+      "VH": "concern"
+    }
+  },
+  {
+    "id": "cp_delay_18m",
+    "name": "Cognitive delay at 18 months",
+    "description": "CP milestones delayed, motor on track",
+    "category": "global_delay",
+    "child": {
+      "dob": "2024-07-16"
+    },
+    "events": [
+      {
+        "weekOffset": 65,
+        "questionId": "q_0_2m_07",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_0_2m_08",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_3_5m_07",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_3_5m_08",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_3_5m_10",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_09",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_10",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_12",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 78,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "concern",
+      "SH": "concern",
+      "VH": "concern"
+    }
+  },
+  {
+    "id": "cp_delay_24m",
+    "name": "Cognitive delay at 24 months",
+    "description": "CP milestones delayed, motor on track",
+    "category": "global_delay",
+    "child": {
+      "dob": "2024-01-15"
+    },
+    "events": [
+      {
+        "weekOffset": 91,
+        "questionId": "q_0_2m_07",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_0_2m_08",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_3_5m_07",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_3_5m_08",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_3_5m_10",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_09",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_10",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_12",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 104,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "concern",
+      "SH": "concern",
+      "VH": "concern"
+    }
+  },
+  {
+    "id": "sh_delay_18m",
+    "name": "Self-help delay at 18 months",
+    "description": "SH milestones delayed, language on track",
+    "category": "global_delay",
+    "child": {
+      "dob": "2024-07-16"
+    },
+    "events": [
+      {
+        "weekOffset": 65,
+        "questionId": "q_3_5m_07",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_6_8m_07",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_6_8m_09",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_9_11m_12",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_15_17m_13",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 0,
+        "questionId": "rf_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_04",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 78,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "concern",
+      "SH": "concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "sh_delay_24m",
+    "name": "Self-help delay at 24 months",
+    "description": "SH milestones delayed, language on track",
+    "category": "global_delay",
+    "child": {
+      "dob": "2024-01-15"
+    },
+    "events": [
+      {
+        "weekOffset": 91,
+        "questionId": "q_3_5m_07",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_6_8m_07",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_6_8m_09",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_9_11m_12",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_15_17m_13",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 0,
+        "questionId": "rf_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_04",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 104,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "concern",
+      "SH": "concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "sh_delay_30m",
+    "name": "Self-help delay at 30 months",
+    "description": "SH milestones delayed, language on track",
+    "category": "global_delay",
+    "child": {
+      "dob": "2023-07-16"
+    },
+    "events": [
+      {
+        "weekOffset": 117,
+        "questionId": "q_3_5m_07",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 117,
+        "questionId": "q_6_8m_07",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 117,
+        "questionId": "q_6_8m_09",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 117,
+        "questionId": "q_9_11m_12",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 117,
+        "questionId": "q_15_17m_13",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 0,
+        "questionId": "rf_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_04",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 130,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "concern",
+      "SH": "concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "typical_allrf_3m",
+    "name": "Typical with all red flags clear at 3 months",
+    "description": "All milestones achieved, all red flags answered achieved",
+    "category": "typical",
+    "child": {
+      "dob": "2025-10-15"
+    },
+    "events": [
+      {
+        "weekOffset": 0,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 0,
+        "questionId": "rf_02",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 0,
+        "questionId": "rf_03",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 0,
+        "questionId": "rf_04",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 13,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 13,
+        "questionId": "rf_02",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 13,
+        "questionId": "rf_03",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 13,
+        "questionId": "rf_04",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 13,
+        "questionId": "rf_05",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "typical_allrf_6m",
+    "name": "Typical with all red flags clear at 6 months",
+    "description": "All milestones achieved, all red flags answered achieved",
+    "category": "typical",
+    "child": {
+      "dob": "2025-07-16"
+    },
+    "events": [
+      {
+        "weekOffset": 0,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 0,
+        "questionId": "rf_02",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 0,
+        "questionId": "rf_03",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 0,
+        "questionId": "rf_04",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "rf_02",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "rf_03",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "rf_04",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "rf_05",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "typical_allrf_12m",
+    "name": "Typical with all red flags clear at 12 months",
+    "description": "All milestones achieved, all red flags answered achieved",
+    "category": "typical",
+    "child": {
+      "dob": "2025-01-14"
+    },
+    "events": [
+      {
+        "weekOffset": 0,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 0,
+        "questionId": "rf_02",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 0,
+        "questionId": "rf_03",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 0,
+        "questionId": "rf_04",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 52,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 52,
+        "questionId": "rf_02",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 52,
+        "questionId": "rf_03",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 52,
+        "questionId": "rf_04",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 52,
+        "questionId": "rf_05",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "typical_allrf_18m",
+    "name": "Typical with all red flags clear at 18 months",
+    "description": "All milestones achieved, all red flags answered achieved",
+    "category": "typical",
+    "child": {
+      "dob": "2024-07-16"
+    },
+    "events": [
+      {
+        "weekOffset": 0,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 0,
+        "questionId": "rf_02",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 0,
+        "questionId": "rf_03",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 0,
+        "questionId": "rf_04",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 78,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 78,
+        "questionId": "rf_02",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 78,
+        "questionId": "rf_03",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 78,
+        "questionId": "rf_04",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 78,
+        "questionId": "rf_05",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "typical_allrf_24m",
+    "name": "Typical with all red flags clear at 24 months",
+    "description": "All milestones achieved, all red flags answered achieved",
+    "category": "typical",
+    "child": {
+      "dob": "2024-01-15"
+    },
+    "events": [
+      {
+        "weekOffset": 0,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 0,
+        "questionId": "rf_02",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 0,
+        "questionId": "rf_03",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 0,
+        "questionId": "rf_04",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 104,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 104,
+        "questionId": "rf_02",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 104,
+        "questionId": "rf_03",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 104,
+        "questionId": "rf_04",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 104,
+        "questionId": "rf_05",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "redflag_rf01_3m",
+    "name": "Red flag rf_01 triggered at 3 months",
+    "description": "Skill regression red flag triggered, motor on track",
+    "category": "mixed_regression",
+    "child": {
+      "dob": "2025-10-15"
+    },
+    "events": [
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_09",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_10",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 13,
+        "questionId": "rf_01",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 13,
+        "questionId": "rf_02",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "redflag_rf01_6m",
+    "name": "Red flag rf_01 triggered at 6 months",
+    "description": "Skill regression red flag triggered, motor on track",
+    "category": "mixed_regression",
+    "child": {
+      "dob": "2025-07-16"
+    },
+    "events": [
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_09",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_10",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_12",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "rf_01",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "rf_02",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "redflag_rf01_9m",
+    "name": "Red flag rf_01 triggered at 9 months",
+    "description": "Skill regression red flag triggered, motor on track",
+    "category": "mixed_regression",
+    "child": {
+      "dob": "2025-04-16"
+    },
+    "events": [
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_09",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_10",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_12",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "rf_01",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "rf_02",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "redflag_rf01_12m",
+    "name": "Red flag rf_01 triggered at 12 months",
+    "description": "Skill regression red flag triggered, motor on track",
+    "category": "mixed_regression",
+    "child": {
+      "dob": "2025-01-14"
+    },
+    "events": [
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_09",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_10",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_12",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 52,
+        "questionId": "rf_01",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 52,
+        "questionId": "rf_02",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "redflag_rf01_18m",
+    "name": "Red flag rf_01 triggered at 18 months",
+    "description": "Skill regression red flag triggered, motor on track",
+    "category": "mixed_regression",
+    "child": {
+      "dob": "2024-07-16"
+    },
+    "events": [
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_09",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_10",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_12",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 78,
+        "questionId": "rf_01",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 78,
+        "questionId": "rf_02",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "redflag_rf01_24m",
+    "name": "Red flag rf_01 triggered at 24 months",
+    "description": "Skill regression red flag triggered, motor on track",
+    "category": "mixed_regression",
+    "child": {
+      "dob": "2024-01-15"
+    },
+    "events": [
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_09",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_10",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_12",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 104,
+        "questionId": "rf_01",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 104,
+        "questionId": "rf_02",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "vh_concern_3m",
+    "name": "Vision/hearing concern at 3 months",
+    "description": "VH milestones delayed",
+    "category": "global_delay",
+    "child": {
+      "dob": "2025-10-15"
+    },
+    "events": [
+      {
+        "weekOffset": 4,
+        "questionId": "rf_02",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_02",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_06",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_07",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 0,
+        "questionId": "rf_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 13,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "concern"
+    }
+  },
+  {
+    "id": "vh_concern_6m",
+    "name": "Vision/hearing concern at 6 months",
+    "description": "VH milestones delayed",
+    "category": "global_delay",
+    "child": {
+      "dob": "2025-07-16"
+    },
+    "events": [
+      {
+        "weekOffset": 17,
+        "questionId": "rf_02",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_0_2m_02",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_0_2m_06",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_0_2m_07",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 0,
+        "questionId": "rf_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "concern",
+      "CP": "concern",
+      "SH": "no_concern",
+      "VH": "concern"
+    }
+  },
+  {
+    "id": "vh_concern_12m",
+    "name": "Vision/hearing concern at 12 months",
+    "description": "VH milestones delayed",
+    "category": "global_delay",
+    "child": {
+      "dob": "2025-01-14"
+    },
+    "events": [
+      {
+        "weekOffset": 43,
+        "questionId": "rf_02",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 43,
+        "questionId": "q_0_2m_02",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 43,
+        "questionId": "q_0_2m_06",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 43,
+        "questionId": "q_0_2m_07",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 0,
+        "questionId": "rf_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 52,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "concern",
+      "CP": "concern",
+      "SH": "no_concern",
+      "VH": "concern"
+    }
+  },
+  {
+    "id": "typical_unsure_4m",
+    "name": "Typical with unsure answers at 4 months",
+    "description": "Mix of achieved and unsure, no concern expected",
+    "category": "typical",
+    "child": {
+      "dob": "2025-09-15"
+    },
+    "events": [
+      {
+        "weekOffset": 0,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 0,
+        "questionId": "rf_02",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 0,
+        "questionId": "rf_03",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 0,
+        "questionId": "rf_04",
+        "answer": "unsure"
+      },
+      {
+        "weekOffset": 0,
+        "questionId": "rf_05",
+        "answer": "unsure"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "typical_unsure_9m",
+    "name": "Typical with unsure answers at 9 months",
+    "description": "Mix of achieved and unsure, no concern expected",
+    "category": "typical",
+    "child": {
+      "dob": "2025-04-16"
+    },
+    "events": [
+      {
+        "weekOffset": 0,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 0,
+        "questionId": "rf_02",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 0,
+        "questionId": "rf_03",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 0,
+        "questionId": "rf_04",
+        "answer": "unsure"
+      },
+      {
+        "weekOffset": 0,
+        "questionId": "rf_05",
+        "answer": "unsure"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "typical_unsure_15m",
+    "name": "Typical with unsure answers at 15 months",
+    "description": "Mix of achieved and unsure, no concern expected",
+    "category": "typical",
+    "child": {
+      "dob": "2024-10-15"
+    },
+    "events": [
+      {
+        "weekOffset": 0,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 0,
+        "questionId": "rf_02",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 0,
+        "questionId": "rf_03",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 0,
+        "questionId": "rf_04",
+        "answer": "unsure"
+      },
+      {
+        "weekOffset": 0,
+        "questionId": "rf_05",
+        "answer": "unsure"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "typical_unsure_24m",
+    "name": "Typical with unsure answers at 24 months",
+    "description": "Mix of achieved and unsure, no concern expected",
+    "category": "typical",
+    "child": {
+      "dob": "2024-01-15"
+    },
+    "events": [
+      {
+        "weekOffset": 0,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 0,
+        "questionId": "rf_02",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 0,
+        "questionId": "rf_03",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 0,
+        "questionId": "rf_04",
+        "answer": "unsure"
+      },
+      {
+        "weekOffset": 0,
+        "questionId": "rf_05",
+        "answer": "unsure"
+      },
+      {
+        "weekOffset": 104,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "preterm_delay_30w_6m",
+    "name": "Preterm (30w) motor delay at 6 months",
+    "description": "Born at 30 weeks, GM delayed even on corrected age",
+    "category": "motor_delay",
+    "child": {
+      "dob": "2025-07-16",
+      "gestationalWeeks": 30
+    },
+    "events": [
+      {
+        "weekOffset": 17,
+        "questionId": "q_0_2m_09",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_0_2m_10",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_12",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_13",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 0,
+        "questionId": "rf_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "preterm_delay_30w_12m",
+    "name": "Preterm (30w) motor delay at 12 months",
+    "description": "Born at 30 weeks, GM delayed even on corrected age",
+    "category": "motor_delay",
+    "child": {
+      "dob": "2025-01-14",
+      "gestationalWeeks": 30
+    },
+    "events": [
+      {
+        "weekOffset": 43,
+        "questionId": "q_0_2m_09",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 43,
+        "questionId": "q_0_2m_10",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 43,
+        "questionId": "q_3_5m_12",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 43,
+        "questionId": "q_3_5m_13",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 0,
+        "questionId": "rf_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 52,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "preterm_delay_32w_6m",
+    "name": "Preterm (32w) motor delay at 6 months",
+    "description": "Born at 32 weeks, GM delayed even on corrected age",
+    "category": "motor_delay",
+    "child": {
+      "dob": "2025-07-16",
+      "gestationalWeeks": 32
+    },
+    "events": [
+      {
+        "weekOffset": 17,
+        "questionId": "q_0_2m_09",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_0_2m_10",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_12",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_13",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 0,
+        "questionId": "rf_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "preterm_delay_32w_12m",
+    "name": "Preterm (32w) motor delay at 12 months",
+    "description": "Born at 32 weeks, GM delayed even on corrected age",
+    "category": "motor_delay",
+    "child": {
+      "dob": "2025-01-14",
+      "gestationalWeeks": 32
+    },
+    "events": [
+      {
+        "weekOffset": 43,
+        "questionId": "q_0_2m_09",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 43,
+        "questionId": "q_0_2m_10",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 43,
+        "questionId": "q_3_5m_12",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 43,
+        "questionId": "q_3_5m_13",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 0,
+        "questionId": "rf_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 52,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "preterm_delay_34w_6m",
+    "name": "Preterm (34w) motor delay at 6 months",
+    "description": "Born at 34 weeks, GM delayed even on corrected age",
+    "category": "motor_delay",
+    "child": {
+      "dob": "2025-07-16",
+      "gestationalWeeks": 34
+    },
+    "events": [
+      {
+        "weekOffset": 17,
+        "questionId": "q_0_2m_09",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_0_2m_10",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_12",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_13",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 0,
+        "questionId": "rf_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 26,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "preterm_delay_34w_12m",
+    "name": "Preterm (34w) motor delay at 12 months",
+    "description": "Born at 34 weeks, GM delayed even on corrected age",
+    "category": "motor_delay",
+    "child": {
+      "dob": "2025-01-14",
+      "gestationalWeeks": 34
+    },
+    "events": [
+      {
+        "weekOffset": 43,
+        "questionId": "q_0_2m_09",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 43,
+        "questionId": "q_0_2m_10",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 43,
+        "questionId": "q_3_5m_12",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 43,
+        "questionId": "q_3_5m_13",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 0,
+        "questionId": "rf_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 52,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "isolated_rl_12m",
+    "name": "Isolated Receptive Language delay at 12 months",
+    "description": "Only Receptive Language delayed, motor on track",
+    "category": "speech_delay",
+    "child": {
+      "dob": "2025-01-14"
+    },
+    "events": [
+      {
+        "weekOffset": 39,
+        "questionId": "rf_04",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "q_3_5m_06",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "q_9_11m_03",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 52,
+        "questionId": "q_12_14m_04",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_09",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_10",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_12",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 52,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "concern",
+      "EL": "no_concern",
+      "SE": "concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "concern"
+    }
+  },
+  {
+    "id": "isolated_rl_18m",
+    "name": "Isolated Receptive Language delay at 18 months",
+    "description": "Only Receptive Language delayed, motor on track",
+    "category": "speech_delay",
+    "child": {
+      "dob": "2024-07-16"
+    },
+    "events": [
+      {
+        "weekOffset": 65,
+        "questionId": "rf_04",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_3_5m_06",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_9_11m_03",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_12_14m_04",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_09",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_10",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_12",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 78,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "concern",
+      "EL": "no_concern",
+      "SE": "concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "concern"
+    }
+  },
+  {
+    "id": "isolated_rl_24m",
+    "name": "Isolated Receptive Language delay at 24 months",
+    "description": "Only Receptive Language delayed, motor on track",
+    "category": "speech_delay",
+    "child": {
+      "dob": "2024-01-15"
+    },
+    "events": [
+      {
+        "weekOffset": 91,
+        "questionId": "rf_04",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_3_5m_06",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_9_11m_03",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_12_14m_04",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_09",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_10",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_12",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 104,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "concern",
+      "EL": "no_concern",
+      "SE": "concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "concern"
+    }
+  },
+  {
+    "id": "isolated_sh_12m",
+    "name": "Isolated Self-Help delay at 12 months",
+    "description": "Only Self-Help delayed, motor on track",
+    "category": "speech_delay",
+    "child": {
+      "dob": "2025-01-14"
+    },
+    "events": [
+      {
+        "weekOffset": 39,
+        "questionId": "q_3_5m_07",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "q_6_8m_07",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "q_6_8m_09",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "q_9_11m_12",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_09",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_10",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_12",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 52,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "concern",
+      "SH": "concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "isolated_sh_18m",
+    "name": "Isolated Self-Help delay at 18 months",
+    "description": "Only Self-Help delayed, motor on track",
+    "category": "speech_delay",
+    "child": {
+      "dob": "2024-07-16"
+    },
+    "events": [
+      {
+        "weekOffset": 65,
+        "questionId": "q_3_5m_07",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_6_8m_07",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_6_8m_09",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "q_9_11m_12",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_09",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_10",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_12",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 78,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "concern",
+      "SH": "concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "isolated_sh_24m",
+    "name": "Isolated Self-Help delay at 24 months",
+    "description": "Only Self-Help delayed, motor on track",
+    "category": "speech_delay",
+    "child": {
+      "dob": "2024-01-15"
+    },
+    "events": [
+      {
+        "weekOffset": 91,
+        "questionId": "q_3_5m_07",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_6_8m_07",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_6_8m_09",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_9_11m_12",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_09",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_10",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_12",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 104,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "concern",
+      "SH": "concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "late_bloomer_4m",
+    "name": "Late bloomer at 4 months",
+    "description": "Milestones achieved slightly late but within grace window",
+    "category": "typical",
+    "child": {
+      "dob": "2025-09-15"
+    },
+    "events": [
+      {
+        "weekOffset": 0,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 0,
+        "questionId": "rf_02",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 2,
+        "questionId": "rf_03",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 2,
+        "questionId": "rf_04",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "late_bloomer_9m",
+    "name": "Late bloomer at 9 months",
+    "description": "Milestones achieved slightly late but within grace window",
+    "category": "typical",
+    "child": {
+      "dob": "2025-04-16"
+    },
+    "events": [
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_01",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 17,
+        "questionId": "q_3_5m_02",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 20,
+        "questionId": "q_3_5m_03",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 20,
+        "questionId": "q_3_5m_04",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 39,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "late_bloomer_15m",
+    "name": "Late bloomer at 15 months",
+    "description": "Milestones achieved slightly late but within grace window",
+    "category": "typical",
+    "child": {
+      "dob": "2024-10-15"
+    },
+    "events": [
+      {
+        "weekOffset": 52,
+        "questionId": "q_12_14m_01",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 52,
+        "questionId": "q_12_14m_02",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 54,
+        "questionId": "q_12_14m_03",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 54,
+        "questionId": "q_12_14m_04",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 65,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "late_bloomer_24m",
+    "name": "Late bloomer at 24 months",
+    "description": "Milestones achieved slightly late but within grace window",
+    "category": "typical",
+    "child": {
+      "dob": "2024-01-15"
+    },
+    "events": [
+      {
+        "weekOffset": 91,
+        "questionId": "q_21_23m_01",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 91,
+        "questionId": "q_21_23m_02",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 93,
+        "questionId": "q_21_23m_03",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 93,
+        "questionId": "q_21_23m_04",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 104,
+        "questionId": "rf_01",
+        "answer": "achieved"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "no_concern",
+      "EL": "no_concern",
+      "SE": "no_concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  },
+  {
+    "id": "multi_regression_el_se_24m",
+    "name": "Multi-domain regression at 24 months",
+    "description": "Language + social regression at 24 months",
+    "category": "mixed_regression",
+    "child": {
+      "dob": "2024-01-15"
+    },
+    "events": [
+      {
+        "weekOffset": 0,
+        "questionId": "rf_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 9,
+        "questionId": "q_0_2m_05",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 0,
+        "questionId": "rf_03",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 0,
+        "questionId": "rf_04",
+        "answer": "achieved"
+      },
+      {
+        "weekOffset": 104,
+        "questionId": "rf_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 104,
+        "questionId": "q_0_2m_05",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 104,
+        "questionId": "rf_03",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 104,
+        "questionId": "rf_04",
+        "answer": "not_yet"
+      },
+      {
+        "weekOffset": 104,
+        "questionId": "rf_01",
+        "answer": "not_yet"
+      }
+    ],
+    "groundTruth": {
+      "GM": "no_concern",
+      "FM": "no_concern",
+      "RL": "concern",
+      "EL": "concern",
+      "SE": "concern",
+      "CP": "no_concern",
+      "SH": "no_concern",
+      "VH": "no_concern"
+    }
+  }
+]
