@@ -1,6 +1,11 @@
 # My Child Engine
 
+[![npm version](https://img.shields.io/npm/v/mychild-engine)](https://www.npmjs.com/package/mychild-engine)
+[![npm downloads](https://img.shields.io/npm/dm/mychild-engine)](https://www.npmjs.com/package/mychild-engine)
+
 Open-source developmental screening engine for children 0-36 months. Created by [Harsh Songra](https://harshsongra.com) and [Aafreen Ansari](https://linkedin.com/in/aafreen-ansari-8a4265112).
+
+Install from npm: [`mychild-engine`](https://www.npmjs.com/package/mychild-engine)
 
 > **This is NOT a diagnostic tool.** This software tracks developmental milestones and helps caregivers notice changes early. It cannot diagnose any medical condition, developmental disorder, or disability. If you have concerns about your child's development, please consult a qualified healthcare professional immediately.
 
