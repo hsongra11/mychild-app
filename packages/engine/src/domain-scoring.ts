@@ -8,7 +8,7 @@ import type {
   Severity,
   Confidence,
 } from './types.js';
-import { getQuestionsByDomain } from './question-bank.js';
+import { getQuestionsByDomain, getQuestionById } from './question-bank.js';
 
 // ---------------------------------------------------------------------------
 // Domain display name mapping
@@ -99,7 +99,15 @@ export function scoreDomain(
     (qr) => qr.severity !== 'reminder',
   ).length;
 
-  for (const qr of questionResults) {
+  // Sort by normativeAgeMonths so streak calculation reflects developmental
+  // sequence rather than arbitrary array order.
+  const sortedResults = [...questionResults].sort((a, b) => {
+    const qA = getQuestionById(a.questionId);
+    const qB = getQuestionById(b.questionId);
+    return (qA?.normativeAgeMonths ?? 0) - (qB?.normativeAgeMonths ?? 0);
+  });
+
+  for (const qr of sortedResults) {
     const sev = qr.severity;
 
     // Weight accumulation: use crude point mapping

@@ -1,0 +1,118 @@
+name: Publish mychild-engine to npm
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'packages/engine/**'
+
+jobs:
+  check:
+    name: Lint, test & build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - name: Lint
+        run: npm run lint --workspace=packages/engine
+
+      - name: Test
+        run: npm test --workspace=packages/engine
+
+      - name: Build
+        run: npm run build --workspace=packages/engine
+
+  publish:
+    name: Publish to npm
+    needs: check
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          registry-url: https://registry.npmjs.org
+
+      - run: npm ci
+
+      - name: Build engine
+        run: npm run build --workspace=packages/engine
+
+      - name: Check if version already published
+        id: version-check
+        working-directory: packages/engine
+        run: |
+          PACKAGE_NAME=$(node -p "require('./package.json').name")
+          LOCAL_VERSION=$(node -p "require('./package.json').version")
+          PUBLISHED_VERSION=$(npm view "$PACKAGE_NAME" version 2>/dev/null || echo "0.0.0")
+          echo "local=$LOCAL_VERSION" >> "$GITHUB_OUTPUT"
+          echo "published=$PUBLISHED_VERSION" >> "$GITHUB_OUTPUT"
+          if [ "$LOCAL_VERSION" = "$PUBLISHED_VERSION" ]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "Version $LOCAL_VERSION already published — skipping"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+            echo "Publishing $PACKAGE_NAME@$LOCAL_VERSION (current: $PUBLISHED_VERSION)"
+          fi
+
+      - name: Publish
+        if: steps.version-check.outputs.skip == 'false'
+        working-directory: packages/engine
+        run: npm publish --access public --provenance
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Create git tag
+        if: steps.version-check.outputs.skip == 'false'
+        run: |
+          VERSION="v${{ steps.version-check.outputs.local }}"
+          git tag "$VERSION"
+          git push origin "$VERSION"
+
+      - name: Generate release notes
+        if: steps.version-check.outputs.skip == 'false'
+        id: notes
+        run: |
+          VERSION="v${{ steps.version-check.outputs.local }}"
+          PREV_TAG=$(git tag --sort=-v:refname | grep '^v' | sed -n '2p' || echo "")
+          if [ -n "$PREV_TAG" ]; then
+            COMMITS=$(git log --pretty=format:"- %s" "$PREV_TAG"..HEAD -- packages/engine/)
+          else
+            COMMITS=$(git log --pretty=format:"- %s" -- packages/engine/ | head -20)
+          fi
+          {
+            echo "body<<RELEASE_EOF"
+            echo "## mychild-engine@${{ steps.version-check.outputs.local }}"
+            echo ""
+            echo "Published to npm: [\`mychild-engine@${{ steps.version-check.outputs.local }}\`](https://www.npmjs.com/package/mychild-engine/v/${{ steps.version-check.outputs.local }})"
+            echo ""
+            echo "### Changes"
+            echo "$COMMITS"
+            echo ""
+            echo "### Install"
+            echo "\`\`\`bash"
+            echo "npm install mychild-engine@${{ steps.version-check.outputs.local }}"
+            echo "\`\`\`"
+            echo "RELEASE_EOF"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Create GitHub release
+        if: steps.version-check.outputs.skip == 'false'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v${{ steps.version-check.outputs.local }}
+          name: mychild-engine v${{ steps.version-check.outputs.local }}
+          body: ${{ steps.notes.outputs.body }}
+          generate_release_notes: false

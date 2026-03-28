@@ -1,6 +1,6 @@
 {
   "name": "mychild-engine",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Open-source developmental screening engine with evidence-weighted escalation",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

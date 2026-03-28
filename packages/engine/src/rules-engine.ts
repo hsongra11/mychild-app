@@ -6,6 +6,7 @@ import type {
   QuestionResult,
   Severity,
   AgeResult,
+  WeightClass,
 } from './types.js';
 import { computeAge } from './corrected-age.js';
 import { resolveProbes } from './probes.js';
@@ -50,6 +51,23 @@ function addWeeks(date: Date, weeks: number): Date {
   const result = new Date(date.getTime());
   result.setTime(result.getTime() + weeks * 7 * 24 * 60 * 60 * 1000);
   return result;
+}
+
+/**
+ * Adjust the grace window based on the question's weight class.
+ * - RF: 0 weeks (immediate escalation)
+ * - H:  unchanged (standard grace)
+ * - M:  +2 weeks extra grace
+ * - L:  +4 weeks extra grace
+ */
+function adjustGraceForWeight(baseGraceWeeks: number, weight: WeightClass): number {
+  switch (weight) {
+    case 'RF': return 0;
+    case 'H':  return baseGraceWeeks;
+    case 'M':  return baseGraceWeeks + 2;
+    case 'L':  return baseGraceWeeks + 4;
+    default:   return baseGraceWeeks;
+  }
 }
 
 // ---------------------------------------------------------------------------
@@ -156,10 +174,13 @@ export function evaluateQuestion(
       };
     }
 
+    // Adjust grace window based on question weight class
+    const weightAdjustedGrace = adjustGraceForWeight(graceWeeks, question.weight);
+
     const overGraceWeeks = weeksOverGrace(
       ageMonths,
       question.normativeAgeMonths,
-      graceWeeks,
+      weightAdjustedGrace,
     );
 
     // Still within the normative window — not yet expected, just remind

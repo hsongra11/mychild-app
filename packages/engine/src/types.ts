@@ -97,6 +97,7 @@ export interface QuestionResult {
   suggestedProbes: string[];
   actionProfile: ActionProfileType;
   nextCheckDate?: Date;
+  regressionDetected?: boolean;
 }
 
 export interface GlobalStatus {
