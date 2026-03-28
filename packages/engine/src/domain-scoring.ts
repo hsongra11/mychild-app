@@ -286,10 +286,21 @@ export function scoreAllDomains(
   if (hasNormalSiblingDomain) {
     for (const tag of domainTags) {
       const a = output[tag];
+      // Never downgrade domains with detected regression — skill loss is
+      // always clinically significant regardless of cross-domain context.
+      // CDC 2022: regression is an independent red flag.
+      const domainQuestions = getQuestionsByDomain(tag);
+      const domainResults = domainQuestions
+        .map((q) => resultByQid.get(q.id))
+        .filter((qr): qr is QuestionResult => qr !== undefined);
+      const domainHasRegression = domainResults.some(
+        (qr) => qr.regressionDetected,
+      );
       if (
         a.status === 'high_concern' &&
         a.vector.flagCount === 1 &&
-        a.vector.confidence === 'low'
+        a.vector.confidence === 'low' &&
+        !domainHasRegression
       ) {
         output[tag] = {
           ...a,
