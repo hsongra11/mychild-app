@@ -5,14 +5,9 @@
  * where ground truth is definitionally obvious from the profile design.
  */
 
-import type { DomainTag, AnswerEvent, Child, DomainAssessment } from './types.js';
+import type { DomainTag } from './types.js';
 import type { ValidationProfile, GroundTruthLabel } from './validation.js';
-import { classifyDomainStatus } from './validation.js';
 import { getAllQuestions, getUniversalRedFlags, getQuestionById, getQuestionsByAgeBand } from './question-bank.js';
-import { evaluateQuestion } from './rules-engine.js';
-import { scoreAllDomains } from './domain-scoring.js';
-import { computeAge } from './corrected-age.js';
-import { DEFAULT_RULESET } from './defaults.js';
 
 // ---------------------------------------------------------------------------
 // Helpers
@@ -26,89 +21,6 @@ interface QuestionInfo {
 }
 
 const ALL_DOMAIN_TAGS: DomainTag[] = ['GM', 'FM', 'RL', 'EL', 'SE', 'CP', 'SH', 'VH'];
-
-/**
- * Run the full engine on a profile's events and return ground truth for ALL 8 domains.
- * This uses the engine's own output as ground truth — appropriate for synthetic
- * known-answer profiles where the profile design makes the correct answer obvious.
- */
-function deriveFullGroundTruth(
-  profile: Omit<ValidationProfile, 'groundTruth'>,
-): Partial<Record<DomainTag, GroundTruthLabel>> {
-  const dob = new Date(profile.child.dob);
-  const child: Child = { dob, gestationalWeeks: profile.child.gestationalWeeks };
-
-  const sortedEvents = [...profile.events].sort((a, b) => a.weekOffset - b.weekOffset);
-  const answers: AnswerEvent[] = sortedEvents.map((ev) => ({
-    questionId: ev.questionId,
-    answer: ev.answer,
-    timestamp: new Date(dob.getTime() + ev.weekOffset * 7 * 24 * 60 * 60 * 1000),
-  }));
-
-  const lastEvent = sortedEvents[sortedEvents.length - 1];
-  const now = lastEvent
-    ? new Date(dob.getTime() + lastEvent.weekOffset * 7 * 24 * 60 * 60 * 1000)
-    : new Date();
-
-  // Use the full evaluation path
-  const ageResult = computeAge(child.dob, child.gestationalWeeks, now);
-  const ageMo = ageResult.useCorrectedAge ? ageResult.correctedMonths : ageResult.chronologicalMonths;
-
-  const inWindowQuestions = getQuestionsByAgeBand(Math.max(0, ageMo - 2), ageMo + 2);
-  const redFlags = getUniversalRedFlags();
-  const allRelevantIds = new Set<string>();
-  const allRelevantQuestions: any[] = [];
-
-  for (const q of [...inWindowQuestions, ...redFlags]) {
-    if (!allRelevantIds.has(q.id)) {
-      allRelevantIds.add(q.id);
-      allRelevantQuestions.push(q);
-    }
-  }
-  const answeredIds = new Set(answers.map((a) => a.questionId));
-  for (const id of answeredIds) {
-    if (!allRelevantIds.has(id)) {
-      const q = getQuestionById(id);
-      if (q) { allRelevantIds.add(id); allRelevantQuestions.push(q); }
-    }
-  }
-
-  const questionResults = allRelevantQuestions.map((q) =>
-    evaluateQuestion(q, child, answers, DEFAULT_RULESET, now),
-  );
-
-  // Regression detection
-  const answersByQ = new Map<string, AnswerEvent[]>();
-  for (const a of answers) {
-    const arr = answersByQ.get(a.questionId);
-    if (arr) arr.push(a); else answersByQ.set(a.questionId, [a]);
-  }
-  for (const qr of questionResults) {
-    const history = answersByQ.get(qr.questionId);
-    if (!history || history.length < 2) continue;
-    const sorted = [...history].sort((a, b) => a.timestamp.getTime() - b.timestamp.getTime());
-    const latest = sorted[sorted.length - 1];
-    if (latest.answer !== 'not_yet') continue;
-    const hadAchieved = sorted.slice(0, -1).some((a) => a.answer === 'achieved');
-    if (hadAchieved) {
-      qr.regressionDetected = true;
-      const sevOrder: Record<string, number> = { normal: 0, reminder: 1, watch: 2, precaution: 3, warning: 4, flag: 5 };
-      if ((sevOrder[qr.severity] ?? 0) < 4) qr.severity = 'warning';
-    }
-  }
-
-  const domainAssessments = scoreAllDomains(questionResults, answers, ALL_DOMAIN_TAGS);
-
-  const groundTruth: Partial<Record<DomainTag, GroundTruthLabel>> = {};
-  for (const tag of ALL_DOMAIN_TAGS) {
-    const assessment = domainAssessments[tag];
-    if (assessment) {
-      groundTruth[tag] = classifyDomainStatus(assessment.status);
-    }
-  }
-
-  return groundTruth;
-}
 
 function getAllQuestionInfo(): QuestionInfo[] {
   return getAllQuestions().map((q) => ({
@@ -782,6 +694,319 @@ function generateMixedProfiles(allQuestions: QuestionInfo[]): ValidationProfile[
 }
 
 /**
+ * Borderline / adversarial profiles that test the engine's decision boundaries.
+ *
+ * These profiles sit near classification thresholds. The hand-written ground
+ * truth labels below reflect the expected engine behavior based on the scoring
+ * rules in domain-scoring.ts:
+ *   - flagCount >= 1 → high_concern → "concern"
+ *   - warningCount >= 2 || (warningCount >= 1 && streakMissed >= 2) → moderate_concern → "concern"
+ *   - Everything else → "no_concern"
+ */
+function generateBorderlineProfiles(allQuestions: QuestionInfo[]): ValidationProfile[] {
+  const profiles: ValidationProfile[] = [];
+
+  // 1. Mixed signals: half achieved, half not_yet in a single domain
+  //    At 18 months, GM questions — 3 achieved, 3 not_yet.
+  //    With 3 not_yet in a streak, warningCount depends on weight.
+  //    Multiple misses across age-appropriate milestones → likely moderate_concern.
+  {
+    const age = 18;
+    const dob = dobForAge(age);
+    const gmQ = getQuestionsByDomainTag(
+      getQuestionsForAgeBand(allQuestions, 0, age), 'GM',
+    ).slice(0, 6);
+    if (gmQ.length >= 6) {
+      const events: ValidationProfile['events'] = [
+        ...gmQ.slice(0, 3).map((q) => ({
+          weekOffset: weekOffsetForAge(q.normativeAgeMonths),
+          questionId: q.id,
+          answer: 'achieved' as const,
+        })),
+        ...gmQ.slice(3, 6).map((q) => ({
+          weekOffset: weekOffsetForAge(Math.max(q.normativeAgeMonths, age - 2)),
+          questionId: q.id,
+          answer: 'not_yet' as const,
+        })),
+        { weekOffset: weekOffsetForAge(age), questionId: 'rf_01', answer: 'achieved' as const },
+      ];
+      profiles.push({
+        id: 'borderline_mixed_gm_18m',
+        name: 'Borderline: mixed GM signals at 18 months',
+        description: 'Half GM milestones achieved, half not_yet — tests boundary between concern and no_concern',
+        category: 'motor_delay',
+        child: { dob },
+        events,
+        groundTruth: { GM: 'concern' },
+      });
+    }
+  }
+
+  // 2. Single milestone miss among many achieved — clinically this is "monitor",
+  //    not "concern". A single missed milestone with 4+ achieved in the same
+  //    domain would not prompt a referral in clinical practice.
+  //    EXPECTED DISAGREEMENT: engine flags high_concern (aggressive), clinical
+  //    judgment says no_concern (watch and wait).
+  {
+    const age = 12;
+    const dob = dobForAge(age);
+    const elQ = getQuestionsByDomainTag(
+      getQuestionsForAgeBand(allQuestions, 0, age), 'EL',
+    ).slice(0, 5);
+    if (elQ.length >= 3) {
+      const events: ValidationProfile['events'] = [
+        ...elQ.slice(0, elQ.length - 1).map((q) => ({
+          weekOffset: weekOffsetForAge(q.normativeAgeMonths),
+          questionId: q.id,
+          answer: 'achieved' as const,
+        })),
+        {
+          weekOffset: weekOffsetForAge(Math.max(elQ[elQ.length - 1].normativeAgeMonths, age - 2)),
+          questionId: elQ[elQ.length - 1].id,
+          answer: 'not_yet' as const,
+        },
+        { weekOffset: weekOffsetForAge(age), questionId: 'rf_01', answer: 'achieved' as const },
+      ];
+      profiles.push({
+        id: 'borderline_single_miss_el_12m',
+        name: 'Borderline: single EL miss at 12 months',
+        description: 'One language milestone not_yet among several achieved — clinically would be "monitor"',
+        category: 'typical',
+        child: { dob },
+        events,
+        groundTruth: { EL: 'no_concern' },
+      });
+    }
+  }
+
+  // 3. Sparse data — only 2 questions answered, one achieved, one not_yet.
+  //    With only 50% of a tiny sample missed, clinical practice would say
+  //    "insufficient data to conclude, re-screen." Not "high concern."
+  //    EXPECTED DISAGREEMENT: engine flags high_concern, clinical judgment
+  //    says insufficient evidence to raise concern.
+  {
+    const age = 15;
+    const dob = dobForAge(age);
+    const seQ = getQuestionsByDomainTag(
+      getQuestionsForAgeBand(allQuestions, 0, age), 'SE',
+    ).slice(0, 2);
+    if (seQ.length >= 2) {
+      const events: ValidationProfile['events'] = [
+        {
+          weekOffset: weekOffsetForAge(seQ[0].normativeAgeMonths),
+          questionId: seQ[0].id,
+          answer: 'achieved' as const,
+        },
+        {
+          weekOffset: weekOffsetForAge(Math.max(seQ[1].normativeAgeMonths, age - 2)),
+          questionId: seQ[1].id,
+          answer: 'not_yet' as const,
+        },
+        { weekOffset: weekOffsetForAge(age), questionId: 'rf_01', answer: 'achieved' as const },
+      ];
+      profiles.push({
+        id: 'borderline_sparse_se_15m',
+        name: 'Borderline: sparse SE data at 15 months',
+        description: 'Only 2 SE questions answered, one not_yet — clinically insufficient to flag concern',
+        category: 'typical',
+        child: { dob },
+        events,
+        groundTruth: { SE: 'no_concern' },
+      });
+    }
+  }
+
+  // 4. All unsure in a domain — should not trigger concern
+  {
+    const age = 18;
+    const dob = dobForAge(age);
+    const cpQ = getQuestionsByDomainTag(
+      getQuestionsForAgeBand(allQuestions, 0, age), 'CP',
+    ).slice(0, 4);
+    if (cpQ.length >= 3) {
+      const events: ValidationProfile['events'] = [
+        ...cpQ.map((q) => ({
+          weekOffset: weekOffsetForAge(q.normativeAgeMonths),
+          questionId: q.id,
+          answer: 'unsure' as const,
+        })),
+        { weekOffset: weekOffsetForAge(age), questionId: 'rf_01', answer: 'achieved' as const },
+      ];
+      profiles.push({
+        id: 'borderline_all_unsure_cp_18m',
+        name: 'Borderline: all unsure CP at 18 months',
+        description: 'All cognitive questions answered unsure — should not trigger concern',
+        category: 'typical',
+        child: { dob },
+        events,
+        groundTruth: { CP: 'no_concern' },
+      });
+    }
+  }
+
+  // 5. Two warnings without streak — two separate not_yet milestones with
+  //    achieved milestones in between → moderate_concern → concern
+  {
+    const age = 24;
+    const dob = dobForAge(age);
+    const elQ = getQuestionsByDomainTag(
+      getQuestionsForAgeBand(allQuestions, 0, age), 'EL',
+    ).slice(0, 6);
+    if (elQ.length >= 5) {
+      const events: ValidationProfile['events'] = [
+        { weekOffset: weekOffsetForAge(elQ[0].normativeAgeMonths), questionId: elQ[0].id, answer: 'not_yet' as const },
+        { weekOffset: weekOffsetForAge(elQ[1].normativeAgeMonths), questionId: elQ[1].id, answer: 'achieved' as const },
+        { weekOffset: weekOffsetForAge(elQ[2].normativeAgeMonths), questionId: elQ[2].id, answer: 'achieved' as const },
+        { weekOffset: weekOffsetForAge(elQ[3].normativeAgeMonths), questionId: elQ[3].id, answer: 'not_yet' as const },
+        { weekOffset: weekOffsetForAge(elQ[4].normativeAgeMonths), questionId: elQ[4].id, answer: 'achieved' as const },
+        { weekOffset: weekOffsetForAge(age), questionId: 'rf_01', answer: 'achieved' as const },
+      ];
+      profiles.push({
+        id: 'borderline_scattered_miss_el_24m',
+        name: 'Borderline: scattered EL misses at 24 months',
+        description: 'Two non-consecutive EL milestones not_yet — tests warning accumulation without streak',
+        category: 'speech_delay',
+        child: { dob },
+        events,
+        groundTruth: { EL: 'concern' },
+      });
+    }
+  }
+
+  // 6. Cross-domain question: multi-tagged question not_yet affects multiple domains
+  {
+    const age = 6;
+    const dob = dobForAge(age);
+    // Find multi-tag questions
+    const multiTagQ = getQuestionsForAgeBand(allQuestions, 0, age)
+      .filter((q) => q.tags.length > 1 && !q.tags.includes('RF' as DomainTag));
+    if (multiTagQ.length >= 2) {
+      const singleTagQ = getQuestionsForAgeBand(allQuestions, 0, age)
+        .filter((q) => q.tags.length === 1 && !q.tags.includes('RF' as DomainTag))
+        .slice(0, 3);
+      const events: ValidationProfile['events'] = [
+        ...multiTagQ.slice(0, 2).map((q) => ({
+          weekOffset: weekOffsetForAge(Math.max(q.normativeAgeMonths, age - 2)),
+          questionId: q.id,
+          answer: 'not_yet' as const,
+        })),
+        ...singleTagQ.map((q) => ({
+          weekOffset: weekOffsetForAge(q.normativeAgeMonths),
+          questionId: q.id,
+          answer: 'achieved' as const,
+        })),
+        { weekOffset: weekOffsetForAge(age), questionId: 'rf_01', answer: 'achieved' as const },
+      ];
+      // Ground truth depends on which domains the multi-tag questions touch
+      const affectedDomains = new Set<DomainTag>();
+      for (const q of multiTagQ.slice(0, 2)) {
+        for (const t of q.tags) {
+          if (t !== 'RF') affectedDomains.add(t);
+        }
+      }
+      const gt: Partial<Record<DomainTag, GroundTruthLabel>> = {};
+      for (const d of affectedDomains) gt[d] = 'concern';
+      profiles.push({
+        id: 'borderline_multitag_6m',
+        name: 'Borderline: multi-tag question miss at 6 months',
+        description: 'Not_yet on questions tagged to multiple domains — tests cross-domain impact',
+        category: 'global_delay',
+        child: { dob },
+        events,
+        groundTruth: gt,
+      });
+    }
+  }
+
+  // 7. Near-threshold: one not_yet + one unsure among 2 achieved.
+  //    Majority of observations are positive (2 achieved vs 1 not_yet + 1 unsure).
+  //    Clinically this is "developing, monitor the unsure items" — not a referral.
+  //    EXPECTED DISAGREEMENT: engine flags high_concern, clinical judgment says
+  //    no_concern (more achieved than missed).
+  {
+    const age = 18;
+    const dob = dobForAge(age);
+    const fmQ = getQuestionsByDomainTag(
+      getQuestionsForAgeBand(allQuestions, 0, age), 'FM',
+    ).slice(0, 5);
+    if (fmQ.length >= 4) {
+      const events: ValidationProfile['events'] = [
+        // First 2 achieved
+        ...fmQ.slice(0, 2).map((q) => ({
+          weekOffset: weekOffsetForAge(q.normativeAgeMonths),
+          questionId: q.id,
+          answer: 'achieved' as const,
+        })),
+        // One not_yet
+        {
+          weekOffset: weekOffsetForAge(Math.max(fmQ[2].normativeAgeMonths, age - 2)),
+          questionId: fmQ[2].id,
+          answer: 'not_yet' as const,
+        },
+        // One unsure
+        {
+          weekOffset: weekOffsetForAge(fmQ[3].normativeAgeMonths),
+          questionId: fmQ[3].id,
+          answer: 'unsure' as const,
+        },
+        { weekOffset: weekOffsetForAge(age), questionId: 'rf_01', answer: 'achieved' as const },
+      ];
+      profiles.push({
+        id: 'borderline_near_threshold_fm_18m',
+        name: 'Borderline: near-threshold FM at 18 months',
+        description: 'One not_yet + one unsure among achieved — clinically would be "monitor"',
+        category: 'typical',
+        child: { dob },
+        events,
+        groundTruth: { FM: 'no_concern' },
+      });
+    }
+  }
+
+  // 8. Only 1 question answered in a domain (and it's not_yet).
+  //    With a single observation, clinical practice would say "we don't have
+  //    enough data to draw conclusions — re-screen with more questions."
+  //    EXPECTED DISAGREEMENT: engine flags high_concern (bypasses evidence gate
+  //    for flag-severity misses), clinical judgment says no_concern (insufficient data).
+  {
+    const age = 12;
+    const dob = dobForAge(age);
+    const rlQ = getQuestionsByDomainTag(
+      getQuestionsForAgeBand(allQuestions, 0, age), 'RL',
+    ).slice(0, 1);
+    const gmQ = getQuestionsByDomainTag(
+      getQuestionsForAgeBand(allQuestions, 0, age), 'GM',
+    ).slice(0, 3);
+    if (rlQ.length >= 1 && gmQ.length >= 2) {
+      const events: ValidationProfile['events'] = [
+        {
+          weekOffset: weekOffsetForAge(Math.max(rlQ[0].normativeAgeMonths, age - 2)),
+          questionId: rlQ[0].id,
+          answer: 'not_yet' as const,
+        },
+        ...gmQ.map((q) => ({
+          weekOffset: weekOffsetForAge(q.normativeAgeMonths),
+          questionId: q.id,
+          answer: 'achieved' as const,
+        })),
+        { weekOffset: weekOffsetForAge(age), questionId: 'rf_01', answer: 'achieved' as const },
+      ];
+      profiles.push({
+        id: 'borderline_single_obs_rl_12m',
+        name: 'Borderline: single RL observation at 12 months',
+        description: 'Only 1 RL question answered (not_yet) — clinically insufficient data to flag',
+        category: 'typical',
+        child: { dob },
+        events,
+        groundTruth: { RL: 'no_concern', GM: 'no_concern' },
+      });
+    }
+  }
+
+  return profiles;
+}
+
+/**
  * Generate a comprehensive set of synthetic validation profiles.
  * Returns 100+ profiles across all categories and age bands.
  */
@@ -795,6 +1020,7 @@ export function generateProfiles(): ValidationProfile[] {
     ...generateGlobalDelayProfiles(allQuestions),
     ...generateRegressionProfiles(allQuestions),
     ...generateMixedProfiles(allQuestions),
+    ...generateBorderlineProfiles(allQuestions),
   ];
 
   // Red flag trigger profiles (rf_01 not_yet without prior achievement = not regression but flag)
@@ -1043,15 +1269,7 @@ export function generateProfiles(): ValidationProfile[] {
     });
   }
 
-  // Replace partial ground truth with full 8-domain ground truth
-  // derived from the engine itself. This ensures:
-  // 1. ALL 8 domains are labeled (no blind spots)
-  // 2. Multi-tag question effects are captured
-  // 3. Regression detection is included
-  return profiles.map((profile) => ({
-    ...profile,
-    groundTruth: deriveFullGroundTruth(profile),
-  }));
+  return profiles;
 }
 
 /**

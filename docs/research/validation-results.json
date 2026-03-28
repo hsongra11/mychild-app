@@ -6,15 +6,15 @@
       "category": "typical",
       "domainResults": [
         {
-          "domain": "GM",
+          "domain": "VH",
           "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
           "correct": true
         },
         {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
+          "domain": "SE",
+          "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
           "correct": true
@@ -34,13 +34,6 @@
           "correct": true
         },
         {
-          "domain": "SE",
-          "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
           "domain": "CP",
           "engineStatus": "normal",
           "engineClassification": "no_concern",
@@ -48,14 +41,7 @@
           "correct": true
         },
         {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
+          "domain": "GM",
           "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
@@ -69,14 +55,21 @@
       "category": "typical",
       "domainResults": [
         {
-          "domain": "GM",
+          "domain": "SE",
           "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
           "correct": true
         },
         {
-          "domain": "FM",
+          "domain": "EL",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "VH",
           "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
@@ -90,15 +83,8 @@
           "correct": true
         },
         {
-          "domain": "EL",
-          "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SE",
-          "engineStatus": "normal",
+          "domain": "SH",
+          "engineStatus": "insufficient_evidence",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
           "correct": true
@@ -111,14 +97,14 @@
           "correct": true
         },
         {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
+          "domain": "FM",
+          "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
           "correct": true
         },
         {
-          "domain": "VH",
+          "domain": "GM",
           "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
@@ -132,34 +118,6 @@
       "category": "typical",
       "domainResults": [
         {
-          "domain": "GM",
-          "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "EL",
-          "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
           "domain": "SE",
           "engineStatus": "normal",
           "engineClassification": "no_concern",
@@ -174,6 +132,13 @@
           "correct": true
         },
         {
+          "domain": "EL",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
           "domain": "SH",
           "engineStatus": "normal",
           "engineClassification": "no_concern",
@@ -181,8 +146,15 @@
           "correct": true
         },
         {
-          "domain": "VH",
-          "engineStatus": "insufficient_evidence",
+          "domain": "FM",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "GM",
+          "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
           "correct": true
@@ -195,14 +167,7 @@
       "category": "typical",
       "domainResults": [
         {
-          "domain": "GM",
-          "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
+          "domain": "SE",
           "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
@@ -216,14 +181,14 @@
           "correct": true
         },
         {
-          "domain": "EL",
+          "domain": "VH",
           "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
           "correct": true
         },
         {
-          "domain": "SE",
+          "domain": "EL",
           "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
@@ -237,14 +202,14 @@
           "correct": true
         },
         {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
+          "domain": "FM",
+          "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
           "correct": true
         },
         {
-          "domain": "VH",
+          "domain": "GM",
           "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
@@ -258,7 +223,21 @@
       "category": "typical",
       "domainResults": [
         {
-          "domain": "GM",
+          "domain": "SE",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
           "engineStatus": "insufficient_evidence",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
@@ -272,27 +251,6 @@
           "correct": true
         },
         {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "EL",
-          "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SE",
-          "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
           "domain": "CP",
           "engineStatus": "normal",
           "engineClassification": "no_concern",
@@ -300,14 +258,7 @@
           "correct": true
         },
         {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
+          "domain": "GM",
           "engineStatus": "insufficient_evidence",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
@@ -321,21 +272,7 @@
       "category": "typical",
       "domainResults": [
         {
-          "domain": "GM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
+          "domain": "SE",
           "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
@@ -349,13 +286,6 @@
           "correct": true
         },
         {
-          "domain": "SE",
-          "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
           "domain": "CP",
           "engineStatus": "normal",
           "engineClassification": "no_concern",
@@ -363,14 +293,28 @@
           "correct": true
         },
         {
-          "domain": "SH",
+          "domain": "RL",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "FM",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "GM",
           "engineStatus": "insufficient_evidence",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
           "correct": true
         },
         {
-          "domain": "VH",
+          "domain": "SH",
           "engineStatus": "insufficient_evidence",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
@@ -384,21 +328,7 @@
       "category": "typical",
       "domainResults": [
         {
-          "domain": "GM",
-          "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
+          "domain": "SE",
           "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
@@ -412,7 +342,14 @@
           "correct": true
         },
         {
-          "domain": "SE",
+          "domain": "SH",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
+          "domain": "RL",
           "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
@@ -426,15 +363,15 @@
           "correct": true
         },
         {
-          "domain": "SH",
+          "domain": "GM",
           "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
           "correct": true
         },
         {
-          "domain": "VH",
-          "engineStatus": "insufficient_evidence",
+          "domain": "FM",
+          "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
           "correct": true
@@ -447,14 +384,7 @@
       "category": "typical",
       "domainResults": [
         {
-          "domain": "GM",
-          "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
+          "domain": "SE",
           "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
@@ -475,7 +405,7 @@
           "correct": true
         },
         {
-          "domain": "SE",
+          "domain": "FM",
           "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
@@ -489,14 +419,14 @@
           "correct": true
         },
         {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
+          "domain": "GM",
+          "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
           "correct": true
         },
         {
-          "domain": "VH",
+          "domain": "SH",
           "engineStatus": "insufficient_evidence",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
@@ -510,14 +440,7 @@
       "category": "typical",
       "domainResults": [
         {
-          "domain": "GM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
+          "domain": "EL",
           "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
@@ -525,13 +448,6 @@
         },
         {
           "domain": "RL",
-          "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "EL",
           "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
@@ -552,6 +468,13 @@
           "correct": true
         },
         {
+          "domain": "FM",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        },
+        {
           "domain": "SH",
           "engineStatus": "normal",
           "engineClassification": "no_concern",
@@ -559,7 +482,7 @@
           "correct": true
         },
         {
-          "domain": "VH",
+          "domain": "GM",
           "engineStatus": "insufficient_evidence",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
@@ -573,14 +496,7 @@
       "category": "typical",
       "domainResults": [
         {
-          "domain": "GM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
+          "domain": "EL",
           "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
@@ -594,7 +510,7 @@
           "correct": true
         },
         {
-          "domain": "EL",
+          "domain": "CP",
           "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
@@ -608,7 +524,7 @@
           "correct": true
         },
         {
-          "domain": "CP",
+          "domain": "FM",
           "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
@@ -617,13 +533,6 @@
         {
           "domain": "SH",
           "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
-          "engineStatus": "insufficient_evidence",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
           "correct": true
@@ -636,21 +545,7 @@
       "category": "typical",
       "domainResults": [
         {
-          "domain": "GM",
-          "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
+          "domain": "SE",
           "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
@@ -664,28 +559,14 @@
           "correct": true
         },
         {
-          "domain": "SE",
+          "domain": "GM",
           "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
           "correct": true
         },
         {
-          "domain": "CP",
-          "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
+          "domain": "FM",
           "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
@@ -699,21 +580,7 @@
       "category": "typical",
       "domainResults": [
         {
-          "domain": "GM",
-          "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
+          "domain": "SE",
           "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
@@ -727,28 +594,14 @@
           "correct": true
         },
         {
-          "domain": "SE",
+          "domain": "GM",
           "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
           "correct": true
         },
         {
-          "domain": "CP",
-          "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
+          "domain": "FM",
           "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
@@ -762,21 +615,7 @@
       "category": "typical",
       "domainResults": [
         {
-          "domain": "GM",
-          "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
+          "domain": "SE",
           "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
@@ -790,28 +629,14 @@
           "correct": true
         },
         {
-          "domain": "SE",
+          "domain": "GM",
           "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
           "correct": true
         },
         {
-          "domain": "CP",
-          "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
+          "domain": "FM",
           "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
@@ -825,28 +650,7 @@
       "category": "typical",
       "domainResults": [
         {
-          "domain": "GM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "EL",
+          "domain": "VH",
           "engineStatus": "insufficient_evidence",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
@@ -854,27 +658,6 @@
         },
         {
           "domain": "SE",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "CP",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
           "engineStatus": "insufficient_evidence",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
@@ -888,34 +671,6 @@
       "category": "typical",
       "domainResults": [
         {
-          "domain": "GM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "EL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
           "domain": "SE",
           "engineStatus": "normal",
           "engineClassification": "no_concern",
@@ -924,20 +679,6 @@
         },
         {
           "domain": "CP",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
           "engineStatus": "insufficient_evidence",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
@@ -951,34 +692,6 @@
       "category": "typical",
       "domainResults": [
         {
-          "domain": "GM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "EL",
-          "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
           "domain": "SE",
           "engineStatus": "normal",
           "engineClassification": "no_concern",
@@ -986,22 +699,8 @@
           "correct": true
         },
         {
-          "domain": "CP",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
-          "engineStatus": "insufficient_evidence",
+          "domain": "EL",
+          "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
           "correct": true
@@ -1014,22 +713,8 @@
       "category": "typical",
       "domainResults": [
         {
-          "domain": "GM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
+          "domain": "SE",
+          "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
           "correct": true
@@ -1042,28 +727,7 @@
           "correct": true
         },
         {
-          "domain": "SE",
-          "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "CP",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
           "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
           "engineStatus": "insufficient_evidence",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
@@ -1077,57 +741,8 @@
       "category": "typical",
       "domainResults": [
         {
-          "domain": "GM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
           "domain": "EL",
           "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SE",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "CP",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
-          "engineStatus": "insufficient_evidence",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
           "correct": true
@@ -1140,27 +755,6 @@
       "category": "speech_delay",
       "domainResults": [
         {
-          "domain": "GM",
-          "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
           "domain": "EL",
           "engineStatus": "high_concern",
           "engineClassification": "concern",
@@ -1168,29 +762,8 @@
           "correct": true
         },
         {
-          "domain": "SE",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "CP",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
-          "engineStatus": "insufficient_evidence",
+          "domain": "GM",
+          "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
           "correct": true
@@ -1203,27 +776,6 @@
       "category": "speech_delay",
       "domainResults": [
         {
-          "domain": "GM",
-          "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
           "domain": "EL",
           "engineStatus": "high_concern",
           "engineClassification": "concern",
@@ -1231,29 +783,8 @@
           "correct": true
         },
         {
-          "domain": "SE",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "CP",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
-          "engineStatus": "insufficient_evidence",
+          "domain": "GM",
+          "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
           "correct": true
@@ -1266,27 +797,6 @@
       "category": "speech_delay",
       "domainResults": [
         {
-          "domain": "GM",
-          "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
           "domain": "EL",
           "engineStatus": "high_concern",
           "engineClassification": "concern",
@@ -1294,29 +804,8 @@
           "correct": true
         },
         {
-          "domain": "SE",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "CP",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
-          "engineStatus": "insufficient_evidence",
+          "domain": "GM",
+          "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
           "correct": true
@@ -1329,27 +818,6 @@
       "category": "speech_delay",
       "domainResults": [
         {
-          "domain": "GM",
-          "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
           "domain": "EL",
           "engineStatus": "high_concern",
           "engineClassification": "concern",
@@ -1357,29 +825,8 @@
           "correct": true
         },
         {
-          "domain": "SE",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "CP",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
-          "engineStatus": "insufficient_evidence",
+          "domain": "GM",
+          "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
           "correct": true
@@ -1392,27 +839,6 @@
       "category": "speech_delay",
       "domainResults": [
         {
-          "domain": "GM",
-          "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
           "domain": "EL",
           "engineStatus": "high_concern",
           "engineClassification": "concern",
@@ -1420,29 +846,8 @@
           "correct": true
         },
         {
-          "domain": "SE",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "CP",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
-          "engineStatus": "insufficient_evidence",
+          "domain": "GM",
+          "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
           "correct": true
@@ -1455,27 +860,6 @@
       "category": "speech_delay",
       "domainResults": [
         {
-          "domain": "GM",
-          "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
           "domain": "EL",
           "engineStatus": "high_concern",
           "engineClassification": "concern",
@@ -1483,29 +867,8 @@
           "correct": true
         },
         {
-          "domain": "SE",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "CP",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
-          "engineStatus": "insufficient_evidence",
+          "domain": "GM",
+          "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
           "correct": true
@@ -1518,27 +881,6 @@
       "category": "speech_delay",
       "domainResults": [
         {
-          "domain": "GM",
-          "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
           "domain": "EL",
           "engineStatus": "high_concern",
           "engineClassification": "concern",
@@ -1546,29 +888,8 @@
           "correct": true
         },
         {
-          "domain": "SE",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "CP",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
-          "engineStatus": "insufficient_evidence",
+          "domain": "GM",
+          "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
           "correct": true
@@ -1581,17 +902,10 @@
       "category": "speech_delay",
       "domainResults": [
         {
-          "domain": "GM",
-          "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
+          "domain": "EL",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
           "correct": true
         },
         {
@@ -1602,38 +916,10 @@
           "correct": true
         },
         {
-          "domain": "EL",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "SE",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "CP",
-          "engineStatus": "insufficient_evidence",
+          "domain": "GM",
+          "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
           "correct": true
         }
       ]
@@ -1644,17 +930,10 @@
       "category": "speech_delay",
       "domainResults": [
         {
-          "domain": "GM",
-          "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
+          "domain": "EL",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
           "correct": true
         },
         {
@@ -1665,38 +944,10 @@
           "correct": true
         },
         {
-          "domain": "EL",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "SE",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "CP",
-          "engineStatus": "insufficient_evidence",
+          "domain": "GM",
+          "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
           "correct": true
         }
       ]
@@ -1714,50 +965,8 @@
           "correct": true
         },
         {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
           "domain": "EL",
           "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SE",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "CP",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
-          "engineStatus": "insufficient_evidence",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
           "correct": true
@@ -1777,50 +986,8 @@
           "correct": true
         },
         {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
           "domain": "EL",
           "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SE",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "CP",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
-          "engineStatus": "insufficient_evidence",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
           "correct": true
@@ -1840,50 +1007,8 @@
           "correct": true
         },
         {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
           "domain": "EL",
           "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SE",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "CP",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
-          "engineStatus": "insufficient_evidence",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
           "correct": true
@@ -1903,50 +1028,8 @@
           "correct": true
         },
         {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
           "domain": "EL",
           "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SE",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "CP",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
-          "engineStatus": "insufficient_evidence",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
           "correct": true
@@ -1966,50 +1049,8 @@
           "correct": true
         },
         {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
           "domain": "EL",
           "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SE",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "CP",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
-          "engineStatus": "insufficient_evidence",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
           "correct": true
@@ -2029,50 +1070,8 @@
           "correct": true
         },
         {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
           "domain": "EL",
           "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SE",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "CP",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
-          "engineStatus": "insufficient_evidence",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
           "correct": true
@@ -2085,13 +1084,6 @@
       "category": "motor_delay",
       "domainResults": [
         {
-          "domain": "GM",
-          "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
           "domain": "FM",
           "engineStatus": "high_concern",
           "engineClassification": "concern",
@@ -2099,43 +1091,8 @@
           "correct": true
         },
         {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "EL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SE",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "CP",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
-          "engineStatus": "insufficient_evidence",
+          "domain": "GM",
+          "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
           "correct": true
@@ -2148,13 +1105,6 @@
       "category": "motor_delay",
       "domainResults": [
         {
-          "domain": "GM",
-          "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
           "domain": "FM",
           "engineStatus": "high_concern",
           "engineClassification": "concern",
@@ -2162,43 +1112,8 @@
           "correct": true
         },
         {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "EL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SE",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "CP",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
-          "engineStatus": "insufficient_evidence",
+          "domain": "GM",
+          "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
           "correct": true
@@ -2211,13 +1126,6 @@
       "category": "motor_delay",
       "domainResults": [
         {
-          "domain": "GM",
-          "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
           "domain": "FM",
           "engineStatus": "high_concern",
           "engineClassification": "concern",
@@ -2225,43 +1133,8 @@
           "correct": true
         },
         {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "EL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SE",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "CP",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
-          "engineStatus": "insufficient_evidence",
+          "domain": "GM",
+          "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
           "correct": true
@@ -2274,13 +1147,6 @@
       "category": "motor_delay",
       "domainResults": [
         {
-          "domain": "GM",
-          "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
           "domain": "FM",
           "engineStatus": "high_concern",
           "engineClassification": "concern",
@@ -2288,43 +1154,8 @@
           "correct": true
         },
         {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "EL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SE",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "CP",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
-          "engineStatus": "insufficient_evidence",
+          "domain": "GM",
+          "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
           "correct": true
@@ -2337,17 +1168,10 @@
       "category": "global_delay",
       "domainResults": [
         {
-          "domain": "GM",
+          "domain": "SE",
           "engineStatus": "high_concern",
           "engineClassification": "concern",
           "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
           "correct": true
         },
         {
@@ -2365,7 +1189,7 @@
           "correct": true
         },
         {
-          "domain": "SE",
+          "domain": "VH",
           "engineStatus": "high_concern",
           "engineClassification": "concern",
           "groundTruth": "concern",
@@ -2379,14 +1203,7 @@
           "correct": true
         },
         {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
+          "domain": "GM",
           "engineStatus": "high_concern",
           "engineClassification": "concern",
           "groundTruth": "concern",
@@ -2400,17 +1217,10 @@
       "category": "global_delay",
       "domainResults": [
         {
-          "domain": "GM",
+          "domain": "SE",
           "engineStatus": "high_concern",
           "engineClassification": "concern",
           "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
           "correct": true
         },
         {
@@ -2428,7 +1238,7 @@
           "correct": true
         },
         {
-          "domain": "SE",
+          "domain": "VH",
           "engineStatus": "high_concern",
           "engineClassification": "concern",
           "groundTruth": "concern",
@@ -2442,14 +1252,7 @@
           "correct": true
         },
         {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
+          "domain": "GM",
           "engineStatus": "high_concern",
           "engineClassification": "concern",
           "groundTruth": "concern",
@@ -2463,17 +1266,10 @@
       "category": "global_delay",
       "domainResults": [
         {
-          "domain": "GM",
+          "domain": "SE",
           "engineStatus": "high_concern",
           "engineClassification": "concern",
           "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
           "correct": true
         },
         {
@@ -2491,7 +1287,7 @@
           "correct": true
         },
         {
-          "domain": "SE",
+          "domain": "VH",
           "engineStatus": "high_concern",
           "engineClassification": "concern",
           "groundTruth": "concern",
@@ -2505,14 +1301,7 @@
           "correct": true
         },
         {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
+          "domain": "GM",
           "engineStatus": "high_concern",
           "engineClassification": "concern",
           "groundTruth": "concern",
@@ -2526,17 +1315,10 @@
       "category": "global_delay",
       "domainResults": [
         {
-          "domain": "GM",
+          "domain": "SE",
           "engineStatus": "high_concern",
           "engineClassification": "concern",
           "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
           "correct": true
         },
         {
@@ -2554,7 +1336,7 @@
           "correct": true
         },
         {
-          "domain": "SE",
+          "domain": "VH",
           "engineStatus": "high_concern",
           "engineClassification": "concern",
           "groundTruth": "concern",
@@ -2568,14 +1350,7 @@
           "correct": true
         },
         {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
+          "domain": "GM",
           "engineStatus": "high_concern",
           "engineClassification": "concern",
           "groundTruth": "concern",
@@ -2589,17 +1364,10 @@
       "category": "global_delay",
       "domainResults": [
         {
-          "domain": "GM",
+          "domain": "SE",
           "engineStatus": "high_concern",
           "engineClassification": "concern",
           "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
           "correct": true
         },
         {
@@ -2617,7 +1385,7 @@
           "correct": true
         },
         {
-          "domain": "SE",
+          "domain": "VH",
           "engineStatus": "high_concern",
           "engineClassification": "concern",
           "groundTruth": "concern",
@@ -2631,14 +1399,7 @@
           "correct": true
         },
         {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
+          "domain": "GM",
           "engineStatus": "high_concern",
           "engineClassification": "concern",
           "groundTruth": "concern",
@@ -2652,17 +1413,10 @@
       "category": "global_delay",
       "domainResults": [
         {
-          "domain": "GM",
+          "domain": "SE",
           "engineStatus": "high_concern",
           "engineClassification": "concern",
           "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
           "correct": true
         },
         {
@@ -2680,7 +1434,7 @@
           "correct": true
         },
         {
-          "domain": "SE",
+          "domain": "VH",
           "engineStatus": "high_concern",
           "engineClassification": "concern",
           "groundTruth": "concern",
@@ -2694,14 +1448,7 @@
           "correct": true
         },
         {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
+          "domain": "GM",
           "engineStatus": "high_concern",
           "engineClassification": "concern",
           "groundTruth": "concern",
@@ -2715,59 +1462,10 @@
       "category": "mixed_regression",
       "domainResults": [
         {
-          "domain": "GM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
           "domain": "EL",
           "engineStatus": "high_concern",
           "engineClassification": "concern",
           "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "SE",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "CP",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
           "correct": true
         }
       ]
@@ -2778,59 +1476,10 @@
       "category": "mixed_regression",
       "domainResults": [
         {
-          "domain": "GM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
           "domain": "EL",
           "engineStatus": "high_concern",
           "engineClassification": "concern",
           "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "SE",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "CP",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
           "correct": true
         }
       ]
@@ -2841,59 +1490,10 @@
       "category": "mixed_regression",
       "domainResults": [
         {
-          "domain": "GM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
           "domain": "EL",
           "engineStatus": "high_concern",
           "engineClassification": "concern",
           "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "SE",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "CP",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
           "correct": true
         }
       ]
@@ -2909,55 +1509,6 @@
           "engineClassification": "concern",
           "groundTruth": "concern",
           "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "EL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SE",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "CP",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
         }
       ]
     },
@@ -2972,55 +1523,6 @@
           "engineClassification": "concern",
           "groundTruth": "concern",
           "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "EL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SE",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "CP",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
         }
       ]
     },
@@ -3030,59 +1532,10 @@
       "category": "mixed_regression",
       "domainResults": [
         {
-          "domain": "GM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "EL",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
           "domain": "SE",
           "engineStatus": "high_concern",
           "engineClassification": "concern",
           "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "CP",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
           "correct": true
         }
       ]
@@ -3100,52 +1553,10 @@
           "correct": true
         },
         {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
           "domain": "EL",
           "engineStatus": "high_concern",
           "engineClassification": "concern",
           "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "SE",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "CP",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
           "correct": true
         }
       ]
@@ -3163,52 +1574,10 @@
           "correct": true
         },
         {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
           "domain": "EL",
           "engineStatus": "high_concern",
           "engineClassification": "concern",
           "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "SE",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "CP",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
           "correct": true
         }
       ]
@@ -3226,52 +1595,10 @@
           "correct": true
         },
         {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
           "domain": "EL",
           "engineStatus": "high_concern",
           "engineClassification": "concern",
           "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "SE",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "CP",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
           "correct": true
         }
       ]
@@ -3289,52 +1616,10 @@
           "correct": true
         },
         {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
           "domain": "EL",
           "engineStatus": "high_concern",
           "engineClassification": "concern",
           "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "SE",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "CP",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
           "correct": true
         }
       ]
@@ -3345,34 +1630,6 @@
       "category": "speech_delay",
       "domainResults": [
         {
-          "domain": "GM",
-          "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "EL",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
           "domain": "SE",
           "engineStatus": "high_concern",
           "engineClassification": "concern",
@@ -3380,24 +1637,10 @@
           "correct": true
         },
         {
-          "domain": "CP",
-          "engineStatus": "insufficient_evidence",
+          "domain": "GM",
+          "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
           "correct": true
         }
       ]
@@ -3408,34 +1651,6 @@
       "category": "speech_delay",
       "domainResults": [
         {
-          "domain": "GM",
-          "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "EL",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
           "domain": "SE",
           "engineStatus": "high_concern",
           "engineClassification": "concern",
@@ -3443,24 +1658,10 @@
           "correct": true
         },
         {
-          "domain": "CP",
-          "engineStatus": "insufficient_evidence",
+          "domain": "GM",
+          "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
           "correct": true
         }
       ]
@@ -3471,34 +1672,6 @@
       "category": "speech_delay",
       "domainResults": [
         {
-          "domain": "GM",
-          "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "EL",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
           "domain": "SE",
           "engineStatus": "high_concern",
           "engineClassification": "concern",
@@ -3506,24 +1679,10 @@
           "correct": true
         },
         {
-          "domain": "CP",
-          "engineStatus": "insufficient_evidence",
+          "domain": "GM",
+          "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
           "correct": true
         }
       ]
@@ -3534,34 +1693,6 @@
       "category": "speech_delay",
       "domainResults": [
         {
-          "domain": "GM",
-          "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "EL",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
           "domain": "SE",
           "engineStatus": "high_concern",
           "engineClassification": "concern",
@@ -3569,24 +1700,10 @@
           "correct": true
         },
         {
-          "domain": "CP",
-          "engineStatus": "insufficient_evidence",
+          "domain": "GM",
+          "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
           "correct": true
         }
       ]
@@ -3597,34 +1714,6 @@
       "category": "speech_delay",
       "domainResults": [
         {
-          "domain": "GM",
-          "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "EL",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
           "domain": "SE",
           "engineStatus": "high_concern",
           "engineClassification": "concern",
@@ -3632,24 +1721,10 @@
           "correct": true
         },
         {
-          "domain": "CP",
-          "engineStatus": "insufficient_evidence",
+          "domain": "GM",
+          "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
           "correct": true
         }
       ]
@@ -3660,41 +1735,6 @@
       "category": "global_delay",
       "domainResults": [
         {
-          "domain": "GM",
-          "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "EL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SE",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
           "domain": "CP",
           "engineStatus": "high_concern",
           "engineClassification": "concern",
@@ -3702,17 +1742,10 @@
           "correct": true
         },
         {
-          "domain": "SH",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
+          "domain": "GM",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
           "correct": true
         }
       ]
@@ -3723,41 +1756,6 @@
       "category": "global_delay",
       "domainResults": [
         {
-          "domain": "GM",
-          "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "EL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SE",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
           "domain": "CP",
           "engineStatus": "high_concern",
           "engineClassification": "concern",
@@ -3765,17 +1763,10 @@
           "correct": true
         },
         {
-          "domain": "SH",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
+          "domain": "GM",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
           "correct": true
         }
       ]
@@ -3786,41 +1777,6 @@
       "category": "global_delay",
       "domainResults": [
         {
-          "domain": "GM",
-          "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "EL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SE",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
           "domain": "CP",
           "engineStatus": "high_concern",
           "engineClassification": "concern",
@@ -3828,17 +1784,10 @@
           "correct": true
         },
         {
-          "domain": "SH",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
+          "domain": "GM",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
           "correct": true
         }
       ]
@@ -3849,41 +1798,6 @@
       "category": "global_delay",
       "domainResults": [
         {
-          "domain": "GM",
-          "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "EL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SE",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
           "domain": "CP",
           "engineStatus": "high_concern",
           "engineClassification": "concern",
@@ -3891,17 +1805,10 @@
           "correct": true
         },
         {
-          "domain": "SH",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
+          "domain": "GM",
+          "engineStatus": "normal",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
           "correct": true
         }
       ]
@@ -3912,48 +1819,6 @@
       "category": "global_delay",
       "domainResults": [
         {
-          "domain": "GM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "EL",
-          "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SE",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "CP",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
           "domain": "SH",
           "engineStatus": "high_concern",
           "engineClassification": "concern",
@@ -3961,8 +1826,8 @@
           "correct": true
         },
         {
-          "domain": "VH",
-          "engineStatus": "insufficient_evidence",
+          "domain": "EL",
+          "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
           "correct": true
@@ -3975,48 +1840,6 @@
       "category": "global_delay",
       "domainResults": [
         {
-          "domain": "GM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "EL",
-          "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SE",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "CP",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
           "domain": "SH",
           "engineStatus": "high_concern",
           "engineClassification": "concern",
@@ -4024,8 +1847,8 @@
           "correct": true
         },
         {
-          "domain": "VH",
-          "engineStatus": "insufficient_evidence",
+          "domain": "EL",
+          "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
           "correct": true
@@ -4038,48 +1861,6 @@
       "category": "global_delay",
       "domainResults": [
         {
-          "domain": "GM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "EL",
-          "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SE",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "CP",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
           "domain": "SH",
           "engineStatus": "high_concern",
           "engineClassification": "concern",
@@ -4087,8 +1868,8 @@
           "correct": true
         },
         {
-          "domain": "VH",
-          "engineStatus": "insufficient_evidence",
+          "domain": "EL",
+          "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
           "correct": true
@@ -4101,28 +1882,7 @@
       "category": "typical",
       "domainResults": [
         {
-          "domain": "GM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "EL",
+          "domain": "VH",
           "engineStatus": "insufficient_evidence",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
@@ -4136,21 +1896,7 @@
           "correct": true
         },
         {
-          "domain": "CP",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
+          "domain": "RL",
           "engineStatus": "insufficient_evidence",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
@@ -4164,28 +1910,7 @@
       "category": "typical",
       "domainResults": [
         {
-          "domain": "GM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "EL",
+          "domain": "VH",
           "engineStatus": "insufficient_evidence",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
@@ -4199,21 +1924,7 @@
           "correct": true
         },
         {
-          "domain": "CP",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
+          "domain": "RL",
           "engineStatus": "insufficient_evidence",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
@@ -4227,28 +1938,7 @@
       "category": "typical",
       "domainResults": [
         {
-          "domain": "GM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "EL",
+          "domain": "VH",
           "engineStatus": "insufficient_evidence",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
@@ -4262,21 +1952,7 @@
           "correct": true
         },
         {
-          "domain": "CP",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
+          "domain": "RL",
           "engineStatus": "insufficient_evidence",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
@@ -4290,28 +1966,7 @@
       "category": "typical",
       "domainResults": [
         {
-          "domain": "GM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "EL",
+          "domain": "VH",
           "engineStatus": "insufficient_evidence",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
@@ -4325,21 +1980,7 @@
           "correct": true
         },
         {
-          "domain": "CP",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
+          "domain": "RL",
           "engineStatus": "insufficient_evidence",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
@@ -4353,28 +1994,7 @@
       "category": "typical",
       "domainResults": [
         {
-          "domain": "GM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "EL",
+          "domain": "VH",
           "engineStatus": "insufficient_evidence",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
@@ -4388,22 +2008,141 @@
           "correct": true
         },
         {
+          "domain": "RL",
+          "engineStatus": "insufficient_evidence",
+          "engineClassification": "no_concern",
+          "groundTruth": "no_concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "borderline_mixed_gm_18m",
+      "profileName": "Borderline: mixed GM signals at 18 months",
+      "category": "motor_delay",
+      "domainResults": [
+        {
+          "domain": "GM",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "borderline_single_miss_el_12m",
+      "profileName": "Borderline: single EL miss at 12 months",
+      "category": "typical",
+      "domainResults": [
+        {
+          "domain": "EL",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "no_concern",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "profileId": "borderline_sparse_se_15m",
+      "profileName": "Borderline: sparse SE data at 15 months",
+      "category": "typical",
+      "domainResults": [
+        {
+          "domain": "SE",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "no_concern",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "profileId": "borderline_all_unsure_cp_18m",
+      "profileName": "Borderline: all unsure CP at 18 months",
+      "category": "typical",
+      "domainResults": [
+        {
           "domain": "CP",
-          "engineStatus": "insufficient_evidence",
+          "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
           "correct": true
-        },
+        }
+      ]
+    },
+    {
+      "profileId": "borderline_scattered_miss_el_24m",
+      "profileName": "Borderline: scattered EL misses at 24 months",
+      "category": "speech_delay",
+      "domainResults": [
         {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
+          "domain": "EL",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "borderline_multitag_6m",
+      "profileName": "Borderline: multi-tag question miss at 6 months",
+      "category": "global_delay",
+      "domainResults": [
+        {
+          "domain": "RL",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
           "correct": true
         },
         {
-          "domain": "VH",
-          "engineStatus": "insufficient_evidence",
+          "domain": "SE",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        },
+        {
+          "domain": "EL",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "profileId": "borderline_near_threshold_fm_18m",
+      "profileName": "Borderline: near-threshold FM at 18 months",
+      "category": "typical",
+      "domainResults": [
+        {
+          "domain": "FM",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "no_concern",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "profileId": "borderline_single_obs_rl_12m",
+      "profileName": "Borderline: single RL observation at 12 months",
+      "category": "typical",
+      "domainResults": [
+        {
+          "domain": "RL",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "no_concern",
+          "correct": false
+        },
+        {
+          "domain": "GM",
+          "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
           "correct": true
@@ -4421,55 +2160,6 @@
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
           "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "EL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SE",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "CP",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
         }
       ]
     },
@@ -4481,55 +2171,6 @@
         {
           "domain": "GM",
           "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "EL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SE",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "CP",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
-          "engineStatus": "insufficient_evidence",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
           "correct": true
@@ -4547,55 +2188,6 @@
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
           "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "EL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SE",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "CP",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
         }
       ]
     },
@@ -4607,55 +2199,6 @@
         {
           "domain": "GM",
           "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "EL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SE",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "CP",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
-          "engineStatus": "insufficient_evidence",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
           "correct": true
@@ -4673,55 +2216,6 @@
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
           "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "EL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SE",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "CP",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
         }
       ]
     },
@@ -4736,55 +2230,6 @@
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
           "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "EL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SE",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "CP",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
         }
       ]
     },
@@ -4794,24 +2239,10 @@
       "category": "global_delay",
       "domainResults": [
         {
-          "domain": "GM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
+          "domain": "VH",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
           "correct": true
         },
         {
@@ -4819,34 +2250,6 @@
           "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SE",
-          "engineStatus": "watch",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "CP",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
           "correct": true
         }
       ]
@@ -4857,24 +2260,10 @@
       "category": "global_delay",
       "domainResults": [
         {
-          "domain": "GM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
+          "domain": "VH",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
           "correct": true
         },
         {
@@ -4882,34 +2271,6 @@
           "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SE",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "CP",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
           "correct": true
         }
       ]
@@ -4920,24 +2281,10 @@
       "category": "global_delay",
       "domainResults": [
         {
-          "domain": "GM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
+          "domain": "VH",
+          "engineStatus": "high_concern",
+          "engineClassification": "concern",
+          "groundTruth": "concern",
           "correct": true
         },
         {
@@ -4945,34 +2292,6 @@
           "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SE",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "CP",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
           "correct": true
         }
       ]
@@ -4983,28 +2302,7 @@
       "category": "typical",
       "domainResults": [
         {
-          "domain": "GM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "EL",
+          "domain": "VH",
           "engineStatus": "insufficient_evidence",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
@@ -5018,21 +2316,14 @@
           "correct": true
         },
         {
-          "domain": "CP",
+          "domain": "RL",
           "engineStatus": "insufficient_evidence",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
           "correct": true
         },
         {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
+          "domain": "EL",
           "engineStatus": "insufficient_evidence",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
@@ -5046,28 +2337,7 @@
       "category": "typical",
       "domainResults": [
         {
-          "domain": "GM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "EL",
+          "domain": "VH",
           "engineStatus": "insufficient_evidence",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
@@ -5081,21 +2351,14 @@
           "correct": true
         },
         {
-          "domain": "CP",
+          "domain": "RL",
           "engineStatus": "insufficient_evidence",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
           "correct": true
         },
         {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
+          "domain": "EL",
           "engineStatus": "insufficient_evidence",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
@@ -5109,28 +2372,7 @@
       "category": "typical",
       "domainResults": [
         {
-          "domain": "GM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "EL",
+          "domain": "VH",
           "engineStatus": "insufficient_evidence",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
@@ -5144,21 +2386,14 @@
           "correct": true
         },
         {
-          "domain": "CP",
+          "domain": "RL",
           "engineStatus": "insufficient_evidence",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
           "correct": true
         },
         {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
+          "domain": "EL",
           "engineStatus": "insufficient_evidence",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
@@ -5172,28 +2407,7 @@
       "category": "typical",
       "domainResults": [
         {
-          "domain": "GM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "EL",
+          "domain": "VH",
           "engineStatus": "insufficient_evidence",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
@@ -5207,21 +2421,14 @@
           "correct": true
         },
         {
-          "domain": "CP",
+          "domain": "RL",
           "engineStatus": "insufficient_evidence",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
           "correct": true
         },
         {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
+          "domain": "EL",
           "engineStatus": "insufficient_evidence",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
@@ -5242,50 +2449,8 @@
           "correct": true
         },
         {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
           "domain": "EL",
           "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SE",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "CP",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
-          "engineStatus": "insufficient_evidence",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
           "correct": true
@@ -5305,50 +2470,8 @@
           "correct": true
         },
         {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
           "domain": "EL",
           "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SE",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "CP",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
-          "engineStatus": "insufficient_evidence",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
           "correct": true
@@ -5368,50 +2491,8 @@
           "correct": true
         },
         {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
           "domain": "EL",
           "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SE",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "CP",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
-          "engineStatus": "insufficient_evidence",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
           "correct": true
@@ -5431,50 +2512,8 @@
           "correct": true
         },
         {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
           "domain": "EL",
           "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SE",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "CP",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
-          "engineStatus": "insufficient_evidence",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
           "correct": true
@@ -5494,50 +2533,8 @@
           "correct": true
         },
         {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
           "domain": "EL",
           "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SE",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "CP",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
-          "engineStatus": "insufficient_evidence",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
           "correct": true
@@ -5557,50 +2554,8 @@
           "correct": true
         },
         {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
           "domain": "EL",
           "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SE",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "CP",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
-          "engineStatus": "insufficient_evidence",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
           "correct": true
@@ -5620,49 +2575,7 @@
           "correct": true
         },
         {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
           "domain": "RL",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "EL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SE",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "CP",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
           "engineStatus": "high_concern",
           "engineClassification": "concern",
           "groundTruth": "concern",
@@ -5683,49 +2596,7 @@
           "correct": true
         },
         {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
           "domain": "RL",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "EL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SE",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "CP",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
           "engineStatus": "high_concern",
           "engineClassification": "concern",
           "groundTruth": "concern",
@@ -5746,49 +2617,7 @@
           "correct": true
         },
         {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
           "domain": "RL",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "EL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SE",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "CP",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
           "engineStatus": "high_concern",
           "engineClassification": "concern",
           "groundTruth": "concern",
@@ -5809,52 +2638,10 @@
           "correct": true
         },
         {
-          "domain": "FM",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "EL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SE",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "CP",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
           "domain": "SH",
           "engineStatus": "high_concern",
           "engineClassification": "concern",
           "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
           "correct": true
         }
       ]
@@ -5872,52 +2659,10 @@
           "correct": true
         },
         {
-          "domain": "FM",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "EL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SE",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "CP",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
           "domain": "SH",
           "engineStatus": "high_concern",
           "engineClassification": "concern",
           "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
           "correct": true
         }
       ]
@@ -5935,52 +2680,10 @@
           "correct": true
         },
         {
-          "domain": "FM",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "EL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SE",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "CP",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
           "domain": "SH",
           "engineStatus": "high_concern",
           "engineClassification": "concern",
           "groundTruth": "concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
           "correct": true
         }
       ]
@@ -5991,28 +2694,7 @@
       "category": "typical",
       "domainResults": [
         {
-          "domain": "GM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "EL",
+          "domain": "VH",
           "engineStatus": "insufficient_evidence",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
@@ -6026,21 +2708,7 @@
           "correct": true
         },
         {
-          "domain": "CP",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
+          "domain": "RL",
           "engineStatus": "insufficient_evidence",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
@@ -6054,34 +2722,6 @@
       "category": "typical",
       "domainResults": [
         {
-          "domain": "GM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "EL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
           "domain": "SE",
           "engineStatus": "normal",
           "engineClassification": "no_concern",
@@ -6089,21 +2729,7 @@
           "correct": true
         },
         {
-          "domain": "CP",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
+          "domain": "EL",
           "engineStatus": "insufficient_evidence",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
@@ -6117,22 +2743,8 @@
       "category": "typical",
       "domainResults": [
         {
-          "domain": "GM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "insufficient_evidence",
+          "domain": "SE",
+          "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
           "correct": true
@@ -6145,28 +2757,7 @@
           "correct": true
         },
         {
-          "domain": "SE",
-          "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "CP",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
+          "domain": "RL",
           "engineStatus": "insufficient_evidence",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
@@ -6180,15 +2771,8 @@
       "category": "typical",
       "domainResults": [
         {
-          "domain": "GM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
+          "domain": "SE",
+          "engineStatus": "normal",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
           "correct": true
@@ -6202,34 +2786,6 @@
         },
         {
           "domain": "EL",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SE",
-          "engineStatus": "normal",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "CP",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
           "engineStatus": "insufficient_evidence",
           "engineClassification": "no_concern",
           "groundTruth": "no_concern",
@@ -6243,27 +2799,6 @@
       "category": "mixed_regression",
       "domainResults": [
         {
-          "domain": "GM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "FM",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "RL",
-          "engineStatus": "high_concern",
-          "engineClassification": "concern",
-          "groundTruth": "concern",
-          "correct": true
-        },
-        {
           "domain": "EL",
           "engineStatus": "high_concern",
           "engineClassification": "concern",
@@ -6276,72 +2811,51 @@
           "engineClassification": "concern",
           "groundTruth": "concern",
           "correct": true
-        },
-        {
-          "domain": "CP",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "SH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
-        },
-        {
-          "domain": "VH",
-          "engineStatus": "insufficient_evidence",
-          "engineClassification": "no_concern",
-          "groundTruth": "no_concern",
-          "correct": true
         }
       ]
     }
   ],
   "report": {
-    "timestamp": "2026-03-28T13:36:16.392Z",
+    "timestamp": "2026-03-28T15:15:36.957Z",
     "engineVersion": "0.2.0",
-    "profileCount": 100,
+    "profileCount": 108,
     "globalMetrics": {
       "sensitivity": 1,
-      "specificity": 1,
-      "ppv": 1,
+      "specificity": 0.9788359788359788,
+      "ppv": 0.963302752293578,
       "npv": 1,
-      "accuracy": 1,
-      "prevalence": 0.2175,
-      "n": 800,
+      "accuracy": 0.9863945578231292,
+      "prevalence": 0.35714285714285715,
+      "n": 294,
       "sensitivityCI": [
-        0.97839875484701,
-        1
+        0.9647046717431569,
+        0.9999999999999998
       ],
       "specificityCI": [
-        0.9939006886810904,
-        0.9999999999999998
+        0.9468543457393908,
+        0.9917398165160562
       ],
       "ppvCI": [
-        0.97839875484701,
-        1
+        0.9094214470792258,
+        0.9856385308012721
       ],
       "npvCI": [
-        0.9939006886810904,
-        0.9999999999999998
-      ],
-      "kappa": 1,
-      "kappaCI": [
-        1,
+        0.979657024723366,
         1
+      ],
+      "kappa": 0.9706190975865687,
+      "kappaCI": [
+        0.9420223567088886,
+        0.9992158384642489
       ]
     },
     "domainMetrics": [
       {
         "domain": "Gross Motor",
         "confusionMatrix": {
-          "tp": 24,
+          "tp": 25,
           "fp": 0,
-          "tn": 76,
+          "tn": 47,
           "fn": 0
         },
         "metrics": {
@@ -6350,22 +2864,22 @@
           "ppv": 1,
           "npv": 1,
           "accuracy": 1,
-          "prevalence": 0.24,
-          "n": 100,
+          "prevalence": 0.3472222222222222,
+          "n": 72,
           "sensitivityCI": [
-            0.8620194241710247,
+            0.8668035060468212,
             1
           ],
           "specificityCI": [
-            0.9518847317689024,
+            0.9244398288016114,
             1
           ],
           "ppvCI": [
-            0.8620194241710247,
+            0.8668035060468212,
             1
           ],
           "npvCI": [
-            0.9518847317689024,
+            0.9244398288016114,
             1
           ],
           "kappa": 1,
@@ -6378,38 +2892,38 @@
       {
         "domain": "Fine Motor",
         "confusionMatrix": {
-          "tp": 14,
-          "fp": 0,
-          "tn": 86,
+          "tp": 4,
+          "fp": 1,
+          "tn": 12,
           "fn": 0
         },
         "metrics": {
           "sensitivity": 1,
-          "specificity": 1,
-          "ppv": 1,
+          "specificity": 0.9230769230769231,
+          "ppv": 0.8,
           "npv": 1,
-          "accuracy": 1,
-          "prevalence": 0.14,
-          "n": 100,
+          "accuracy": 0.9411764705882353,
+          "prevalence": 0.23529411764705882,
+          "n": 17,
           "sensitivityCI": [
-            0.7846829880728186,
+            0.5100999795960008,
             1
           ],
           "specificityCI": [
-            0.9572402984808818,
-            1
+            0.6668546607175265,
+            0.9862899336203037
           ],
           "ppvCI": [
-            0.7846829880728186,
-            1
+            0.37552826411853885,
+            0.9637768390302125
           ],
           "npvCI": [
-            0.9572402984808818,
-            1
+            0.7574992425007574,
+            0.9999999999999998
           ],
-          "kappa": 1,
+          "kappa": 0.8495575221238938,
           "kappaCI": [
-            1,
+            0.5634942645589163,
             1
           ]
         }
@@ -6417,38 +2931,38 @@
       {
         "domain": "Receptive Language",
         "confusionMatrix": {
-          "tp": 18,
-          "fp": 0,
-          "tn": 82,
+          "tp": 12,
+          "fp": 1,
+          "tn": 21,
           "fn": 0
         },
         "metrics": {
           "sensitivity": 1,
-          "specificity": 1,
-          "ppv": 1,
+          "specificity": 0.9545454545454546,
+          "ppv": 0.9230769230769231,
           "npv": 1,
-          "accuracy": 1,
-          "prevalence": 0.18,
-          "n": 100,
+          "accuracy": 0.9705882352941176,
+          "prevalence": 0.35294117647058826,
+          "n": 34,
           "sensitivityCI": [
-            0.8241154494176252,
-            1
+            0.7574992425007574,
+            0.9999999999999998
           ],
           "specificityCI": [
-            0.9552478052599206,
-            1
+            0.7820151050048196,
+            0.9919307806988523
           ],
           "ppvCI": [
-            0.8241154494176252,
-            1
+            0.6668546607175265,
+            0.9862899336203037
           ],
           "npvCI": [
-            0.9552478052599206,
-            1
+            0.8453561767357979,
+            0.9999999999999998
           ],
-          "kappa": 1,
+          "kappa": 0.9368029739776952,
           "kappaCI": [
-            1,
+            0.8147719588107409,
             1
           ]
         }
@@ -6456,38 +2970,38 @@
       {
         "domain": "Expressive Language",
         "confusionMatrix": {
-          "tp": 29,
-          "fp": 0,
-          "tn": 71,
+          "tp": 25,
+          "fp": 1,
+          "tn": 41,
           "fn": 0
         },
         "metrics": {
           "sensitivity": 1,
-          "specificity": 1,
-          "ppv": 1,
+          "specificity": 0.9761904761904762,
+          "ppv": 0.9615384615384616,
           "npv": 1,
-          "accuracy": 1,
-          "prevalence": 0.29,
-          "n": 100,
+          "accuracy": 0.9850746268656716,
+          "prevalence": 0.373134328358209,
+          "n": 67,
           "sensitivityCI": [
-            0.8830264055344442,
+            0.8668035060468212,
             1
           ],
           "specificityCI": [
-            0.9486702582520952,
-            1
+            0.8767851883475175,
+            0.9957847045008998
           ],
           "ppvCI": [
-            0.8830264055344442,
-            1
+            0.8110682300804161,
+            0.9931781910230102
           ],
           "npvCI": [
-            0.9486702582520952,
+            0.9143295511310926,
             1
           ],
-          "kappa": 1,
+          "kappa": 0.9683514407179971,
           "kappaCI": [
-            1,
+            0.9067849240730262,
             1
           ]
         }
@@ -6495,38 +3009,38 @@
       {
         "domain": "Social-Emotional",
         "confusionMatrix": {
-          "tp": 34,
-          "fp": 0,
-          "tn": 66,
+          "tp": 14,
+          "fp": 1,
+          "tn": 30,
           "fn": 0
         },
         "metrics": {
           "sensitivity": 1,
-          "specificity": 1,
-          "ppv": 1,
+          "specificity": 0.967741935483871,
+          "ppv": 0.9333333333333333,
           "npv": 1,
-          "accuracy": 1,
-          "prevalence": 0.34,
-          "n": 100,
+          "accuracy": 0.9777777777777777,
+          "prevalence": 0.3111111111111111,
+          "n": 45,
           "sensitivityCI": [
-            0.8984820937803899,
+            0.7846829880728186,
             1
           ],
           "specificityCI": [
-            0.9449955327483907,
-            1
+            0.8380554282383037,
+            0.9942829259130554
           ],
           "ppvCI": [
-            0.8984820937803899,
-            1
+            0.7018292244757601,
+            0.9881334113938052
           ],
           "npvCI": [
-            0.9449955327483907,
+            0.886482908609522,
             1
           ],
-          "kappa": 1,
+          "kappa": 0.9491525423728813,
           "kappaCI": [
-            1,
+            0.8506050912901185,
             1
           ]
         }
@@ -6534,9 +3048,9 @@
       {
         "domain": "Cognitive / Play",
         "confusionMatrix": {
-          "tp": 22,
+          "tp": 10,
           "fp": 0,
-          "tn": 78,
+          "tn": 12,
           "fn": 0
         },
         "metrics": {
@@ -6545,23 +3059,23 @@
           "ppv": 1,
           "npv": 1,
           "accuracy": 1,
-          "prevalence": 0.22,
-          "n": 100,
+          "prevalence": 0.45454545454545453,
+          "n": 22,
           "sensitivityCI": [
-            0.8513404742740388,
+            0.7224598312333834,
             1
           ],
           "specificityCI": [
-            0.9530605462258802,
-            1
+            0.7574992425007574,
+            0.9999999999999998
           ],
           "ppvCI": [
-            0.8513404742740388,
+            0.7224598312333834,
             1
           ],
           "npvCI": [
-            0.9530605462258802,
-            1
+            0.7574992425007574,
+            0.9999999999999998
           ],
           "kappa": 1,
           "kappaCI": [
@@ -6573,9 +3087,9 @@
       {
         "domain": "Self-Help / Adaptive",
         "confusionMatrix": {
-          "tp": 10,
+          "tp": 6,
           "fp": 0,
-          "tn": 90,
+          "tn": 8,
           "fn": 0
         },
         "metrics": {
@@ -6584,23 +3098,23 @@
           "ppv": 1,
           "npv": 1,
           "accuracy": 1,
-          "prevalence": 0.1,
-          "n": 100,
+          "prevalence": 0.42857142857142855,
+          "n": 14,
           "sensitivityCI": [
-            0.7224598312333834,
+            0.6096569663469354,
             1
           ],
           "specificityCI": [
-            0.959062931578319,
-            0.9999999999999998
+            0.6755843804891231,
+            1
           ],
           "ppvCI": [
-            0.7224598312333834,
+            0.6096569663469354,
             1
           ],
           "npvCI": [
-            0.959062931578319,
-            0.9999999999999998
+            0.6755843804891231,
+            1
           ],
           "kappa": 1,
           "kappaCI": [
@@ -6612,9 +3126,9 @@
       {
         "domain": "Vision / Hearing",
         "confusionMatrix": {
-          "tp": 23,
+          "tp": 9,
           "fp": 0,
-          "tn": 77,
+          "tn": 14,
           "fn": 0
         },
         "metrics": {
@@ -6623,22 +3137,22 @@
           "ppv": 1,
           "npv": 1,
           "accuracy": 1,
-          "prevalence": 0.23,
-          "n": 100,
+          "prevalence": 0.391304347826087,
+          "n": 23,
           "sensitivityCI": [
-            0.8568788745827373,
+            0.7008472464490406,
             1
           ],
           "specificityCI": [
-            0.9524799113327792,
+            0.7846829880728186,
             1
           ],
           "ppvCI": [
-            0.8568788745827373,
+            0.7008472464490406,
             1
           ],
           "npvCI": [
-            0.9524799113327792,
+            0.7846829880728186,
             1
           ],
           "kappa": 1,
@@ -6650,10 +3164,48 @@
       }
     ],
     "abstentions": {
-      "total": 478,
-      "correctlyNegative": 478,
+      "total": 45,
+      "correctlyNegative": 45,
       "incorrectlyNegative": 0
     },
-    "disclaimer": "Synthetic Scenario Verification — this study measures whether the engine produces expected outputs for known developmental trajectories. It does NOT measure sensitivity/specificity against a clinical gold standard."
+    "disagreements": [
+      {
+        "profileId": "borderline_single_miss_el_12m",
+        "profileName": "Borderline: single EL miss at 12 months",
+        "domain": "EL",
+        "engineClassification": "concern",
+        "expectedClassification": "no_concern",
+        "engineStatus": "high_concern",
+        "description": "One language milestone not_yet among several achieved — clinically would be \"monitor\""
+      },
+      {
+        "profileId": "borderline_sparse_se_15m",
+        "profileName": "Borderline: sparse SE data at 15 months",
+        "domain": "SE",
+        "engineClassification": "concern",
+        "expectedClassification": "no_concern",
+        "engineStatus": "high_concern",
+        "description": "Only 2 SE questions answered, one not_yet — clinically insufficient to flag concern"
+      },
+      {
+        "profileId": "borderline_near_threshold_fm_18m",
+        "profileName": "Borderline: near-threshold FM at 18 months",
+        "domain": "FM",
+        "engineClassification": "concern",
+        "expectedClassification": "no_concern",
+        "engineStatus": "high_concern",
+        "description": "One not_yet + one unsure among achieved — clinically would be \"monitor\""
+      },
+      {
+        "profileId": "borderline_single_obs_rl_12m",
+        "profileName": "Borderline: single RL observation at 12 months",
+        "domain": "RL",
+        "engineClassification": "concern",
+        "expectedClassification": "no_concern",
+        "engineStatus": "high_concern",
+        "description": "Only 1 RL question answered (not_yet) — clinically insufficient data to flag"
+      }
+    ],
+    "disclaimer": "Internal Consistency Verification — this study measures whether the engine produces expected outputs for hand-labeled synthetic developmental profiles. It does NOT measure clinical sensitivity/specificity against a gold standard."
   }
 }
