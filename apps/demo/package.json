@@ -9,7 +9,7 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "@mychild/engine": "file:../../packages/engine",
+    "mychild-engine": "file:../../packages/engine",
     "@base-ui/react": "^1.3.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",

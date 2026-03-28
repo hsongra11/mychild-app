@@ -6,7 +6,12 @@
     "build": "npm run build --workspaces",
     "test": "npm run test --workspaces",
     "dev": "npm run dev --workspace=apps/demo",
-    "lint": "npm run lint --workspaces"
+    "lint": "npm run lint --workspaces",
+    "release:engine:check": "npm run lint --workspace=mychild-engine && npm run test --workspace=mychild-engine && npm pack --dry-run --workspace=mychild-engine",
+    "release:engine:publish": "npm publish --workspace=mychild-engine --access public",
+    "release:engine:version:patch": "npm version patch --workspace=mychild-engine",
+    "release:engine:version:minor": "npm version minor --workspace=mychild-engine",
+    "release:engine:version:major": "npm version major --workspace=mychild-engine"
   },
   "engines": {
     "node": ">=20"

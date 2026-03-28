@@ -2,7 +2,7 @@
 
 import { useState, useTransition } from 'react'
 import { serverComputeAge } from '@/app/actions'
-import type { AgeResult } from '@mychild/engine'
+import type { AgeResult } from 'mychild-engine'
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'

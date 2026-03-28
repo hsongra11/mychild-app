@@ -1,13 +1,17 @@
 {
-  "name": "@mychild/engine",
-  "version": "0.1.0",
+  "name": "mychild-engine",
+  "version": "0.1.2",
   "description": "Open-source developmental screening engine with evidence-weighted escalation",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": ["dist", "data"],
+  "files": [
+    "dist",
+    "data"
+  ],
   "scripts": {
+    "prepack": "npm run build",
     "build": "tsc",
-    "test": "vitest run",
+    "test": "vitest run --passWithNoTests",
     "test:watch": "vitest",
     "lint": "tsc --noEmit"
   },
@@ -16,8 +20,25 @@
     "child-development",
     "milestones",
     "pediatric",
-    "health"
+    "health",
+    "screening-engine",
+    "corrected-age",
+    "preterm",
+    "cdc-milestones"
   ],
+  "author": "Harsh Songra <harsh@airpulse.dev> (https://harshsongra.com)",
+  "contributors": [
+    "Aafreen Ansari (https://linkedin.com/in/aafreen-ansari-8a4265112)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hsongra11/mychild-app.git",
+    "directory": "packages/engine"
+  },
+  "homepage": "https://mychildapp.in",
+  "bugs": {
+    "url": "https://github.com/hsongra11/mychild-app/issues"
+  },
   "license": "Apache-2.0",
   "devDependencies": {
     "@types/node": "^22.0.0",

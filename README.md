@@ -61,11 +61,11 @@ Features:
 ## Quick start
 
 ```bash
-npm install @mychild/engine
+npm install mychild-engine
 ```
 
 ```typescript
-import { evaluate, computeChildAge, getDueQuestions } from '@mychild/engine';
+import { evaluate, computeChildAge, getDueQuestions } from 'mychild-engine';
 
 // Create a child (7 months old)
 const child = { dob: new Date('2025-09-01') };
@@ -91,7 +91,7 @@ console.log(result.nextActions);
 ## Project structure
 
 ```
-packages/engine/     # @mychild/engine - the standalone TypeScript engine
+packages/engine/     # mychild-engine - the standalone TypeScript engine
   src/               # Engine source code (11 modules)
   data/              # Question bank JSON (129 questions, the core IP)
   dist/              # Compiled output
@@ -202,6 +202,22 @@ The demo includes:
 - **Screening tab**: enter child DOB, answer age-appropriate milestone questions, see real-time severity badges
 - **Results tab**: domain status cards across 8 developmental domains, global status, recommended actions
 - **Simulator tab**: replay 3 built-in trajectories (normal development, speech delay, motor concern with regression), tune thresholds with sliders, compare alert diffs
+
+## Publishing `mychild-engine`
+
+Run releases from the repo root:
+
+```bash
+npm run release:engine:check
+npm run release:engine:version:patch
+npm run release:engine:publish
+```
+
+Notes:
+- `release:engine:check` runs lint, tests, and `npm pack --dry-run` for the engine workspace.
+- `release:engine:version:patch` creates the npm version bump for `packages/engine`. Use `release:engine:version:minor` or `release:engine:version:major` when needed.
+- `release:engine:publish` publishes `mychild-engine` with `--access public`.
+- Make sure you are logged into npm before publishing.
 
 ## Contributing
 

@@ -1,4 +1,4 @@
-import type { Trajectory } from '@mychild/engine'
+import type { Trajectory } from 'mychild-engine'
 
 export const BUILT_IN_TRAJECTORIES: Trajectory[] = [
   {

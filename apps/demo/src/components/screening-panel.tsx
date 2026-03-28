@@ -3,7 +3,7 @@
 import { useEffect, useState, useTransition } from 'react'
 import { serverGetDueQuestions, serverEvaluate } from '@/app/actions'
 import type { SerializedAnswerEvent, SerializedChild } from '@/app/actions'
-import type { Question, QuestionResult, Severity } from '@mychild/engine'
+import type { Question, QuestionResult, Severity } from 'mychild-engine'
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
