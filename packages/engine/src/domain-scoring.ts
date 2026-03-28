@@ -249,5 +249,40 @@ export function scoreAllDomains(
     output[tag] = scoreDomain(tag, domainResults, answers);
   }
 
+  // -------------------------------------------------------------------------
+  // Cross-domain correction for sparse high_concern domains.
+  // Glascoe 2005: developmental screening should consider converging evidence
+  // across domains. A single flagged observation in a sparse domain is less
+  // clinically significant when the child shows typical development in other
+  // well-observed domains.
+  // AAP (Lipkin & Macias 2020): isolated concerns in one domain with otherwise
+  // typical development across other domains warrant monitoring, not escalation.
+  // -------------------------------------------------------------------------
+  const hasNormalSiblingDomain = Object.values(output).some(
+    (a) =>
+      a.status === 'normal' &&
+      a.vector.confidence !== 'low',
+  );
+
+  if (hasNormalSiblingDomain) {
+    for (const tag of domainTags) {
+      const a = output[tag];
+      if (
+        a.status === 'high_concern' &&
+        a.vector.flagCount === 1 &&
+        a.vector.confidence === 'low'
+      ) {
+        output[tag] = {
+          ...a,
+          status: 'low_concern',
+          explanation:
+            `${a.domain} has 1 flagged milestone but data is sparse and other domains ` +
+            `show typical development. Continue monitoring and answer more questions ` +
+            `in this domain for a reliable assessment.`,
+        };
+      }
+    }
+  }
+
   return output;
 }
