@@ -94,6 +94,22 @@ export function classifyDomainStatus(status: DomainStatus): GroundTruthLabel {
   return CONCERN_STATUSES.has(status) ? 'concern' : 'no_concern';
 }
 
+/**
+ * Normalize a ground truth label to binary classification.
+ * External profiles may use finer-grained labels (e.g. 'low_concern',
+ * 'watch', 'moderate_concern'). Map them to the binary system:
+ *   concern: 'concern', 'high_concern', 'moderate_concern'
+ *   no_concern: everything else ('no_concern', 'low_concern', 'watch', etc.)
+ *
+ * CDC 2022 / Glascoe 2005: the binary concern threshold represents the
+ * clinical decision point for referral. Low-concern statuses warrant
+ * monitoring but not referral, so they map to no_concern in binary.
+ */
+function normalizeGroundTruth(label: string): GroundTruthLabel {
+  const concernLabels = new Set(['concern', 'high_concern', 'moderate_concern']);
+  return concernLabels.has(label) ? 'concern' : 'no_concern';
+}
+
 // ---------------------------------------------------------------------------
 // Single profile validation
 // ---------------------------------------------------------------------------
@@ -254,14 +270,15 @@ export function validateProfile(profile: ValidationProfile): ProfileValidationRe
   for (const [tag, label] of Object.entries(profile.groundTruth)) {
     const domainTag = tag as DomainTag;
     const assessment = domainAssessments[domainTag];
+    const normalizedLabel = normalizeGroundTruth(label);
 
     if (!assessment) {
       domainResults.push({
         domain: domainTag,
         engineStatus: 'insufficient_evidence',
         engineClassification: 'no_concern',
-        groundTruth: label,
-        correct: label === 'no_concern',
+        groundTruth: normalizedLabel,
+        correct: normalizedLabel === 'no_concern',
       });
       continue;
     }
@@ -272,8 +289,8 @@ export function validateProfile(profile: ValidationProfile): ProfileValidationRe
       domain: domainTag,
       engineStatus: assessment.status,
       engineClassification,
-      groundTruth: label,
-      correct: engineClassification === label,
+      groundTruth: normalizedLabel,
+      correct: engineClassification === normalizedLabel,
     });
   }
 
