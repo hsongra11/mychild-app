@@ -160,6 +160,36 @@ export function scoreDomain(
   };
 
   // -------------------------------------------------------------------------
+  // Developmental sequence anomaly: detect when a later milestone is achieved
+  // but an earlier one in the same domain is missed (flag/warning/precaution).
+  // CDC 2022 (Zubler et al.): developmental skills build sequentially; failure
+  // on a foundational milestone when later milestones are achieved may indicate
+  // a specific deficit or data quality concern warranting investigation.
+  // -------------------------------------------------------------------------
+  let sequenceAnomaly = false;
+  let latestAchievedAge = -1;
+  let earliestMissedAge = Infinity;
+  for (const qr of sortedResults) {
+    const q = getQuestionById(qr.questionId);
+    if (!q) continue;
+    if (qr.severity === 'normal') {
+      if (q.normativeAgeMonths > latestAchievedAge) {
+        latestAchievedAge = q.normativeAgeMonths;
+      }
+    }
+    if (qr.severity === 'flag' || qr.severity === 'warning') {
+      if (q.normativeAgeMonths < earliestMissedAge) {
+        earliestMissedAge = q.normativeAgeMonths;
+      }
+    }
+  }
+  // Anomaly: achieved a milestone at a later age than a missed one,
+  // with at least 2 months gap (to avoid edge cases at band boundaries)
+  if (latestAchievedAge > earliestMissedAge + 2) {
+    sequenceAnomaly = true;
+  }
+
+  // -------------------------------------------------------------------------
   // Status determination
   // -------------------------------------------------------------------------
   let status: DomainStatus;
@@ -251,6 +281,22 @@ export function scoreDomain(
       `${displayName} shows regression: a previously achieved milestone is now ` +
       `reported as "not yet." Skill loss is a significant clinical concern — ` +
       `please discuss with your child's doctor promptly.`;
+  }
+
+  // CDC 2022 (Zubler et al.): developmental sequence anomalies (later milestones
+  // achieved while earlier ones missed) suggest a specific deficit pattern.
+  // Bump low-severity statuses up one level when this pattern is detected.
+  if (sequenceAnomaly && status === 'normal') {
+    status = 'watch';
+    explanation =
+      `${displayName} shows an unusual pattern: a later milestone is achieved but an ` +
+      `earlier one is missed. This may indicate a specific area of difficulty — ` +
+      `re-check the missed milestone soon.`;
+  } else if (sequenceAnomaly && status === 'watch') {
+    status = 'low_concern';
+    explanation =
+      `${displayName} shows an unusual pattern: later milestones are achieved while ` +
+      `earlier ones are delayed, suggesting a specific deficit. Monitor closely.`;
   }
 
   return {
