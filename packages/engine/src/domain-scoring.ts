@@ -388,6 +388,25 @@ export function scoreAllDomains(
             `in this domain for a reliable assessment.`,
         };
       }
+      // Glascoe 2005: a sparse low_concern domain driven only by precautions
+      // (within grace window) is less significant when other well-observed
+      // domains show typical development. Downgrade to watch.
+      if (
+        a.status === 'low_concern' &&
+        a.vector.flagCount === 0 &&
+        a.vector.warningCount === 0 &&
+        a.vector.confidence === 'low' &&
+        !domainHasRegression
+      ) {
+        output[tag] = {
+          ...a,
+          status: 'watch',
+          explanation:
+            `${a.domain} has some borderline milestones but data is sparse and other ` +
+            `domains show typical development. Continue monitoring and answer more ` +
+            `questions in this domain.`,
+        };
+      }
     }
   }
 
