@@ -282,11 +282,16 @@ export function scoreDomain(
       const q = getQuestionById(qr.questionId);
       return q?.weight === 'H' || q?.weight === 'RF';
     });
-    if (hasHighWeightConcern) {
+    // CDC 2022 / Glascoe 2005: totalWeightedPoints >= 3 indicates
+    // cumulative concern from multiple borderline signals (e.g., 2 H-weight
+    // warnings or 3+ M-weight precautions).
+    if (hasHighWeightConcern || totalWeightedPoints >= 3) {
       status = 'moderate_concern';
-      explanation =
-        `${displayName} has a high-priority milestone delayed past the grace window. ` +
-        `Discuss with your child's doctor at the next visit.`;
+      explanation = hasHighWeightConcern
+        ? `${displayName} has a high-priority milestone delayed past the grace window. ` +
+          `Discuss with your child's doctor at the next visit.`
+        : `${displayName} has accumulated ${totalWeightedPoints.toFixed(1)} concern points ` +
+          `from multiple delayed milestones. Discuss with your child's doctor.`;
     } else {
       status = 'low_concern';
       explanation =
