@@ -86,6 +86,7 @@ export function scoreDomain(
   let flagCount = 0;
   let warningCount = 0;
   let precautionCount = 0;
+  let watchCount = 0;
   let streakMissed = 0;
   let currentStreak = 0;
   let maxStreak = 0;
@@ -130,8 +131,14 @@ export function scoreDomain(
         precautionCount++;
         currentStreak++;
         break;
+      case 'watch':
+        watchCount++;
+        // watch does not break a streak but does not extend it either
+        if (currentStreak > maxStreak) maxStreak = currentStreak;
+        currentStreak = 0;
+        break;
       default:
-        // normal / watch / reminder reset the consecutive streak
+        // normal / reminder reset the consecutive streak
         if (currentStreak > maxStreak) maxStreak = currentStreak;
         currentStreak = 0;
     }
@@ -208,6 +215,15 @@ export function scoreDomain(
     explanation =
       `${displayName} has one milestone approaching its grace window. ` +
       `No action needed yet — re-check soon.`;
+  } else if (watchCount >= 3 && answeredCount >= 3) {
+    // Glascoe 2005: pervasive caregiver uncertainty across multiple milestones
+    // in a domain may signal underlying developmental concern. When 3+ milestones
+    // are "unsure" with sufficient evidence, elevate to watch status.
+    status = 'watch';
+    explanation =
+      `${displayName} has ${watchCount} milestones where the caregiver is unsure. ` +
+      `This level of uncertainty warrants closer observation — use the suggested ` +
+      `probes and re-check soon.`;
   } else {
     status = 'normal';
     explanation = `${displayName} is progressing as expected.`;
