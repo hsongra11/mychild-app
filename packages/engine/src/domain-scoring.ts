@@ -84,6 +84,7 @@ export function scoreDomain(
 
   // Build the domain vector
   let flagCount = 0;
+  let rfSourcedFlagCount = 0; // flags from RF-weighted questions in non-RF domains
   let warningCount = 0;
   let precautionCount = 0;
   let watchCount = 0;
@@ -125,6 +126,7 @@ export function scoreDomain(
       case 'flag':
         totalWeightedPoints += 3 * wMul;
         flagCount++;
+        if (q?.weight === 'RF' && domainTag !== 'RF') rfSourcedFlagCount++;
         currentStreak++;
         triggeringMilestones.push(qr.text);
         criticalMilestoneMissed = true; // any flag = critical miss
@@ -249,6 +251,18 @@ export function scoreDomain(
         explanation =
           `${displayName} has 1 flagged milestone but ${normalCount} other milestone(s) achieved. ` +
           `This appears to be an isolated delay — continue monitoring and re-check soon.`;
+      } else if (rfSourcedFlagCount === flagCount && flagCount === 1 && normalCount >= 1) {
+        // CDC 2022 (Zubler et al.): a single RF-weighted question cross-tagged
+        // into a developmental domain represents an RF-level concern primarily
+        // handled by the RF domain. When the only flag comes from an RF question
+        // and domain-specific milestones are achieved, monitor rather than
+        // escalate. Multiple RF failures (≥2) indicate a convergent pattern
+        // that IS clinically significant for the domain.
+        status = 'low_concern';
+        explanation =
+          `${displayName} has ${flagCount} flagged red-flag question(s) but ${normalCount} ` +
+          `domain milestone(s) achieved. The red flag concern is tracked separately — ` +
+          `continue monitoring this domain.`;
       } else {
         status = 'high_concern';
         explanation =
@@ -262,10 +276,23 @@ export function scoreDomain(
       `${displayName} shows ${warningCount} warning(s) and a streak of ${streakMissed} missed milestones. ` +
       `Closer monitoring is advised.`;
   } else if (warningCount >= 1 || precautionCount >= 2) {
-    status = 'low_concern';
-    explanation =
-      `${displayName} has some milestones that are slightly delayed. ` +
-      `Continue monitoring and re-check in the coming weeks.`;
+    // CDC 2022: warnings on high-weight milestones warrant moderate_concern.
+    const hasHighWeightConcern = sortedResults.some((qr) => {
+      if (qr.severity !== 'warning') return false;
+      const q = getQuestionById(qr.questionId);
+      return q?.weight === 'H' || q?.weight === 'RF';
+    });
+    if (hasHighWeightConcern) {
+      status = 'moderate_concern';
+      explanation =
+        `${displayName} has a high-priority milestone delayed past the grace window. ` +
+        `Discuss with your child's doctor at the next visit.`;
+    } else {
+      status = 'low_concern';
+      explanation =
+        `${displayName} has some milestones that are slightly delayed. ` +
+        `Continue monitoring and re-check in the coming weeks.`;
+    }
   } else if (precautionCount >= 1) {
     status = 'watch';
     explanation =
