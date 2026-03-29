@@ -285,7 +285,7 @@ export function scoreDomain(
     // CDC 2022 / Glascoe 2005: totalWeightedPoints >= 3 indicates
     // cumulative concern from multiple borderline signals (e.g., 2 H-weight
     // warnings or 3+ M-weight precautions).
-    if (hasHighWeightConcern || totalWeightedPoints >= 3) {
+    if (hasHighWeightConcern || totalWeightedPoints >= 2) {
       status = 'moderate_concern';
       explanation = hasHighWeightConcern
         ? `${displayName} has a high-priority milestone delayed past the grace window. ` +
