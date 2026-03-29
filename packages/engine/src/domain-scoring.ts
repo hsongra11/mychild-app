@@ -108,26 +108,35 @@ export function scoreDomain(
     return (qA?.normativeAgeMonths ?? 0) - (qB?.normativeAgeMonths ?? 0);
   });
 
+  // CDC 2022: weight multipliers reflect clinical significance of each
+  // milestone. High-weight questions (H, RF) carry more diagnostic weight
+  // than medium (M) or low (L) questions.
+  const WEIGHT_MULTIPLIER: Record<string, number> = {
+    RF: 2.0, H: 1.5, M: 1.0, L: 0.5,
+  };
+
   for (const qr of sortedResults) {
     const sev = qr.severity;
+    const q = getQuestionById(qr.questionId);
+    const wMul = WEIGHT_MULTIPLIER[q?.weight ?? 'M'] ?? 1.0;
 
-    // Weight accumulation: use crude point mapping
+    // Weight accumulation: severity base points × question weight multiplier
     switch (sev) {
       case 'flag':
-        totalWeightedPoints += 3;
+        totalWeightedPoints += 3 * wMul;
         flagCount++;
         currentStreak++;
         triggeringMilestones.push(qr.text);
         criticalMilestoneMissed = true; // any flag = critical miss
         break;
       case 'warning':
-        totalWeightedPoints += 2;
+        totalWeightedPoints += 2 * wMul;
         warningCount++;
         currentStreak++;
         triggeringMilestones.push(qr.text);
         break;
       case 'precaution':
-        totalWeightedPoints += 1;
+        totalWeightedPoints += 1 * wMul;
         precautionCount++;
         currentStreak++;
         break;
