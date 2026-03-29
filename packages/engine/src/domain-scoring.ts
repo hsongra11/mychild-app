@@ -223,35 +223,38 @@ export function scoreDomain(
       `Not enough observations to assess ${displayName} reliably. ` +
       `Please answer at least 2 questions in this domain.`;
   } else if (flagCount >= 1 || criticalMilestoneMissed) {
-    // Glascoe 2005: a single flagged milestone in a domain where the
-    // clear majority of observations are normal represents an isolated delay.
-    // AAP (Lipkin & Macias 2020): isolated delays warrant continued
-    // monitoring and re-evaluation, not immediate high-concern classification.
-    // Require strong counter-evidence (normalCount > 2× flagCount) to
-    // downgrade — a single normal observation is not sufficient to dismiss.
-    const normalCount = questionResults.filter(
-      (qr) => qr.severity === 'normal',
-    ).length;
-    if (flagCount === 1 && normalCount >= 3) {
-      // Glascoe 2005: when a clear majority (≥3) of milestones in a domain
-      // are achieved, a single flag represents an isolated observation that
-      // warrants monitoring but not clinical escalation.
-      // CDC 2022 (Zubler et al.): isolated delays in the context of otherwise
-      // typical domain development should be monitored, not flagged.
-      status = 'watch';
-      explanation =
-        `${displayName} has 1 flagged milestone but ${normalCount} other milestone(s) achieved. ` +
-        `This appears to be an isolated delay — continue monitoring and re-check soon.`;
-    } else if (flagCount === 1 && normalCount >= 2) {
-      status = 'low_concern';
-      explanation =
-        `${displayName} has 1 flagged milestone but ${normalCount} other milestone(s) achieved. ` +
-        `This appears to be an isolated delay — continue monitoring and re-check soon.`;
-    } else {
+    // CDC 2022 (Zubler et al.): red flag (RF) domain flags should NEVER be
+    // downgraded — any red flag failure requires immediate clinical attention
+    // regardless of how many other red flags are achieved.
+    if (domainTag === 'RF') {
       status = 'high_concern';
       explanation =
-        `${displayName} has ${flagCount} flagged milestone(s) that are significantly overdue. ` +
-        `Prompt discussion with a clinician is recommended.`;
+        `${displayName} has ${flagCount} flagged red-flag question(s). ` +
+        `Red flag failures require prompt discussion with a clinician.`;
+    } else {
+      // Glascoe 2005: a single flagged milestone in a non-RF domain where the
+      // clear majority of observations are normal represents an isolated delay.
+      // AAP (Lipkin & Macias 2020): isolated delays warrant continued
+      // monitoring and re-evaluation, not immediate high-concern classification.
+      const normalCount = questionResults.filter(
+        (qr) => qr.severity === 'normal',
+      ).length;
+      if (flagCount === 1 && normalCount >= 3) {
+        status = 'watch';
+        explanation =
+          `${displayName} has 1 flagged milestone but ${normalCount} other milestone(s) achieved. ` +
+          `This appears to be an isolated delay — continue monitoring and re-check soon.`;
+      } else if (flagCount === 1 && normalCount >= 2) {
+        status = 'low_concern';
+        explanation =
+          `${displayName} has 1 flagged milestone but ${normalCount} other milestone(s) achieved. ` +
+          `This appears to be an isolated delay — continue monitoring and re-check soon.`;
+      } else {
+        status = 'high_concern';
+        explanation =
+          `${displayName} has ${flagCount} flagged milestone(s) that are significantly overdue. ` +
+          `Prompt discussion with a clinician is recommended.`;
+      }
     }
   } else if (warningCount >= 2 || (warningCount >= 1 && streakMissed >= 2)) {
     status = 'moderate_concern';
@@ -405,6 +408,31 @@ export function scoreAllDomains(
             `${a.domain} has 1 flagged milestone but data is sparse and other domains ` +
             `show typical development. Continue monitoring and answer more questions ` +
             `in this domain for a reliable assessment.`,
+        };
+      }
+      // Glascoe 2005 / AAP 2020: a domain with only 2-3 observations and a
+      // single flag is still data-sparse even if confidence is technically
+      // 'medium'. When other well-observed domains show typical development,
+      // this isolated concern warrants monitoring, not immediate escalation.
+      // CDC 2022 (Zubler et al.): screening decisions should incorporate
+      // converging evidence across developmental domains.
+      const domainAnsweredCount = domainResults.filter(
+        (qr) => qr.severity !== 'reminder',
+      ).length;
+      if (
+        a.status === 'high_concern' &&
+        a.vector.flagCount === 1 &&
+        a.vector.confidence === 'medium' &&
+        domainAnsweredCount <= 3 &&
+        !domainHasRegression
+      ) {
+        output[tag] = {
+          ...a,
+          status: 'low_concern',
+          explanation:
+            `${a.domain} has 1 flagged milestone with limited observations (${domainAnsweredCount}) ` +
+            `and other domains show typical development. Continue monitoring and answer ` +
+            `more questions in this domain for a reliable assessment.`,
         };
       }
       // Glascoe 2005: a sparse low_concern domain driven only by precautions
