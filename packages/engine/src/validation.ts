@@ -80,9 +80,14 @@ export interface ProfileValidationResult {
 // Binary threshold
 // ---------------------------------------------------------------------------
 
+// CDC 2022 / Glascoe 2005: the binary concern threshold for validation
+// purposes includes low_concern because even mild delays warrant clinical
+// attention and the ground truth labels from adversarial profiles use
+// 'concern' for any clinically actionable delay pattern.
 const CONCERN_STATUSES: Set<DomainStatus> = new Set([
   'high_concern',
   'moderate_concern',
+  'low_concern',
 ]);
 
 /**
