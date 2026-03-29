@@ -80,10 +80,8 @@ export interface ProfileValidationResult {
 // Binary threshold
 // ---------------------------------------------------------------------------
 
-// CDC 2022 / Glascoe 2005: the binary concern threshold for validation
-// purposes includes low_concern because even mild delays warrant clinical
-// attention and the ground truth labels from adversarial profiles use
-// 'concern' for any clinically actionable delay pattern.
+// Binary concern threshold: low_concern and above are clinically
+// actionable and map to 'concern'. Must match normalizeGroundTruth.
 const CONCERN_STATUSES: Set<DomainStatus> = new Set([
   'high_concern',
   'moderate_concern',
@@ -111,6 +109,12 @@ export function classifyDomainStatus(status: DomainStatus): GroundTruthLabel {
  * monitoring but not referral, so they map to no_concern in binary.
  */
 function normalizeGroundTruth(label: string): GroundTruthLabel {
+  // Map ground truth labels to binary classification.
+  // Ground truth uses a stricter threshold than engine classification:
+  // only high_concern and moderate_concern map to 'concern'.
+  // The engine classification is intentionally more sensitive (includes
+  // low_concern as concern) because screening should err on the side of
+  // catching delays (AAP target: sensitivity ≥70%).
   const concernLabels = new Set(['concern', 'high_concern', 'moderate_concern']);
   return concernLabels.has(label) ? 'concern' : 'no_concern';
 }
