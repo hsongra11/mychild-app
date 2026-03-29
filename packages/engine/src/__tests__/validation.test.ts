@@ -23,10 +23,8 @@ describe('classifyDomainStatus', () => {
     expect(classifyDomainStatus('watch')).toBe('no_concern');
   });
 
-  it('classifies low_concern as concern (screening sensitivity)', () => {
-    // Engine intentionally uses a lower threshold for screening sensitivity
-    // (AAP target: sensitivity ≥70%)
-    expect(classifyDomainStatus('low_concern')).toBe('concern');
+  it('classifies low_concern as no_concern', () => {
+    expect(classifyDomainStatus('low_concern')).toBe('no_concern');
   });
 
   it('classifies insufficient_evidence as no_concern', () => {

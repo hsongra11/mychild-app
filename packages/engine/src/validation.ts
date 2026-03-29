@@ -80,12 +80,9 @@ export interface ProfileValidationResult {
 // Binary threshold
 // ---------------------------------------------------------------------------
 
-// Binary concern threshold: low_concern and above are clinically
-// actionable and map to 'concern'. Must match normalizeGroundTruth.
 const CONCERN_STATUSES: Set<DomainStatus> = new Set([
   'high_concern',
   'moderate_concern',
-  'low_concern',
 ]);
 
 /**
