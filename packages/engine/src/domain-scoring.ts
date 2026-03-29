@@ -232,7 +232,17 @@ export function scoreDomain(
     const normalCount = questionResults.filter(
       (qr) => qr.severity === 'normal',
     ).length;
-    if (flagCount === 1 && normalCount >= 2) {
+    if (flagCount === 1 && normalCount >= 3) {
+      // Glascoe 2005: when a clear majority (≥3) of milestones in a domain
+      // are achieved, a single flag represents an isolated observation that
+      // warrants monitoring but not clinical escalation.
+      // CDC 2022 (Zubler et al.): isolated delays in the context of otherwise
+      // typical domain development should be monitored, not flagged.
+      status = 'watch';
+      explanation =
+        `${displayName} has 1 flagged milestone but ${normalCount} other milestone(s) achieved. ` +
+        `This appears to be an isolated delay — continue monitoring and re-check soon.`;
+    } else if (flagCount === 1 && normalCount >= 2) {
       status = 'low_concern';
       explanation =
         `${displayName} has 1 flagged milestone but ${normalCount} other milestone(s) achieved. ` +
