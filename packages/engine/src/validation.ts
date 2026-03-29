@@ -224,12 +224,18 @@ function evaluateProfileFull(
     }
   }
 
-  // Score domains
-  return scoreAllDomains(
-    questionResults,
-    answers,
-    ['GM', 'FM', 'RL', 'EL', 'SE', 'CP', 'SH', 'VH'],
-  );
+  // Score domains — include RF when red flag questions have been answered.
+  // CDC 2022 (Zubler et al.): universal red flags are independent clinical
+  // indicators that should be evaluated as a distinct domain.
+  const hasRFAnswers = questionResults.some((qr) => {
+    const q = getQuestionById(qr.questionId);
+    return q?.tags.includes('RF') && qr.severity !== 'reminder';
+  });
+  const domainTags: DomainTag[] = hasRFAnswers
+    ? ['GM', 'FM', 'RL', 'EL', 'SE', 'CP', 'SH', 'VH', 'RF']
+    : ['GM', 'FM', 'RL', 'EL', 'SE', 'CP', 'SH', 'VH'];
+
+  return scoreAllDomains(questionResults, answers, domainTags);
 }
 
 /**
