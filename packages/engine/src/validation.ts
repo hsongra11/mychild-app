@@ -94,6 +94,28 @@ export function classifyDomainStatus(status: DomainStatus): GroundTruthLabel {
   return CONCERN_STATUSES.has(status) ? 'concern' : 'no_concern';
 }
 
+/**
+ * Normalize a ground truth label to binary classification.
+ * External profiles may use finer-grained labels (e.g. 'low_concern',
+ * 'watch', 'moderate_concern'). Map them to the binary system:
+ *   concern: 'concern', 'high_concern', 'moderate_concern'
+ *   no_concern: everything else ('no_concern', 'low_concern', 'watch', etc.)
+ *
+ * CDC 2022 / Glascoe 2005: the binary concern threshold represents the
+ * clinical decision point for referral. Low-concern statuses warrant
+ * monitoring but not referral, so they map to no_concern in binary.
+ */
+function normalizeGroundTruth(label: string): GroundTruthLabel {
+  // Map ground truth labels to binary classification.
+  // Ground truth uses a stricter threshold than engine classification:
+  // only high_concern and moderate_concern map to 'concern'.
+  // The engine classification is intentionally more sensitive (includes
+  // low_concern as concern) because screening should err on the side of
+  // catching delays (AAP target: sensitivity ≥70%).
+  const concernLabels = new Set(['concern', 'high_concern', 'moderate_concern']);
+  return concernLabels.has(label) ? 'concern' : 'no_concern';
+}
+
 // ---------------------------------------------------------------------------
 // Single profile validation
 // ---------------------------------------------------------------------------
@@ -173,13 +195,17 @@ function evaluateProfileFull(
       (a, b) => a.timestamp.getTime() - b.timestamp.getTime(),
     );
     const latest = sorted[sorted.length - 1];
-    if (latest.answer !== 'not_yet') continue;
 
     const hadAchieved = sorted
       .slice(0, -1)
       .some((a) => a.answer === 'achieved');
 
-    if (hadAchieved) {
+    if (!hadAchieved) continue;
+
+    // CDC 2022 (Zubler et al.): loss of previously acquired skills is a
+    // clinical red flag. Hard regression (not_yet) and soft regression
+    // (unsure after achieved) both warrant detection.
+    if (latest.answer === 'not_yet') {
       qr.regressionDetected = true;
       const severityLevel = SEVERITY_LEVEL_ORDER[qr.severity] ?? 0;
       if (severityLevel < SEVERITY_LEVEL_ORDER.warning) {
@@ -189,15 +215,53 @@ function evaluateProfileFull(
           ' NOTE: This milestone was previously achieved but is now reported as "not yet" — ' +
           'this regression pattern warrants closer attention.';
       }
+    } else if (latest.answer === 'unsure') {
+      // AAP (Lipkin & Macias 2020): uncertainty about a previously
+      // demonstrated skill may indicate emerging regression.
+      qr.regressionDetected = true;
+      const severityLevel = SEVERITY_LEVEL_ORDER[qr.severity] ?? 0;
+      if (severityLevel < SEVERITY_LEVEL_ORDER.precaution) {
+        qr.severity = 'precaution';
+        qr.explanation =
+          qr.explanation +
+          ' NOTE: This milestone was previously achieved but the caregiver is now unsure — ' +
+          'this may indicate emerging regression. Monitor closely and re-check soon.';
+      }
     }
   }
 
-  // Score domains
-  return scoreAllDomains(
-    questionResults,
-    answers,
-    ['GM', 'FM', 'RL', 'EL', 'SE', 'CP', 'SH', 'VH'],
-  );
+  // Score domains — include RF when any universal red flag question has been
+  // answered. Note: not all RF questions carry the 'RF' domain tag (rf_03-05
+  // are tagged SE/RL/EL), so check by question ID prefix as well.
+  // CDC 2022 (Zubler et al.): universal red flags are independent clinical
+  // indicators that should be evaluated as a distinct domain.
+  const universalRFIds = new Set(getUniversalRedFlags().map((q) => q.id));
+  const hasRFAnswers = questionResults.some((qr) => {
+    if (qr.severity === 'reminder') return false;
+    const q = getQuestionById(qr.questionId);
+    return q?.tags.includes('RF') || universalRFIds.has(qr.questionId);
+  });
+  const domainTags: DomainTag[] = hasRFAnswers
+    ? ['GM', 'FM', 'RL', 'EL', 'SE', 'CP', 'SH', 'VH', 'RF']
+    : ['GM', 'FM', 'RL', 'EL', 'SE', 'CP', 'SH', 'VH'];
+
+  // For RF domain scoring, include ALL universal red flag question results
+  // regardless of their domain tags, so RF domain captures all red flag signals.
+  if (hasRFAnswers) {
+    const rfResults = questionResults.filter(
+      (qr) => universalRFIds.has(qr.questionId),
+    );
+    // Ensure RF domain questions include all universal red flags
+    for (const qr of rfResults) {
+      const q = getQuestionById(qr.questionId);
+      if (q && !q.tags.includes('RF')) {
+        // Temporarily inject RF tag so scoreAllDomains picks them up
+        q.tags = [...q.tags, 'RF' as DomainTag];
+      }
+    }
+  }
+
+  return scoreAllDomains(questionResults, answers, domainTags);
 }
 
 /**
@@ -238,14 +302,15 @@ export function validateProfile(profile: ValidationProfile): ProfileValidationRe
   for (const [tag, label] of Object.entries(profile.groundTruth)) {
     const domainTag = tag as DomainTag;
     const assessment = domainAssessments[domainTag];
+    const normalizedLabel = normalizeGroundTruth(label);
 
     if (!assessment) {
       domainResults.push({
         domain: domainTag,
         engineStatus: 'insufficient_evidence',
         engineClassification: 'no_concern',
-        groundTruth: label,
-        correct: label === 'no_concern',
+        groundTruth: normalizedLabel,
+        correct: normalizedLabel === 'no_concern',
       });
       continue;
     }
@@ -256,8 +321,8 @@ export function validateProfile(profile: ValidationProfile): ProfileValidationRe
       domain: domainTag,
       engineStatus: assessment.status,
       engineClassification,
-      groundTruth: label,
-      correct: engineClassification === label,
+      groundTruth: normalizedLabel,
+      correct: engineClassification === normalizedLabel,
     });
   }
 

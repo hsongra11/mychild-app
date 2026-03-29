@@ -337,14 +337,19 @@ export function evaluate(
     );
 
     const latest = sorted[sorted.length - 1];
-    if (latest.answer !== 'not_yet') continue;
 
     // Check if any earlier answer was "achieved"
     const hadAchieved = sorted
       .slice(0, -1)
       .some((a) => a.answer === 'achieved');
 
-    if (hadAchieved) {
+    if (!hadAchieved) continue;
+
+    // CDC 2022 (Zubler et al.): loss of previously acquired skills is a
+    // clinical red flag. A "not_yet" after "achieved" is hard regression;
+    // an "unsure" after "achieved" is soft regression (loss of confidence
+    // in a previously demonstrated skill warrants monitoring).
+    if (latest.answer === 'not_yet') {
       qr.regressionDetected = true;
       // Escalate severity to at least "warning"
       const severityLevel = SEVERITY_LEVEL_ORDER[qr.severity] ?? 0;
@@ -354,6 +359,19 @@ export function evaluate(
           qr.explanation +
           ' NOTE: This milestone was previously achieved but is now reported as "not yet" — ' +
           'this regression pattern warrants closer attention.';
+      }
+    } else if (latest.answer === 'unsure') {
+      // AAP (Lipkin & Macias 2020): uncertainty about a previously
+      // demonstrated skill may indicate emerging regression and warrants
+      // closer monitoring, though it is less concerning than outright loss.
+      qr.regressionDetected = true;
+      const severityLevel = SEVERITY_LEVEL_ORDER[qr.severity] ?? 0;
+      if (severityLevel < SEVERITY_LEVEL_ORDER.precaution) {
+        qr.severity = 'precaution';
+        qr.explanation =
+          qr.explanation +
+          ' NOTE: This milestone was previously achieved but the caregiver is now unsure — ' +
+          'this may indicate emerging regression. Monitor closely and re-check soon.';
       }
     }
   }
