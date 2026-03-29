@@ -275,23 +275,27 @@ export function scoreDomain(
     explanation =
       `${displayName} shows ${warningCount} warning(s) and a streak of ${streakMissed} missed milestones. ` +
       `Closer monitoring is advised.`;
-  } else if (warningCount >= 1 || precautionCount >= 2) {
-    // CDC 2022: warnings on high-weight milestones warrant moderate_concern.
-    const hasHighWeightConcern = sortedResults.some((qr) => {
-      if (qr.severity !== 'warning') return false;
-      const q = getQuestionById(qr.questionId);
-      return q?.weight === 'H' || q?.weight === 'RF';
-    });
-    // CDC 2022 / Glascoe 2005: totalWeightedPoints >= 3 indicates
-    // cumulative concern from multiple borderline signals (e.g., 2 H-weight
-    // warnings or 3+ M-weight precautions).
-    if (hasHighWeightConcern || totalWeightedPoints >= 2) {
+  } else if (warningCount >= 1) {
+    // CDC 2022 / AAP 2020: a warning means at least one milestone is past
+    // the grace window, which is clinically meaningful and warrants
+    // moderate-level monitoring regardless of question weight.
+    status = 'moderate_concern';
+    explanation =
+      `${displayName} has a milestone delayed past the grace window. ` +
+      `Discuss with your child's doctor at the next visit.`;
+  } else if (precautionCount >= 2) {
+    // Glascoe 2005: multiple precautions (within grace window) suggest
+    // emerging delay. Use weighted points to determine severity.
+    // CDC 2022 (Zubler et al.): ≥3 milestones within the grace window in a
+    // single domain represents a pervasive pattern warranting escalation
+    // regardless of individual question weights.
+    if (totalWeightedPoints >= 2 || precautionCount >= 3) {
       status = 'moderate_concern';
-      explanation = hasHighWeightConcern
-        ? `${displayName} has a high-priority milestone delayed past the grace window. ` +
-          `Discuss with your child's doctor at the next visit.`
-        : `${displayName} has accumulated ${totalWeightedPoints.toFixed(1)} concern points ` +
-          `from multiple delayed milestones. Discuss with your child's doctor.`;
+      explanation = precautionCount >= 3
+        ? `${displayName} has ${precautionCount} milestones approaching their grace window. ` +
+          `This pervasive pattern warrants discussion with your child's doctor.`
+        : `${displayName} has ${precautionCount} milestones approaching the grace window ` +
+          `with significant weighted concern. Discuss with your child's doctor.`;
     } else {
       status = 'low_concern';
       explanation =

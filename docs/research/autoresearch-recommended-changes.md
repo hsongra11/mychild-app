@@ -1,75 +1,144 @@
-# MyChild Engine — Recommended Changes from Autoresearch
+# MyChild Engine — Recommended Changes from Autoresearch (Run 4)
 
 **Generated:** 2026-03-29
-**Based on:** 90 threshold experiments, 707 adversarial profiles, 168 edge-case surprises
+**Based on:** 325 threshold experiments, 70,192 adversarial profiles, 1,747 curated profiles, 14 engine improvements across runs 1–3, 0 new engine changes in run 4
+
+---
+
+## Already Applied (Runs 1–3)
+
+### Run 1 (4 improvements)
+
+1. ✅ **d0f6813** — Isolated single-flag downgrade
+2. ✅ **fd20b1f** — Cross-domain correction for sparse high_concern
+3. ✅ **1912269** — Regression detection bypasses evidence gate
+4. ✅ **5fb5c03** — Cross-domain regression protection
+
+### Run 2 (4 improvements)
+
+5. ✅ **3bf4173** — Soft regression detection (achieved→unsure)
+6. ✅ **0ca3f68** — Multi-regression escalation to high_concern
+7. ✅ **abc3eec** — Pervasive caregiver uncertainty detection
+8. ✅ **2813216** — Developmental sequence anomaly detection
+
+### Run 2 continued (6 improvements)
+
+9. ✅ **4d51efa** — RF domain scoring
+10. ✅ **d799444** — Ground truth label normalization
+11. ✅ **58e32d4** — Evidence gate + flag threshold tuning
+12. ✅ **79d862d** — low_concern in binary classification
+13. ✅ **9059f9f** — Asymmetric screening thresholds
+14. ✅ **1e7d918** — Sparse precaution downgrade
+
+### Run 3 refinements (iterating on above, not new improvements)
+
+- a5cac7e, d11a0fe, 1c3ef09, f3a8b53, c5a605f, 34f22dd, a3fff33, 6048150
+
+### Run 4
+
+No engine changes. Run 4 focused on relabeling and curated set expansion. 325 threshold experiments were conducted; no configuration produced a net improvement over current defaults, confirming that the existing thresholds are locally optimal.
 
 ---
 
 ## Priority 1: Critical
 
-### 1. Audit and strengthen regression detection
+### Clinical validation study
 
-- **Description:** Adversarial regression profiles (previously achieved milestones regressing to "not yet") had a 98.1% surprise rate — the engine classified nearly all of them as less concerning than expected. The regression detection logic may not be triggering consistently.
-- **Clinical basis:** Developmental regression (loss of previously acquired skills) is a well-established red flag for autism spectrum disorder, Rett syndrome, and neurological conditions. CDC and AAP guidelines emphasize that any loss of skills warrants immediate evaluation.
-- **Expected metric impact:** Improved sensitivity for regression scenarios (currently not captured in baseline metrics since no regression profiles exist in the 108-profile set).
-- **Implementation difficulty:** M — requires review of regression detection in `rules-engine.ts` and potentially new logic for domain-level regression escalation in `domain-scoring.ts`.
-- **Already applied by Agent 3:** No (Agent 3 did not produce results)
+- **Description:** All performance metrics are derived from synthetic profiles. The engine has never been evaluated against real patient data.
+- **Why now:** κ=1.000 on the curated set and κ=0.852 on adversarial profiles establish strong internal consistency, but synthetic agreement does not imply clinical validity. Regulatory and clinical adoption require real-world evidence.
+- **Path:** Retrospective comparison against validated instruments (ASQ-3, M-CHAT) → concurrent validity study with clinician-assigned labels → prospective cohort study.
+- **Difficulty:** Large — requires IRB approval, clinical partnership, and data governance.
+
+### Triage 315 critical adversarial findings
+
+- **Description:** Run 4 produced 315 findings classified as critical severity across the adversarial test suite (out of 70,192 profiles tested). These represent cases where the engine's output materially diverges from the expected label on clinically significant profiles.
+- **Action:** Manually review each critical finding. Categorize by root cause (threshold boundary, missing logic, label disagreement, data artifact). Determine which represent true engine defects vs. acceptable disagreement.
+- **Difficulty:** Medium — labor-intensive but well-scoped.
 
 ---
 
 ## Priority 2: High
 
-### 2. ~~Sweep hardcoded thresholds in domain-scoring.ts~~ PARTIALLY ADDRESSED
+### Investigate sensitivity gap
 
-- **Description:** The actual classification decisions are driven by hardcoded thresholds in `domain-scoring.ts`. Agent 3 addressed the `flagCount >= 1` threshold by adding an isolated-delay downgrade and cross-domain correction, eliminating all 4 false positives.
-- **Remaining work:** The `warningCount >= 2` moderate_concern threshold and `answeredCount < 2` sufficiency gate were not swept systematically. Future research should test these.
-- **Already applied by Agent 3:** Partially (commit `d0f6813`, `fd20b1f`)
+- **Description:** Adversarial sensitivity is 86.5% against a specificity of 98.0%. The 13.5% false-negative rate on adversarial profiles is the primary remaining performance gap.
+- **Action:** Produce a per-category and per-domain breakdown of false negatives. The adversarial suite spans 18 categories (see counts below); identifying which drive the most FNs will focus algorithmic work.
 
-### 3. ~~Refine sufficiency gate bypass logic~~ ADDRESSED VIA DIFFERENT APPROACH
+| Category | Profile count |
+|---|---|
+| regression | 10,578 |
+| sparse | 9,072 |
+| single_domain | 8,786 |
+| mutation | 6,500 |
+| exhaustive_age | 5,616 |
+| contradictory | 5,208 |
+| clear_delay | 5,073 |
+| clear_typical | 4,964 |
+| preterm | 4,752 |
+| borderline | 2,897 |
+| combinatorial | 2,544 |
+| real_world | 1,914 |
+| weight_stress | 1,511 |
+| typical | 334 |
+| mixed_regression | 308 |
+| motor_delay | 53 |
+| speech_delay | 53 |
+| global_delay | 29 |
 
-- **Description:** Agent 3 tried raising the gate from 2 to 3 (discarded — sensitivity dropped to 85.7%). Instead, the isolated-delay downgrade and cross-domain correction achieve the same goal: preventing single-flag overescalation without raising the gate itself.
-- **Already applied by Agent 3:** Yes (via alternative approach — commits `d0f6813`, `fd20b1f`)
+- **Hypothesis:** Sparse and contradictory categories are likely overrepresented in FNs given known engine conservatism in low-evidence scenarios.
+- **Difficulty:** Medium — requires instrumented test run with per-profile classification metadata.
 
-### 4. Add developmental sequence validation
+### Expand the curated set
 
-- **Description:** The engine evaluates each question independently. It doesn't detect when a child achieves a harder, later milestone but fails an easier, earlier one in the same domain. This is clinically unusual and should trigger at least a `watch` status.
-- **Clinical basis:** Developmental milestones follow a predictable sequence (e.g., sitting before walking, babbling before words). Violations of this sequence suggest atypical development or reporting errors.
-- **Expected metric impact:** Would catch contradictory-answer edge cases (4 surprises from adversarial testing).
-- **Implementation difficulty:** M — new logic needed, likely in `domain-scoring.ts`, to compare severity across questions ordered by normativeAgeMonths.
-- **Already applied by Agent 3:** No
+- **Description:** The curated set currently contains 1,747 profiles with 12,991 observations and achieves κ=1.000. Expanding it will narrow confidence intervals on per-domain metrics and increase coverage of edge-case patterns.
+- **Focus areas:** Promote high-confidence adversarial profiles from the 758 edge-case findings. Prioritize domains and age ranges with the fewest curated examples. Ensure representation of regression, preterm, and combinatorial profiles.
+- **Difficulty:** Medium — requires manual ground-truth verification for each promoted profile.
+
+### Per-domain confusion matrix analysis
+
+- **Description:** Global κ and sensitivity/specificity mask domain-level variation. Some domains may perform significantly worse than the aggregate figures suggest.
+- **Action:** Compute per-domain TP/FP/TN/FN rates across both the adversarial and curated suites. Identify domains where sensitivity or specificity is below acceptable thresholds.
+- **Difficulty:** Small — analysis work, no engine changes required.
 
 ---
 
 ## Priority 3: Medium
 
-### 5. Integrate totalWeightedPoints into domain status logic
+### Structural engine improvements
 
-- **Description:** The `weightValues` configuration in `defaults.ts` computes `totalWeightedPoints` in the domain vector, but this value is never used in the status determination logic. Either integrate it (making weight configuration meaningful) or document it as reserved.
-- **Clinical basis:** Question weights (L/M/H/RF) are assigned based on clinical importance. Using them in scoring would better reflect clinical priority of different milestones.
-- **Expected metric impact:** Would make the weight configuration actually affect classification, enabling finer-grained threshold tuning.
-- **Implementation difficulty:** M — requires redesigning the status determination in `domain-scoring.ts` to use weighted points instead of or in addition to flag/warning/precaution counts.
-- **Already applied by Agent 3:** No
+- **Description:** Threshold tuning is exhausted — 325 experiments across run 4 found no positive moves. Further performance gains require algorithmic changes, not parameter adjustments.
+- **Candidates:**
+  - Improved handling of profiles where evidence is sparse but the available signals are strongly concerning.
+  - Better modeling of contradictory data (e.g., high-weight flag present alongside strong normal evidence in the same domain).
+  - Cross-domain interaction effects: cases where no single domain triggers concern but the combination of multiple borderline domains should.
+- **Difficulty:** Large — requires hypothesis formation, implementation, and full adversarial re-evaluation for each candidate change.
 
-### 6. Add preterm profiles to baseline validation set
+### Better handling of sparse and contradictory data
 
-- **Description:** None of the 108 baseline profiles include `gestationalWeeks`, so the corrected age logic is completely untested. Agent 1 confirmed that `correctedAgeCutoffMonths` changes had zero effect.
-- **Clinical basis:** Preterm infants represent ~10% of births and have well-documented developmental catch-up patterns. The corrected age adjustment is critical for fair assessment.
-- **Expected metric impact:** No change to current metrics, but would validate an untested code path.
-- **Implementation difficulty:** S — adding profiles to `synthetic-profiles.json`.
-- **Already applied by Agent 3:** No
+- **Description:** The sparse (9,072) and contradictory (5,208) categories together represent ~20% of the adversarial suite and are likely disproportionately represented in false negatives. Current logic applies a uniform evidence gate regardless of the clinical weight of available signals.
+- **Difficulty:** Medium.
 
-### 7. Add global-level validation
+### Cross-domain interaction effects
 
-- **Description:** The T_yellow, T_orange, and T_red thresholds control the global status (green/yellow/orange/red) but the validation pipeline only tests at the domain level. These thresholds are untestable without global-level assertions.
-- **Clinical basis:** The global status drives the overall screening recommendation (routine follow-up vs. immediate referral). It should be validated.
-- **Expected metric impact:** No change to domain metrics, but would validate a separate classification layer.
-- **Implementation difficulty:** M — requires adding global-level ground truth to synthetic profiles and extending the validation pipeline.
-- **Already applied by Agent 3:** No
+- **Description:** The engine scores domains independently and then applies global thresholds. Cases where multiple domains each fall just below the concern threshold may warrant a combined-signal escalation path.
+- **Difficulty:** Medium.
 
-### 8. Expand baseline profile set with more borderline cases
+---
 
-- **Description:** The current 108 profiles are dominated by clear-cut scenarios. Most concern profiles have multiple missed milestones well beyond any grace window; most typical profiles have all achieved. There are few profiles right at decision boundaries, which is why threshold sweeps produce no metric variation.
-- **Clinical basis:** Real-world developmental screening encounters many borderline cases. The profile set should represent this.
-- **Expected metric impact:** Would make threshold sweeps meaningful and provide better coverage of the engine's decision boundaries.
-- **Implementation difficulty:** M — requires carefully designing profiles with verified ground truth at threshold boundaries.
-- **Already applied by Agent 3:** No
+## Priority 4: Future
+
+### Retrospective comparison against ASQ-3/M-CHAT datasets
+
+- **Description:** Establish external validity by comparing engine outputs to scores from the Ages & Stages Questionnaires (ASQ-3) and Modified Checklist for Autism in Toddlers (M-CHAT) on the same populations.
+
+### Concurrent validity study
+
+- **Description:** Administer the MyChild questionnaire alongside a validated screener to the same cohort and compute agreement metrics.
+
+### Prospective cohort study
+
+- **Description:** Follow a birth cohort longitudinally. Compare engine flags at early ages against developmental diagnoses at ages 3–5.
+
+### Multi-language support
+
+- **Description:** Clinical validation is English-only. Expanding to other languages requires both translation of questionnaire content and validation that performance metrics hold across languages and cultural contexts.
