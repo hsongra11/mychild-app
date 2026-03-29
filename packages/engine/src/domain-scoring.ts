@@ -202,24 +202,28 @@ export function scoreDomain(
   const hasRegression = questionResults.some((qr) => qr.regressionDetected);
 
   // Evidence sufficiency gate: if fewer than 2 answered observations, we can
-  // only report 'insufficient_evidence' UNLESS there is a critical milestone miss
-  // (flag) or regression, which bypasses the gate.
-  if (answeredCount < 2 && !criticalMilestoneMissed && !hasRegression) {
+  // only report 'insufficient_evidence' UNLESS there is a meaningful signal
+  // (flag, warning, or regression) that bypasses the gate.
+  // CDC 2022 / AAP 2020: even sparse data with a concerning signal should not
+  // be dismissed — a single missed milestone is still clinically actionable.
+  const hasMeaningfulSignal =
+    criticalMilestoneMissed || hasRegression || warningCount >= 1;
+  if (answeredCount < 2 && !hasMeaningfulSignal) {
     status = 'insufficient_evidence';
     explanation =
       `Not enough observations to assess ${displayName} reliably. ` +
       `Please answer at least 2 questions in this domain.`;
   } else if (flagCount >= 1 || criticalMilestoneMissed) {
-    // Glascoe 2005: a single flagged milestone in a domain where other
-    // milestones are achieved represents an isolated delay, not a pattern of
-    // domain-wide concern. Downgrade to low_concern (monitor) when the
-    // majority of observations are normal.
+    // Glascoe 2005: a single flagged milestone in a domain where the
+    // clear majority of observations are normal represents an isolated delay.
     // AAP (Lipkin & Macias 2020): isolated delays warrant continued
     // monitoring and re-evaluation, not immediate high-concern classification.
+    // Require strong counter-evidence (normalCount > 2× flagCount) to
+    // downgrade — a single normal observation is not sufficient to dismiss.
     const normalCount = questionResults.filter(
       (qr) => qr.severity === 'normal',
     ).length;
-    if (flagCount === 1 && normalCount >= 1) {
+    if (flagCount === 1 && normalCount >= 2) {
       status = 'low_concern';
       explanation =
         `${displayName} has 1 flagged milestone but ${normalCount} other milestone(s) achieved. ` +
