@@ -233,16 +233,36 @@ function evaluateProfileFull(
     }
   }
 
-  // Score domains — include RF when red flag questions have been answered.
+  // Score domains — include RF when any universal red flag question has been
+  // answered. Note: not all RF questions carry the 'RF' domain tag (rf_03-05
+  // are tagged SE/RL/EL), so check by question ID prefix as well.
   // CDC 2022 (Zubler et al.): universal red flags are independent clinical
   // indicators that should be evaluated as a distinct domain.
+  const universalRFIds = new Set(getUniversalRedFlags().map((q) => q.id));
   const hasRFAnswers = questionResults.some((qr) => {
+    if (qr.severity === 'reminder') return false;
     const q = getQuestionById(qr.questionId);
-    return q?.tags.includes('RF') && qr.severity !== 'reminder';
+    return q?.tags.includes('RF') || universalRFIds.has(qr.questionId);
   });
   const domainTags: DomainTag[] = hasRFAnswers
     ? ['GM', 'FM', 'RL', 'EL', 'SE', 'CP', 'SH', 'VH', 'RF']
     : ['GM', 'FM', 'RL', 'EL', 'SE', 'CP', 'SH', 'VH'];
+
+  // For RF domain scoring, include ALL universal red flag question results
+  // regardless of their domain tags, so RF domain captures all red flag signals.
+  if (hasRFAnswers) {
+    const rfResults = questionResults.filter(
+      (qr) => universalRFIds.has(qr.questionId),
+    );
+    // Ensure RF domain questions include all universal red flags
+    for (const qr of rfResults) {
+      const q = getQuestionById(qr.questionId);
+      if (q && !q.tags.includes('RF')) {
+        // Temporarily inject RF tag so scoreAllDomains picks them up
+        q.tags = [...q.tags, 'RF' as DomainTag];
+      }
+    }
+  }
 
   return scoreAllDomains(questionResults, answers, domainTags);
 }
