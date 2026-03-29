@@ -218,7 +218,18 @@ export function scoreDomain(
   // clinical evaluation, regardless of how many observations are available.
   // AAP (Lipkin & Macias 2020): regression should always trigger at minimum
   // a moderate_concern classification to ensure clinical follow-up.
-  if (hasRegression && status !== 'high_concern') {
+  const regressionCount = questionResults.filter(
+    (qr) => qr.regressionDetected,
+  ).length;
+  if (regressionCount >= 2 && status !== 'high_concern') {
+    // CDC 2022: multiple regressions in a single domain represent a pattern
+    // of skill loss that is highly concerning and warrants urgent evaluation.
+    status = 'high_concern';
+    explanation =
+      `${displayName} shows regression in ${regressionCount} milestones: ` +
+      `previously achieved skills are now lost. This pattern of skill loss ` +
+      `is a significant clinical concern — please speak with your child's doctor urgently.`;
+  } else if (regressionCount === 1 && status !== 'high_concern') {
     status = 'moderate_concern';
     explanation =
       `${displayName} shows regression: a previously achieved milestone is now ` +
